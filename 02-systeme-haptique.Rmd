@@ -44,7 +44,6 @@ Pour autant, il faut rester prudent avec une telle approche. En effet, la
 Table: (\#tab:perception) Classification des sensations de Sherrington
  [@calas2016precis]
 
-
 |                                                                      |                                                                                             |                                                                                                                                                                                                    |
 |----------------------------------------------------------------------|---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **les extérocepteurs :** nous renseignent sur le monde extérieur     | **télérécepteurs :** perception à distance                                                  | récepteurs visuels                                                                                                                                                                                 |
@@ -96,7 +95,7 @@ Elle comprend toutes les sensations qui viennent
 		* le tact,
 		* les sensations thermiques,
 		* la douleur.
-	2. - Les sens chimiques : le goût et l’odorat
+	2. Les sens chimiques : le goût et l’odorat
 	 liés aux fonctions de nutrition.
 2. Les sens impressionnables à distance : Ces sens
  sont plus indépendants du milieu extérieur que ceux qui exigent le
@@ -261,7 +260,7 @@ La somesthésie est liée à l’ensemble des sensibilités cutanées et
 
 
 Les récepteurs physiologiques de la perception tactile se trouvent dans la
- peau (figure [1.1](#cap:Structure-de-la)). La bande passante
+ peau \@ref(fig:Structure-de-la). La bande passante
  du sens tactile (c’est à dire la fréquence à laquelle les stimuli tactiles
  sont perçus) et de 0 à 400 Hz ([Shimoga,
  1992](047-bibliographie.html#Shimoga1992)). Elle peut cependant monter à des très hautes fréquences situées
@@ -269,27 +268,23 @@ Les récepteurs physiologiques de la perception tactile se trouvent dans la
  petits détails.
 
 
-
-![](img/peau.png)
-Figure 1.1 : Structure de la
- peau (emprunté à ([Reznik,
- 1997](047-bibliographie.html#Reznik1997)))
-
+![(#fig:Structure-de-la) Structure de la
+ peau (emprunté à [@reznik1996structure])](img/peau.png)
 
 
 Nous pouvons distinguer 3 natures de récepteurs tactiles :
 
 
-* les thermorécepteurs : liés aux sensations de chaud
- et de froid ;
-* les nocirécepteurs : liés à la sensation de
- douleur ;
-* les mécanorécepteurs : liés à la discrimination
- tactile.
+* les thermorécepteurs : liés aux sensations de chaud et de froid ;
+* les nocirécepteurs : liés à la sensation de douleur ;
+* les mécanorécepteurs : liés à la discrimination tactile.
 
 
-On distingue 4 types de mécanorécepteurs [@cholewiak2013sensory], [@kalawsky1993science], [@seow1988physiology] ; Il sont présentés dans le
- tableau [1.2](#cap:tactile).
+On distingue 4 types de mécanorécepteurs [@cholewiak2013sensory],
+[@kalawsky1993science], [@seow1988physiology] ; Il sont présentés dans le
+ tableau \@ref(tab:tactile).
+
+Table: (\#tab:tactile) Principaux récepteurs tactiles [@burdea1996force]
 
 | Type de récepteur       | Taux d’adaptation | Fréquences des stimuli | Zone réceptrice      | Fonction                       | Sensibilité à la température |
 |-------------------------|-------------------|------------------------|----------------------|--------------------------------|------------------------------|
@@ -298,9 +293,6 @@ On distingue 4 types de mécanorécepteurs [@cholewiak2013sensory], [@kalawsky19
 | Corpuscules de Meissner | Rapide            | 20-50 Hz               | Petite, bien définie | Tact, vitesse                  | non                          |
 | Corpuscules de Pacini   | Rapide            | 100-300 Hz             | Grande, indéfinie    | Vibration, accélération        | oui                          |
 
-
-
-Table 1.2 : Principaux récepteurs tactiles [@burdea1996force]
 
 
 
@@ -317,17 +309,14 @@ On désigne par *homoncule* ou *homonculus* la représentation de notre propre c
 
 
 La perception sensitive donnée au niveau de la peau peut être ainsi
- représentée grâce à un homonculus (figure [1.2](#cap:hom)).
+ représentée grâce à un homonculus (figures \@ref(fig:homa) et \@ref(fig:homb)).
 
+![(#fig:homa)Homoculi sensitifs humains : la vue est interne
+ et calquée sur une coupe du cerveau ](img/homonculus_sensitif.png)
 
-
-![](img/homonculus_sensitif.png)
-![](img/homonculus.png)
-Figure 1.2 : Homoculi sensitifs humains : à gauche la vue est interne
- et calquée sur une coupe du cerveau ; à droite, les dimensions des
- membres et du corps ont été exagérées selon les capacités sensoriels
- de l’endroit considéré
-
+![(#fig:homb)Homoculi sensitifs humains : les dimensions des membres et du corps ont été
+ exagérées selon les capacités sensoriels de l’endroit
+ considéré](img/homonculus.png)
 
 
 Historiquement, c’est grâce au compas de Weber, formé de deux pointes
@@ -393,14 +382,13 @@ La perception kinesthésique est composé par :
 
 La perception des signaux spatiaux dépend de la fréquence du signal. La
  distinction entre "forme" et "texture" est liée aux caractéristiques des sens
- kinesthésiques et tactiles. La figure [1.3](#cap:Le-spectre-de) illustre la
+ kinesthésiques et tactiles. La figure \@ref(fig:Le-spectre-de) illustre la
  notion de perception haptique, en terme de fréquence des stimuli.
 
 
 
-![](img/hapticSpectrum.png)
-Figure 1.3 : Le spectre de la perception haptique.
- [@wall2004investigation]
+![(#fig:Le-spectre-de)Le spectre de la perception haptique
+ [@wall2004investigation]](img/hapticSpectrum.png)
 
 
 
@@ -475,12 +463,10 @@ Pour donner un ordre d’idée sur l’intensité des forces mises en œuvre,
 
 De manière similaire à ce que l’on a pour la perception tactile, il a été
  possible de tracer un homonculus sur le système moteur humain
- (figure [1.4](#cap:hom2)mot}).
+ (figure \@ref(fig:hom2)).
 
 
-
-![](img/homonculus_moteur.png)
-Figure 1.4 : Homonculus du système moteur
+![(#fig:hom2)Homonculus du système moteur](img/homonculus_moteur.png)
 
 
 
@@ -526,7 +512,9 @@ Le temps du mouvement *MT* requis pour
  distance *A* est :
 
 \begin{equation}
- MT=a+b\log\_{2}(2A/W)\label{eq:fitts}\end{equation}
+ MT=a+b\log\_{2}(2A/W)\label{eq:fitts}
+ (\#eq:fitts)
+\end{equation}
 
  où *a* et *b* sont des
  constantes déterminées empiriquement. Le logarithme \(\log\_{2}(2A/W)\)
@@ -539,7 +527,7 @@ Le temps du mouvement *MT* requis pour
  (*IP*) et est exprimé en bit/seconde.
 
 
-La figure [1.5](#cap:L'exp=E9rience-de-Fitts) illustre
+La figure \@ref(fig:LexperiencedeFitts) illustre
  l’expérience qui a permis à Fitts d’établir sa loi. La tâche que devaient
  accomplir les sujets était la suivante. Initialement, la main est placée à
  l’origine du mouvement ; alors, le sujet doit aller le plus vite possible
@@ -548,27 +536,28 @@ La figure [1.5](#cap:L'exp=E9rience-de-Fitts) illustre
 
 
 
-![](img/fitts.png)
-Figure 1.5 : L’expérience de Fitts
+![(#fig:LexperiencedeFitts)L’expérience de Fitts](img/fitts.png)
 
 
-
-La formulation originale de la loi de Fitts \eqref{eq:fitts} s’avère
+La formulation originale de la loi de Fitts \@ref(eq:fitts) s’avère
  cependant inexacte pour les faibles valeur de l’*ID* (< 3bits), montrant une courbure de *MT* au dessus de la droite de régression linéaire. Une autre
  formulation, proposée en 1960 par Welford [@welford1960measurement], permet de corriger cet
  effet :
 
 \begin{equation}
- MT=a+b\log\_{2}(A/W+0.5)\label{eq:welford}\end{equation}
+ MT=a+b\log\_{2}(A/W+0.5)
+\end{equation}
 
  Enfin, en 1992, MacKenzie ([MacKenzie,
  1992](047-bibliographie.html#MacKenzie92)) a également proposé sa propre formulation :
 
 \begin{equation}
- MT=a+b\log\_{2}(A/W+1)\label{eq:mackenzie}\end{equation}
+ MT=a+b\log\_{2}(A/W+1)
+ (\#eq:shannon)
+\end{equation}
 
  Ces différentes équations ne diffèrent que par la formulation de
- l’*ID*. L’équation \eqref{eq:mackenzie}, connue
+ l’*ID*. L’équation \@ref(eq:shannon), connue
  comme formulation de Shannon, est préférée pour les raisons suivantes
  [@mackenzie1992fitts] :
 
@@ -583,53 +572,46 @@ La formulation originale de la loi de Fitts \eqref{eq:fitts} s’avère
 Enfin, on peut citer quelques extensions à la loi de Fitts. En effet,
  cette loi ne concerne que les gestes allant d’un point à un autre en une
  seule fois. Mathématiquement, on peut déduire la formulation pour un geste
- effectué en deux parties (figure [1.6](#cap:T=E2che-pour-n=3D3D2)),
+ effectué en deux parties (figure \@ref(fig:Tachepour2)),
 
 
 auxquels cas, la formulation de l’indice de difficulté *ID* sera :
 
 \[ ID\_{2}=2log\_{2}\left(\frac{A}{2W}+1\right)\]
 
+![(#fig:Tachepour2)Tâche pour n=2](img/fitts2.png)
 
 
-![](img/fitts2.png)
-Figure 1.6 : Tâche pour n=2
+et pour n parties (figure \@ref(fig:Tachepourn)):
 
-
-
-et pour n parties (figure [1.7](#cap:T=E2che-pour-n)):
-
-
-
-![](img/fitts3.png)
-Figure 1.7 : Tâche pour n quelconque
-
+![(#fig:Tachepourn)Tâche pour n quelconque](img/fitts3.png)
 
 
 où on aura :
 
 \[ ID\_{N}=Nlog\_{2}\left(\frac{A}{NW}+1\right)\]
 
-#### La loi d’Accot
 
+#### La loi d’Accot
 
 La loi d’Accot ou *steering law* [@accot1997beyond] est beaucoup plus récente, et
  est utilisée pour les mouvements de suivis de chemin. L’application typique
  de cette loi est l’estimation du temps de sélection d’un item dans un menu
- déroulant à plusieurs niveaux (figure [1.8](#cap:Le-chemin-emprunt=E9)).
+ déroulant à plusieurs niveaux (figure \@ref(fig:Lecheminemprunte)).
 
 
 
-![](img/menu_accot.png)
-Figure 1.8 : Le chemin emprunté pour aller chercher
- un item dans des menus hiérarchiques
+![(#fig:Lecheminemprunte)Le chemin emprunté pour aller chercher
+ un item dans des menus hiérarchiques](img/menu_accot.png)
 
 
 
 La loi s’exprime ainsi :
 
 \begin{equation}
- T\_{c}=a+b\int\_{C}\frac{ds}{W(s)}\label{eq:accot}\end{equation}
+ T\_{c}=a+b\int\_{C}\frac{ds}{W(s)}
+ (\#eq:accot)
+\end{equation}
 
  où *T* est le temps moyen pour suivre le chemin,
  *C* est le chemin paramétré par *s*, *W*(*s*) est la largeur du chemin à l’abscisse curviligne
@@ -639,7 +621,8 @@ La loi s’exprime ainsi :
 
 
 Des chemins plus simples permettent des simplifications mathématiques. Par
- exemple, si le chemin est un tunnel droit avec une largeur *W* constante, l’équation \eqref{eq:accot} devient :
+ exemple, si le chemin est un tunnel droit avec une largeur *W* constante,
+ l’équation \@ref(eq:accot) devient :
 
 \[
  T=a+b\frac{A}{W}\]
@@ -649,7 +632,7 @@ Des chemins plus simples permettent des simplifications mathématiques. Par
 
 
 Il est également possible de dériver les deux côtés de l’équation
- \eqref{eq:accot} selon la variable *s*, et obtenir
+ \@ref(eq:accot) selon la variable *s*, et obtenir
  la formulation locale, ou instantanée de la loi :
 
 \[
@@ -732,19 +715,20 @@ Si on note *x*(*t*) la
 
 
 Après un calcul de variation, il s’ensuit que la trajectoire minimisant le
- jerk et allant d’un point *x*=*x**i* à un point
- *x*=*x**f* en *t*=*d*sec aura pour équation :
+ jerk et allant d’un point $x_i$ à un point $x_f$ en $d$ secondes aura pour
+ équation :
 
 \begin{equation}
- x(t)=x\_{i}+\left(x\_{f}-x\_{i}\right)\left(10\left(\frac{t}{d}\right)^{3}-15\left(\frac{t}{d}\right)^{4}+6\left(\frac{t}{d}\right)^{5}\right)\label{eq:jerk}
- \end{equation}
+ x(t)=x\_{i}+\left(x\_{f}-x\_{i}\right)\left(10\left(\frac{t}{d}\right)^{3}-15\left(\frac{t}{d}\right)^{4}+6\left(\frac{t}{d}\right)^{5}\right)
+ (\#eq:jerk)
+\end{equation}
 
  Par exemple, la trajectoire pour une geste de 10cm durant 0,5sec
  sera :
 
 \[ x(t)=800t³-2400t^{4}+1920t^{5},\quad0\leq t\leq0,5sec\]
 
- La figure [1.9](#cap:Position,-vitesse,-acc=E9l=E9ration)
+ La figure \@ref(fig:Positionvitesseacceleration)
  trace cette fonction, ainsi que ses trois premières dérivées : vitesse,
  accélération et jerk. La forme en cloche de la courbe de la vitesse
  ẋ(*t*) est typique du principe de minimisation du
@@ -752,15 +736,14 @@ Après un calcul de variation, il s’ensuit que la trajectoire minimisant le
 
 
 
-![](img/minimu2.png)
-Figure 1.9 : Position, vitesse,
+![(#fig:Positionvitesseacceleration)Position, vitesse,
  accélération et jerk de la trajectoire minimisant le jerk pour un
- geste de 10cm en 0,5sec
+ geste de 10cm en 0,5sec](img/minimu2.png)
 
 
 
 [@flash1985coordination] ont prouvé qu’en
- deux dimensions ou plus, l’équation \eqref{eq:jerk} décrivait la trajectoire
+ deux dimensions ou plus, l’équation \@ref(eq:jerk) décrivait la trajectoire
  assurant le jerk minimum pour chaque dimension. Par exemple, pour un
  mouvement en deux dimensions, la fonction à minimiser sera :
 
@@ -774,9 +757,11 @@ Figure 1.9 : Position, vitesse,
  &
  =x\_{i}+\left(x\_{f}-x\_{i}\right)\left(10\left(\frac{t}{d}\right)^{3}-15\left(\frac{t}{d}\right)^{4}+6\left(\frac{t}{d}\right)^{5}\right)\\
  y(t) &
- =y\_{i}+\left(y\_{f}-y\_{i}\right)\left(10\left(\frac{t}{d}\right)^{3}-15\left(\frac{t}{d}\right)^{4}+6\left(\frac{t}{d}\right)^{5}\right)\end{array}\right]\label{eq:jerk2}\end{equation}
+ =y\_{i}+\left(y\_{f}-y\_{i}\right)\left(10\left(\frac{t}{d}\right)^{3}-15\left(\frac{t}{d}\right)^{4}+6\left(\frac{t}{d}\right)^{5}\right)\end{array}\right]
+ (\#eq:jerk2)
+\end{equation}
 
- L’équation \eqref{eq:jerk2} implique qu’une trajectoire minimisant le jerk
+ L’équation \@ref(eq:jerk2) implique qu’une trajectoire minimisant le jerk
  en deux dimensions sera toujours un segment de droite.
 
 
@@ -804,10 +789,8 @@ Le processus continue jusqu’à ce que la cible soit atteinte. L’objectif de
 
 
 
-![](img/meyer.png)
-Figure 1.10 : modèle d’impulsion
- initiale optimisée ([Meyer et al.,
- 1988](047-bibliographie.html#Meyer1988))
+![(#fig:impulsion)Modèle d’impulsion
+ initiale optimisée [@meyer1988optimality]](img/meyer.png)
 
 
 
@@ -1002,7 +985,7 @@ Ainsi, la stimulation des mécanorécepteurs provoque une réponse neurale
  qui dicte l’exploration suivante. C’est la boucle comportementale [@taylor1973tactual].
 
 
-La figure [1.11](#cap:actionHaptique) illustre les boucles
+La figure \@ref(fig:actionHaptique) illustre les boucles
  de rétroaction se produisant lors de l’exploration haptique. Dans la
  littérature, l’ensemble de ses boucles, ramené à la dualité de fonctionnement
  du système (de haut en bas / de bas en haut ) a mené aux notions du contact
@@ -1014,9 +997,9 @@ La figure [1.11](#cap:actionHaptique) illustre les boucles
 
 
 
-![](img/bouclesPerception.png)
-Figure 1.11 : Schéma de la
- perception/action haptique (d’après [@wall2004investigation])
+![(#fig:actionHaptique)Schéma de la perception/action haptique
+(d’après [@wall2004investigation])](img/bouclesPerception.png)
+
 
 
 
@@ -1068,14 +1051,11 @@ et d’autres exemples pour des tâches à base technologiques. On oublie ici
 
 [@dennerlein2000force] ont proposé
  une taxonomie des prises d’outils avec la main, selon deux axes
- (figure [1.12](#cap:Les-diff=E9rentes-g=E9om=E9tries)).
+ (figure \@ref(fig:differentesgeo)).
 
 
-
-![](img/manipulation.png)
-Figure 1.12 : Les différentes géométries
- des prises de la main
-
+![(#fig:differentesgeo)Les différentes géométries des prises de la
+main](img/manipulation.png)
 
 
 Les implications psychologiques de l’utilisation d’outils sur les
