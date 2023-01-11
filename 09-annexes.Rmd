@@ -301,47 +301,21 @@
 
 | Technologie | Description | Avantages | Inconvénients |
 | --- | --- | --- | --- |
-| Cristaux piézoélectriques | Les changements du champ électrique
- provoquent la contraction et l’extension des cristaux | * Bonne résolution spatiale
- | * Restreint aux fréquences sonores
- |
-| Pneumatique |
- Plusieurs formes :
-
- * jets d’air
-* anneaux d’air
-* ballons d’air
-* tableaux de ballons d’air
- | Faible masse sur la main | Faibles résolutions spatiale et
- temporelle Faible bande passante |
-| Alliage à mémoire de forme | Les fils et les ressorts de SMA se
- contractent quand ils sont chauffés et s’étendent pendant qu’ils se
- refroidissent sous l’effort | * Bon rapport puissance/masse
- | * Dissipation de la chaleur
-* Faible efficacité pendant la
- contraction
- |
-| Solénoïde | Une bobine magnétique applique une
- force à un piston métallique | * bande passante
-* équilibre des forces
- | * Non linéaire
-* nécessite un dispositif de contrôle
-* Lourd
- |
-| Voice coil (haut-parleur) | Une bobine magnétique vibre afin de
- transmettre un signal de basse amplitude et haute fréquence à une
- peau | * Haute résolution temporelle
-* taille relativement réduite
- | * Faible résolution spatiale
-* Taille du dispositif peu flexible
- |
-| Pompe à chaleur | Dispositif semi-conducteur qui déplace
- l’énergie thermique pour chauffer ou refroidir la peau | * pas de matière fluide à utiliser
- | * Faibles résolutions spatiale et
- temporelle
-* Encombrant
-* Faible bande passante
- |
+| Cristaux piézoélectriques | Les changements du champ électrique provoquent la contraction et l’extension des cristaux | * Bonne résolution spatiale | * Restreint aux fréquences sonores |
+| Pneumatique |  Plusieurs formes : | Faible masse sur la main | Faibles résolutions spatiale et temporelle Faible bande passante |
+| | * jets d’air | | |
+| | * anneaux d’air  | | |
+| | * ballons d’air | | |
+| | * tableaux de ballons d’air | | |
+| Alliage à mémoire de forme | Les fils et les ressorts de SMA se contractent quand ils sont chauffés et s’étendent pendant qu’ils se refroidissent sous l’effort | * Bon rapport puissance/masse | * Dissipation de la chaleur |
+| | | | * Faible efficacité pendant la contraction |
+| Solénoïde | Une bobine magnétique applique une force à un piston métallique | * bande passante | * Non linéaire   |
+| | |  * équilibre des forces | * nécessite un dispositif de contrôle |
+| | | | * Lourd |
+| Voice coil (haut-parleur) | Une bobine magnétique vibre afin de transmettre un signal de basse amplitude et haute fréquence à une peau | * Haute résolution temporelle * taille relativement réduite | * Faible résolution spatiale * Taille du dispositif peu flexible |
+| | | | |
+| | | | |
+| Pompe à chaleur | Dispositif semi-conducteur qui déplace l’énergie thermique pour chauffer ou refroidir la peau | * pas de matière fluide à utiliser | * Faibles résolutions spatiale et temporelle * Encombrant * Faible bande passante |
 
 
 
@@ -358,14 +332,14 @@ C’est le périphérique le plus populaire sur le marché, utilisé par de
  tableau [7.1](#cap:La-gamme-des).
 
 
-|  | Modèle | Degrés de liberté (in/out) | Espace de travail (H x L x P) | Forces (en pic / continues) |
-| --- | --- | --- | --- | --- |
-|  | Premium 1.0 | 6/3 | 18 x 25 x 13 cm | 8.5 / 1.4 N |
-|  | Premium 1.5 | 6/3 | 27 x 37.5 x 19.5 cm | 8.5 / 8.5 / 1.4 N |
-|  | Premium 3.0 | 6/3 | 59 x 84 x 41 cm | 22 / 3 N |
-|  | 6 DoF | 6/6 | 16 x 13 x 13 cm | 8.5 / 1.4 N |
-|  | Desktop | 6/3 | 12 x 16 x 7 cm | 6.4 / 1.7 N |
-|  | Omni | 6/3 |  | 3.3 / 0.88 N |
+|   | Modèle      | Degrés de liberté (in/out) | Espace de travail (H x L x P) | Forces (en pic / continues) |
+|---|-------------|----------------------------|-------------------------------|-----------------------------|
+|   | Premium 1.0 | 6/3                        | 18 x 25 x 13 cm               | 8.5 / 1.4 N                 |
+|   | Premium 1.5 | 6/3                        | 27 x 37.5 x 19.5 cm           | 8.5 / 8.5 / 1.4 N           |
+|   | Premium 3.0 | 6/3                        | 59 x 84 x 41 cm               | 22 / 3 N                    |
+|   | 6 DoF       | 6/6                        | 16 x 13 x 13 cm               | 8.5 / 1.4 N                 |
+|   | Desktop     | 6/3                        | 12 x 16 x 7 cm                | 6.4 / 1.7 N                 |
+|   | Omni        | 6/3                        |                               | 3.3 / 0.88 N                |
 
 
 Table 7.1 : La gamme des PHANTOMs
@@ -375,7 +349,7 @@ Table 7.1 : La gamme des PHANTOMs
 ## La *Web Accessibility Initiative* (WAI) du *World Wide Web Consortium* (W3C)
 
 
-Le *World Wide Web Consortium*, abrégé W3C[1](#note20), est un
+Le *World Wide Web Consortium*, abrégé W3C ^[http://www.w3.org], est un
  consortium fondé en octobre 1994 pour promouvoir la compatibilité des
  technologies du *World Wide Web* telles que HTML, XHTML, XML, CSS,
  PNG, SVG et SOAP. Le W3C n’émet pas des normes, mais des recommandations.
@@ -422,10 +396,11 @@ Les recommandations de la WAI actuellement en vigueur sont :
 >  prolifération d’un contenu Web qui pourra être lu par une plus large
 >  proportion de lecteurs et à la prolifération d’outil d’édition qui
 >  pourront être utilisés par une plus large proportion d’auteurs.
->  [2](#note21)
+>  ^[tiré de http://www.la-grange.net/w3c/atag10/]
 >
 * les *Web Content Accessibility Guidelines*
- (WCAG) montrent comment rendre un site web accessible, [3](#note22)
+ (WCAG) montrent comment rendre un site web accessible ^[tiré de
+ http://www.la-grange.net/w3c/WAI-WEBCONTENT-TECHS/]
 * les *User Agent Accessibility Guidelines*
  (UAAG), enfin, posent les règles pour l’accessibilité des agents
  utilisateurs.
@@ -437,29 +412,18 @@ Les recommandations de la WAI actuellement en vigueur sont :
 	 contenu Web pour les utilisateurs. Cela peut comprendre les navigateurs
 	 Web, les lecteurs de média, les modules d’extension et d’autres
 	 programmes ( y compris les technologies d’assistance ) qui participent
-	 à la récupération et la restitution d’un contenu Web. [4](#note23)
+	 à la récupération et la restitution d’un contenu Web. ^[tiré de
+ http://www.yoyodesign.org/doc/w3c/uaag/cover.html]
      ![](img/specsWAI.png)
 Figure 7.1 : WAI, ATAG, WCAG et UUAG
 
 
----
-[1](#text20)
-W3C : <http://www.w3.org>
-[2](#text21)
-tiré de
- <http://www.la-grange.net/w3c/atag10/>
-[3](#text22)
-tiré de
- <http://www.la-grange.net/w3c/WAI-WEBCONTENT-TECHS/>
-[4](#text23)
-tiré de
- <http://www.yoyodesign.org/doc/w3c/uaag/cover.html>
 
 
 
 
 
-## Asynchronous Javascript and XML : AJAX
+## Asynchronous Javascript and XML : AJAX {#ajax}
 
 
 Classiquement, les applications Web permettent aux utilisateurs

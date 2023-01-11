@@ -3,7 +3,7 @@
 
 
 L’informatique désigne l’automatisation du traitement de l’information par
- un système[1](#note1).
+ un système ^[http://fr.wikipedia.org/wiki/Informatique].
 
 
 Une partie de ces traitements est de plus en plus réalisée au sein même de
@@ -59,13 +59,4 @@ La deuxième partie de cette thèse traite des possibilités du retour de
 
 Nous conclurons alors, et dresserons les perspectives possibles à ces
  travaux.
-
-
-
-
----
-
-
-[1](#text1)
-<http://fr.wikipedia.org/wiki/Informatique>
 

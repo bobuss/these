@@ -6,24 +6,24 @@
 
 Nous allons proposer dans ce chapitre un cadre d’utilisation des
  périphériques de pointage à retour de force. Nous avons déjà abordé les
- limites de ce type de dispositif dans le chapitre [2](011-chapitre-2-communications-homme-machine.html).
+ limites de ce type de dispositif dans le chapitre \@ref(communications).
 
 
-Maintenant, du potentiel du système haptique (voir ([1](009-l-exploration-haptique-quand-l-action-et-la-perception-se-conjuguent-sur-le-canal-haptique.html#htoc19)), ([2](015-les-peripheriques-d-entree.html#sub:performances)) et ([3](017-les-applications-du-retour-haptique.html#sub:La-perception-via))), nous pouvons déjà édicter plusieurs règles :
+Maintenant, du potentiel du système haptique (voir \@ref(conjuguent), \@ref(performances) et \@ref(perception)), nous pouvons déjà édicter plusieurs règles :
 
 
 
 **Règle 1 :**
 la précision des doigts en terme de positions,
- et de mémorisation ([Zhai et al.,
- 1996](047-bibliographie.html#Zhai1996)). Ceci implique l’utilisation des périphériques type PHANTOM en
+ et de mémorisation [@zhai1996influence]. Ceci implique l’utilisation des périphériques type PHANTOM en
  mode stylo, de manière à ne pas trop baser l’interaction sur le couple
  épaule-coude. De plus, une souris peut rester préférable car elle est plus
  simple à manier en 2D.
+
 **Règle 2 :**
 la mémoire sur la position est meilleure que
- celle sur les distances. ([Faineteau
- et al., 2003](047-bibliographie.html#faineteau:03))
+ celle sur les distances. [@faineteau2003kinaesthetic]
+
 **Règle 3 :**
 l’apprentissage par geste actif donne de
  meilleurs résultats que celui par geste passif. En d’autres mots, il faudra
@@ -31,17 +31,18 @@ l’apprentissage par geste actif donne de
  l’exploration, plutôt que sur la présentation.
 
 De plus, les modèles de l’utilisateur (en particulier [le modèle du
- processeur humain](014-les-modeles-de-l-utilisateur.html#toc15)) nous indiquent quelques règles à respecter sur l’ergonomie des interfaces :
-
-
+ processeur humain](#processeur)) nous indiquent quelques règles à respecter sur l’ergonomie des interfaces :
 
 **Règle 4 :**
 limiter le nombre d’items de menus
+
 **Règle 5 :**
 établir des liens entre éléments (couleurs,
  format, emplacements) pour faciliter le filtrage cognitif
+
 **Règle 6 :**
 écrire des messages concis
+
 **Règle 7 :**
 ne pas présenter d’informations inutiles
 
@@ -359,7 +360,7 @@ Et d’un point de vue logiciel, nous nous sommes appuyé sur l’architecture
  Modèle-Vue-Contrôleur (MVC). Il s’agit d’un motif de conception pour le
  développement d’applications logicielles, qui sépare le modèle de données,
  l’interface utilisateur et la logique de contrôle. Ce motif a été mis au
- point par ([Reenskaug, 1979](047-bibliographie.html#Reenskaug1979)), qui
+ point par [@Reenskaug:1979a:ext], qui
  travaillait alors sur Smalltalk dans les laboratoires de recherche Xerox
  PARC.
 
@@ -400,7 +401,7 @@ D’un point de vue technique, le XMLHttpRequest est une fonction javascript
  qu’elle dispose d’un mode asynchrone, et donc, l’interaction peut continuer
  côté client, sans attendre la réponse du serveur. C’est ce qui est nommé AJAX
  pour Asynchronous Javascript And XML (on pourra se référer à 
- [l’appendice](046-asynchronous-javascript-and-xml-ajax.html#ajax) pour plus de détails).
+ [l’appendice](#ajax) pour plus de détails).
 
 
 Les réponses du serveur, enfin, permettent l’extensibilité et la
@@ -1149,7 +1150,7 @@ Une autre possibilité consiste à utiliser des cartes tactiles. Ces
  emplacements.
 
 
-Le projet CDV (pour Cartographie pour Déficients Visuels [1](#note13)),
+Le projet CDV (pour Cartographie pour Déficients Visuels ^[site web : <http://tactile.nrcan.gc.ca/>]),
  au Canada ([Siekierska et al.,
  2001](047-bibliographie.html#Siekierska2001)), propose l’accès à des cartes prêtes à imprimer en se servant d’un
  amplificateur thermique : la représentation graphique (figure [5.19](#cap:Repr=E9sentation-graphique-d'une)) est téléchargée, imprimée
@@ -1190,7 +1191,7 @@ Le principe est le suivant : on place une feuille avec le document
  braille souvent encombrant.
 
 
-Enfin, le CDV, encore, propose une application des travaux de [(Gardner et Bulatov, 2001)](047-bibliographie.html#gardner). Il s’agit d’un
+Enfin, le CDV, encore, propose une application des travaux de [@gardner2001smart]. Il s’agit d’un
  environnement qui permet de lire des carte SVG relativement simples, et de
  les augmenter avec le mode haptique : sensation des frontières et des formes
  des régions.
@@ -1281,8 +1282,8 @@ Nous avons pu faire tester notre prototype de manière informelle par
 Tous nos testeurs ont donc souligné l’intérêt de l’approche, tout en
  regrettant de ne pas disposer d’un accès à une information géographique plus
  large, comme c’est par exemple le cas sur des web-services (non-accessibles
- cependant aux non-voyants) comme Google Maps[2](#note14), Yahoo Local[3](#note15), ou encore MSN
- Virtual Earth[4](#note16).
+ cependant aux non-voyants) comme Google Maps^[http://maps.google.fr], Yahoo Local^[http://maps.yahoo.com/], ou encore MSN
+ Virtual Earth^[http://local.live.com].
 
 
 La viabilité de notre approche est tout de même clairement apparu, et nous
@@ -1291,18 +1292,6 @@ La viabilité de notre approche est tout de même clairement apparu, et nous
 
 
 
----
-
-
-
-[1](#text13)
-site web : <http://tactile.nrcan.gc.ca/>
-[2](#text14)
-<http://maps.google.fr>
-[3](#text15)
-<http://maps.yahoo.com/>
-[4](#text16)
-<http://local.live.com>
 
 
 ## Application à la musique : Music’Haptic
@@ -1318,11 +1307,11 @@ Dans cette partie, nous présentons Music’Haptic, un prototype
 ### Spatialisation de l’information musicale et apprentissage
 
 
-La théorie de l’harmonie de Longuet-Higgins ([Longuet-Higgins, 1962a](047-bibliographie.html#Longuet-Higgins1962);[Longuet-Higgins, 1962b](047-bibliographie.html#Longuet-Higgins1962a)) propose
+La théorie de l’harmonie de Longuet-Higgins [@longuet1962letter] [@longuet2319626] propose
  l’utilisation d’un tableau de notes. La représentation de Longuet-Higgins a
  été un des premiers cadres théoriques permettant d’expliquer la perception et
  les traitements cognitifs mis en œuvre lors de l’écoute harmonique. La
- théorie de Longuet-Higgins ([Longuet-Higgins, 1962a](047-bibliographie.html#Longuet-Higgins1962);[Longuet-Higgins, 1962b](047-bibliographie.html#Longuet-Higgins1962a)) affirme que les
+ théorie de Longuet-Higgins [@longuet1962letter] [@longuet2319626] affirme que les
  intervalles qui interviennent dans la musique tonale occidentale sont ceux
  entre les notes dont la fréquence peut s’exprimer comme produit des trois
  facteurs principaux 2, 3, et 5 et aucun autre. Une fois assimilé cette
@@ -1338,7 +1327,7 @@ La théorie de l’harmonie de Longuet-Higgins ([Longuet-Higgins, 1962a](047-bib
  sont sur l’autre (figure [5.22](#cap:Repr=E9sentations-de-Longuet-Higgins)).
 
 
-Plus tard, [(Steedman, 1972)](047-bibliographie.html#Steedman1972) a
+Plus tard, [@steedman1972formal] a
  proposé une notation dérivée de celle de Longuet-Higgins et nous la
  détaillerons dans la prochaine section.
 
@@ -1353,12 +1342,11 @@ Figure 5.22 : Représentations de
 
 
  La théorie de Longuet-Higgins a été très étudiée en psychologie cognitive de
- la musique ([Howell et al., 1985](047-bibliographie.html#Howell1985)) en
+ la musique [@howell1985musical] en
  tant que cadre pour expliquer comment s’effectuait la perception et le
  traitement de l’harmonie tonale. Plus tard, cette théorie a été appliquée
  pour développer de nouveaux outils éducatifs pour la musique. Par exemple,
- les travaux de Holland ([Holland,
- 1987](047-bibliographie.html#Holland1987);[Holland, 1992](047-bibliographie.html#Holland1992)) sont basés sur
+ les travaux de Holland [@holland1987direct] [@edwards1992multimedia] sont basés sur
  la notation de Longuet-Higgins afin de produire des interfaces interactives
  dans lesquelles les notes, les intervalles, les accords, les cadences ou les
  modulations, peuvent être directement manipulées et visualisées, grâce à une
@@ -1367,15 +1355,15 @@ Figure 5.22 : Représentations de
 
 L’ordinateur a beaucoup été utilisé pour l’apprentissage de la musique. Et
  comme résultante de la nature pluridisciplinaire du domaine, les approches
- employées peuvent être très différentes. On pourra se référer à ([Brandao, 1999](047-bibliographie.html#Brandao1999)) pour une étude exhaustive des
+ employées peuvent être très différentes. On pourra se référer à [@brandao1999computers] pour une étude exhaustive des
  techniques employées.
 
 
 Plusieurs contextes ont été employés dans ces tâches :
 
 
-* la visualisation graphique : ([Holland, 1987](047-bibliographie.html#Holland1987)) et ([Castaing, 2004](047-bibliographie.html#Castaing2004))
-* l’intelligence artificielle : ([Holland, 1999](047-bibliographie.html#Holland1999))
+* la visualisation graphique : [@holland1987direct] et [@Castaing2004]
+* l’intelligence artificielle : [@holland2000artificial]
 * l’analyse et la composition assistée par
  ordinateur
 
@@ -1383,7 +1371,7 @@ Plusieurs contextes ont été employés dans ces tâches :
 Pour autant, ces approches oublient souvent les utilisateurs ayant une
  déficience visuelle. L’accessibilité à la notation musicale pour les
  personnes non-voyantes, est généralement basée sur la transcription linéaire
- de la partition, en Braille. Les applications informatiques ([Braille Music Editor, 2002](047-bibliographie.html#bme)) et ([Toccata, 2002](047-bibliographie.html#Toccata)) fonctionnent de cette façon. Mais
+ de la partition, en Braille. Les applications informatiques [@BrailleMusicEditor] et ([Toccata, 2002](047-bibliographie.html#Toccata)) fonctionnent de cette façon. Mais
  cela implique la connaissance préalable des notions musicale et harmoniques,
  ainsi que du Braille musical.
 
@@ -1396,7 +1384,7 @@ Comme nous venons de le voir, selon la théorie de Longuet-Higgins, tous
  combinaison d’octave, de quinte juste et de tierce majeure.
 
 
-Mark [(Steedman, 1972)](047-bibliographie.html#Steedman1972) a proposé une
+Mark [@steedman1972formal] a proposé une
  autre notation, en décalant les lignes de l’espace, de manière à pouvoir
  intercaler les tierces mineures dans le plan. On se retrouve maintenant avec
  six voisins par notes, et donc, avec une représentation hexagonale
@@ -1412,7 +1400,7 @@ Figure 5.23 : La représentation de Steedman et ses
 
 Nous avons choisi cette notation, pour lui appliquer la localisation
  relative. En effet, par rapport à la notation de Longuet-Higgins, les voisins
- d’une note sont équidistants. Donc, la loi de [(Fitts, 1954)](047-bibliographie.html#fitts:54) nous donne un temps égal pour accéder
+ d’une note sont équidistants. Donc, la loi de [@fitts1954information] nous donne un temps égal pour accéder
  à chacun de ces voisins. De plus, ces six notes voisines peuvent être
  considérées comme étant les notes les plus harmoniquement proches de la note
  centrale.

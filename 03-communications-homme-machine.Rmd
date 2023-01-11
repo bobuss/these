@@ -1,4 +1,4 @@
-# Communications Homme-Machine
+# Communications Homme-Machine {#communications}
 
 
 
@@ -36,7 +36,8 @@ Un système interactif est une application informatique qui prend en
 
 
 Un système interactif est généralement composé de deux parties :
- l’interface utilisateur et le noyau fonctionnel (\@ref(fig:decompositiondunsysteme)). L’interface utilisateur est
+ l’interface utilisateur et le noyau fonctionnel
+ (\@ref(fig:decompositiondunsysteme)). L’interface utilisateur est
  constituée des éléments logiciels et matériels qui sont mis en œuvre lors de
  la capture des entrées de l’utilisateur et lors de la restitution des sorties
  du système. Le noyau fonctionnel représente le système de traitement et de
@@ -198,7 +199,7 @@ On parle enfin d’interface POST-WIMP pour les interfaces qui se basent sur
 ## Les modèles de l’utilisateur
 
 
-### Le modèle du processeur humain et les caractéristiques du corps humain
+### Le modèle du processeur humain et les caractéristiques du corps humain {#processeur}
 
 
 Dans leur modèle, The Model Human Processor , S. Card, T. Moran et A.
@@ -396,16 +397,14 @@ Les premières classifications des périphériques d’entrée sont le fait de
 
 
 
-
-
-|  |  |
-| --- | --- |
-|  | Degrés de liberté |
-| Linéaire | Rotatif |
-| Position | absolue | Position *P* | angle *R* |
-| relative | mouvement δ *P* | delta angle δ *R* |
-| Force | absolue | Force *F* | couple *T* |
-| relative | delta Force δ *F* | delta couple δ *T* |
+|          |                   |                    |            |
+|----------|-------------------|--------------------|------------|
+|          | Degrés de liberté |                    |            |
+| Linéaire | Rotatif           |                    |            |
+| Position | absolue           | Position *P*       | angle *R*  |
+| relative | mouvement δ *P*   | delta angle δ *R*  |            |
+| Force    | absolue           | Force *F*          | couple *T* |
+| relative | delta Force δ *F* | delta couple δ *T* |            |
 
 
 Table 2.1 : Inventaire des grandeurs
@@ -442,7 +441,7 @@ Figure 2.7 : Espace
 
 
 
-### Les performances en entrée des périphériques de pointage
+### Les performances en entrée des périphériques de pointage {#performances}
 
 
 Pour évaluer les performances des dispositifs de pointage, les recherches
@@ -732,13 +731,11 @@ Sans prétendre à l’exhaustivité, nous allons présenter quelques
  employée (tableau [2.2](#cap:Correspondance-terminologique-entre)).
 
 
-
-
-
-| Perception | Périphérique |
-| --- | --- |
+| Perception    | Périphérique                 |
+|---------------|------------------------------|
 | Kinesthésique | à retour de force / d’effort |
-| Tactile | à retour tactile |
+| Tactile       | à retour tactile             |
+
 
 
 Table 2.2 : Correspondance
@@ -903,7 +900,8 @@ La souris Wingman force Feedback a originalement été conçue pour les jeux
 
 
 Les dispositifs tactiles sont bien entendu basés sur [les perceptions
- tactiles](007-le-systeme-haptique-cote-perception-la-somesthesie.html#toc3). Nous pouvons par exemple rappeler, que la perception
+ tactiles](007-le-systeme-haptique-cote-perception-la-somesthesie.html#toc3).
+ Nous pouvons par exemple rappeler, que la perception
  tactile est le fait de trois classes de récepteurs : les thermorécepteurs,
  les nocirécepteurs et les mécanorécepteurs. Du côté de la machine, ce sont
  surtout des dispositifs répondant aux mécanorécepteurs, et donc à nos
@@ -916,7 +914,8 @@ Les dispositifs tactiles sont bien entendu basés sur [les perceptions
 
 Pour le reste, donc, les dispositifs sont surtout axés sur la
  discrimination tactile. Et la principale approche pour rendre un élément
- tactile est celle visible sur la figure [2.21](#cap:Une-cellule-d'afficheur). On peut y voir une cellule
+ tactile est celle visible sur la figure [2.21](#cap:Une-cellule-d'afficheur).
+ On peut y voir une cellule
  d’affichage tactile. Cette cellule est composée de petits picots capables de
  monter ou descendre sur leur axe. Il ainsi possible de dessiner des petits
  motifs en relief.
@@ -929,7 +928,8 @@ Figure 2.21 : Une cellule d’afficheur
 
 
 
-Les afficheurs brailles (figure [2.22](#cap:Une-plage-braille)) utilisent ces cellules. Comme un caractère
+Les afficheurs brailles (figure [2.22](#cap:Une-plage-braille)) utilisent
+ ces cellules. Comme un caractère
  braille est composé de 8 points (pour le braille informatique), une cellule
  est composée de 8 picots. Il s’agit ensuite d’accoler un certain nombre de
  cellules (selon les modèles, de 20 à plus de 80 cellules) pour afficher
@@ -943,10 +943,10 @@ Figure 2.22 : Une plage
 
 
 
-Toujours dans la même approche, les sociétés ABTIM [1](#note4) et KGS
- [2](#note5) ont
- équipé de cellules des surfaces plus grande. Il ont ainsi réalisé des
- systèmes capables de reproduire des dessins en relief (figure [2.23](#cap:l'ADVANCED-DISPLAYS-for)).
+Toujours dans la même approche, les sociétés
+ABTIM ^[http://www.abtim.com] et
+KGS ^[http://www.kgs-america.com/dvs.htm] ont équipé de cellules
+des surfaces plus grande. Il ont ainsi réalisé des systèmes capables de reproduire des dessins en relief (figure [2.23](#cap:l'ADVANCED-DISPLAYS-for)).
 
 
 
@@ -974,23 +974,10 @@ Figure 2.24 : Le couplage des
 
 
 
----
-
-
-
-[1](#text4)
-<http://www.abtim.com>
-[2](#text5)
-<http://www.kgs-america.com/dvs.htm>
-
-
-
-
-
 ## Les applications du retour haptique
 
 
-### La perception via une interface haptique
+### La perception via une interface haptique {#perception}
 
 
 D’un point de vue général, il s’avère que les dispositifs actuels
@@ -1013,29 +1000,20 @@ En se référant aux [procédures d’exploration haptique](009-l-exploration-ha
 
 
 
+|                                 |                                                                 |
+|---------------------------------|-----------------------------------------------------------------|
+| **Mouvements d’exploration**    | **Possibilité avec un dispositif de pointage**                  |
+| Le mouvement latéral (textures) | Possible, bien que les caractéristiques des textures varient    |
+|                                 | temporellement (vibration) et non pas spatialement              |
+| La pression                     | Possible                                                        |
+| Le contact statique             | Possible, bien qu’il n’y ait pas de retour de température,      |
+|                                 | ou de forces distribuées pour générer des étirements            |
+| Le maintient                    | Possible en attachant l’objet simulé à la place de l’activateur |
+| L’enveloppement                 | Non possible en l’absence de plusieurs points de contact        |
+| Le suivi de contours            | Possible, mais très difficile du fait d’une zone de contact     |
+|                                 | réduite à un point                                              |
 
 
-|  |  |
-| --- | --- |
-| **Mouvements d’exploration** | **Possibilité avec un dispositif de
- pointage** |
-|
- Le mouvement latéral (textures) | Possible, bien que les caractéristiques des
- textures varient |
-|  | temporellement (vibration) et non pas
- spatialement |
-| La pression | Possible |
-| Le contact statique | Possible, bien qu’il n’y ait pas de retour
- de température, |
-|  | ou de forces distribuées pour générer des
- étirements |
-| Le maintient | Possible en attachant l’objet simulé à la
- place de l’activateur |
-| L’enveloppement | Non possible en l’absence de plusieurs
- points de contact |
-| Le suivi de contours | Possible, mais très difficile du fait d’une
- zone de contact |
-|  | réduite à un point |
 
 
 Table 2.3 : Les possibilités des mouvements
@@ -1150,7 +1128,7 @@ Sensable™, le concepteur des PHANTOMs, propose plusieurs bibliothèques de
  permet un contrôle encore très précis.
 
 
-Nous pouvons également citer le H3D API de SenseGraphics[1](#note6).
+Nous pouvons également citer le H3D API de SenseGraphics ^[http://www.sensegraphics.se].
  C’est une bibliothèque de programmation haptique open-source (licence GPL
  dans un cadre de recherche), basée sur le format de fichier X3D (il s’agit du
  format de description de formes 3D, basé sur XML ; c’est le successeur du
@@ -1244,10 +1222,11 @@ Cette approche de l’utilisation des dispositifs
 #### La modélisation d’objets virtuels
 
 
-Un logiciel de modélisation tridimensionnelle nommé FreeForm[2](#note7), a été présenté
- par Sensable Technologies Inc. Ce système se base sur une métaphore du
- sculpteur : l’utilisateur se sert du PHANTOM pour sculpter une pierre
- virtuelle présentée à l’écran, et rendue par un retour de force.
+Un logiciel de modélisation tridimensionnelle nommé
+FreeForm ^[http://www.sensable.com/products/3ddesign/concept/index.asp], a été
+présenté par Sensable Technologies Inc. Ce système se base sur une métaphore du
+sculpteur : l’utilisateur se sert du PHANTOM pour sculpter une pierre
+virtuelle présentée à l’écran, et rendue par un retour de force.
 
 
 De manière similaire, InTouch ([Gregory
@@ -1303,7 +1282,8 @@ Un des intérêts du retour haptique est qu’il peut simuler l’utilisation
  quasiment parler de retour de geste, de la part de la machine.
 
 
-Le centre lavalois de ressources technologiques [3](#note8) a proposé le système VTT
+Le centre lavalois de ressources
+technologiques ^[CLARTE : <http://www.clarte.asso.fr/>] a proposé le système VTT
  (*Virtual Technical Trainer*) qui est un simulateur de machine outils.
  Ce simulateur a comme raison d’être l’actuelle utilisation quasi systématique
  de machines à commandes numériques. Or ces dernières ont pour particularité
@@ -1317,13 +1297,15 @@ Le centre lavalois de ressources technologiques [3](#note8) a proposé le systè
 
 Le retour de force a souvent été utilisé dans les domaines artistiques.
  Comme dans la partie précédente, cela peut consister en la simulation d’un
- instrument réel, comme pour le projet dAb (figure [2.27](#cap:le-syt=E8me-DAB)) : le dispositif utilisé est un PHANTOM, et
+ instrument réel, comme pour le projet dAb (figure [2.27](#cap:le-syt=E8me-DAB)) :
+ le dispositif utilisé est un PHANTOM, et
  il s’agit d’imiter les sensations que l’on a lors du maniement de
  pinceaux.
 
 
 Dans une approche très différente, le projet PHASE (Plate-forme Haptique
- d’Application Sonore pour l’Eveil Musical (figure [2.28](#cap:La-plateforme-PHASE))) propose un moyen de création
+ d’Application Sonore pour l’Eveil Musical (figure [2.28](#cap:La-plateforme-PHASE)))
+ propose un moyen de création
  complètement nouveau. Le retour haptique est utilisé pour faire sentir les
  éléments d’un monde virtuel que l’on rencontre pendant l’exploration de
  celui-ci.
@@ -1345,20 +1327,6 @@ Figure 2.28 : La
 
 
 
----
-
-
-
-[1](#text6)
-<http://www.sensegraphics.se>
-[2](#text7)
-
-<http://www.sensable.com/products/3ddesign/concept/index.asp>
-[3](#text8)
-CLARTE : <http://www.clarte.asso.fr/>
-
-
-
 ## Conclusion
 
 
@@ -1377,7 +1345,8 @@ Pour le moment, nous avons vu que le retour haptique était une possibilité
 
 Nous allons maintenant nous rappeler qu’à l’origine, le retour de force a
  été utilisé dans le but d’améliorer les performances motrices humaines dans
- les environnements virtuels et télé-robotiques [@rosenberg1993virtual] [@sheridan1992musings]. Aussi, nous allons étudier cet
+ les environnements virtuels et télé-robotiques [@rosenberg1993virtual]
+ [@sheridan1992musings]. Aussi, nous allons étudier cet
  aspect sur un simple bureau virtuel, dans un schéma d’interaction WIMP, où
  l’action gestuelle principale, est le geste de pointage. En effet, sur les
  systèmes informatiques courant (Windows, Mac OS, Linux), la l’interaction est

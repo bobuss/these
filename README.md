@@ -1,5 +1,17 @@
-To Fix:
+# There de doctorat, Bertrand Tornil
 
-damier.svg
+Reformatted in RMarkdown.
 
-all svg files in 06-localisation-relative.Rmd
+
+## To Fix:
+
+- damier.svg
+- all svg files in 06-localisation-relative.Rmd
+
+
+
+- internal links
+
+
+
+- Toccata reference

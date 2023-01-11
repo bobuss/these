@@ -45,27 +45,15 @@ Table: (\#tab:perception) Classification des sensations de Sherrington
  [@calas2016precis]
 
 
-|  |  |  |
-| --- | --- | --- |
-| **les extérocepteurs :**
- nous renseignent sur le monde extérieur | **télérécepteurs :**
- perception à distance | récepteurs visuels |
-| récepteurs auditifs |
-| récepteurs olfactifs |
-| **récepteurs de
- contact** | récepteurs gustatifs |
-| récepteurs cutanés du toucher |
-| **les
- intérocepteurs :** nous renseignent sur notre propre organisme | **viscérocepteurs :**
- disséminés dans les viscères | nous renseignent sur un paramètre
- physiologique interne (la douleur par exemple) |
-| **propriocepteurs :**
- regroupés (oreille interne) ou disséminés (fuseaux
- neuro-musculaires) | nous renseignent sur un paramètre lié
- au travail de relation : l’état de tension des muscles, sur la
- position relative des différentes parties du corps, et sur la
- position du corps dans l’espace |
-
+|                                                                      |                                                                                             |                                                                                                                                                                                                    |
+|----------------------------------------------------------------------|---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **les extérocepteurs :** nous renseignent sur le monde extérieur     | **télérécepteurs :** perception à distance                                                  | récepteurs visuels                                                                                                                                                                                 |
+|                                                                      |                                                                                             | récepteurs auditifs                                                                                                                                                                                |
+|                                                                      |                                                                                             | récepteurs olfactifs                                                                                                                                                                               |
+|                                                                      | **récepteurs de contact**                                                                   | récepteurs gustatifs                                                                                                                                                                               |
+|                                                                      |                                                                                             | récepteurs cutanés du toucher                                                                                                                                                                      |
+| **les intérocepteurs :** nous renseignent sur notre propre organisme | **viscérocepteurs :** disséminés dans les viscères                                          | nous renseignent sur un paramètre physiologique interne (la douleur par exemple)                                                                                                                   |
+|                                                                      | **propriocepteurs :** regroupés (oreille interne) ou disséminés (fuseaux neuro-musculaires) | nous renseignent sur un paramètre lié au travail de relation : l’état de tension des muscles, sur la position relative des différentes parties du corps, et sur la position du corps dans l’espace |
 
 
 
@@ -207,7 +195,7 @@ Une autre définition est celle de [(Gibson,
 * Le toucher dynamique : une stimulation de la peau
  avec des mouvements des articulations et des muscles.
 * Le toucher orienté: une stimulation de la peau avec
- une stimulation vestibulaire [1](#note2).
+ une stimulation vestibulaire ^[relatif notamment au sens de l’équilibre].
 
 
 [@appelle2013haptic] a très justement noté
@@ -226,18 +214,8 @@ le terme haptique
 
 
 1. [du système perceptif lié au toucher et à la
- kinesthésie](007-le-systeme-haptique-cote-perception-la-somesthesie.html),
-1. [et des mouvements d’exploration](008-le-systeme-haptique-cote-action-le-systeme-moteur.html).
-
-
-
-
----
-
-
-
-[1](#text2)
-relatif notamment au sens de l’équilibre
+ kinesthésie](#somesthesie),
+1. [et des mouvements d’exploration](#moteur).
 
 
 
@@ -254,7 +232,9 @@ relatif notamment au sens de l’équilibre
 
 
 
-## Le système haptique côté perception : la somesthésie
+
+
+## Le système haptique côté perception : la somesthésie {#somesthesie}
 
 
 La somesthésie est liée à l’ensemble des sensibilités cutanées et
@@ -311,16 +291,13 @@ Nous pouvons distinguer 3 natures de récepteurs tactiles :
 On distingue 4 types de mécanorécepteurs [@cholewiak2013sensory], [@kalawsky1993science], [@seow1988physiology] ; Il sont présentés dans le
  tableau [1.2](#cap:tactile).
 
+| Type de récepteur       | Taux d’adaptation | Fréquences des stimuli | Zone réceptrice      | Fonction                       | Sensibilité à la température |
+|-------------------------|-------------------|------------------------|----------------------|--------------------------------|------------------------------|
+| Disques de Merckel      | Lent              | 0-10 Hz                | Petite, bien définie | Pression localisée             | oui                          |
+| Corpuscules de Ruffini  | Lent              | 0-10 Hz                | Grande, indéfinie    | Pression, étirement de la peau | oui, si >100Hz               |
+| Corpuscules de Meissner | Rapide            | 20-50 Hz               | Petite, bien définie | Tact, vitesse                  | non                          |
+| Corpuscules de Pacini   | Rapide            | 100-300 Hz             | Grande, indéfinie    | Vibration, accélération        | oui                          |
 
-
-
-
-| Type de récepteur | Taux d’adaptation | Fréquences des stimuli | Zone réceptrice | Fonction | Sensibilité à la température |
-| --- | --- | --- | --- | --- | --- |
-| Disques de Merckel | Lent | 0-10 Hz | Petite, bien définie | Pression localisée | oui |
-| Corpuscules de Ruffini | Lent | 0-10 Hz | Grande, indéfinie | Pression, étirement de la peau | oui, si >100Hz |
-| Corpuscules de Meissner | Rapide | 20-50 Hz | Petite, bien définie | Tact, vitesse | non |
-| Corpuscules de Pacini | Rapide | 100-300 Hz | Grande, indéfinie | Vibration, accélération | oui |
 
 
 Table 1.2 : Principaux récepteurs tactiles [@burdea1996force]
@@ -416,8 +393,8 @@ La perception kinesthésique est composé par :
 
 La perception des signaux spatiaux dépend de la fréquence du signal. La
  distinction entre "forme" et "texture" est liée aux caractéristiques des sens
- kinesthésiques et tactiles. La figure [1.3](#cap:Le-spectre-de) illustre la notion de perception haptique, en
- terme de fréquence des stimuli.
+ kinesthésiques et tactiles. La figure [1.3](#cap:Le-spectre-de) illustre la
+ notion de perception haptique, en terme de fréquence des stimuli.
 
 
 
@@ -430,24 +407,11 @@ Figure 1.3 : Le spectre de la perception haptique.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Le système haptique côté action : le système moteur
+## Le système haptique côté action : le système moteur {#moteur}
 
 
 Nous allons maintenant présenter l’autre côté du système haptique tel que
- nous le considérons. La partie [1.2](007-le-systeme-haptique-cote-perception-la-somesthesie.html#sub:Le-syst=E8me-haptique) concernait le sous-système
+ nous le considérons. La partie @\ref(somesthesie) concernait le sous-système
  perceptif. Ici, c’est donc le sous-système moteur qui va nous intéresser.
 
 
@@ -466,8 +430,8 @@ Petit rappel de la définition du système haptique : il s’agit de la
 
 
 1. du système perceptif lié au toucher et à la
- kinesthésie (vu en [1.2](007-le-systeme-haptique-cote-perception-la-somesthesie.html#sub:Le-syst=E8me-haptique)),
-2. et des mouvements d’exploration.
+ kinesthésie (vu en \@ref(somesthesie)),
+1. et des mouvements d’exploration.
 
 
 Cette combinaison confère au système haptique une propriété unique : un
@@ -694,7 +658,7 @@ Il est également possible de dériver les deux côtés de l’équation
  qui dit que la vitesse instantanée est proportionnelle à la largeur du
  tunnel. Ceci parait logique si l’on considère l’analogie avec la conduite
  d’une voiture sur une route : plus la route est large, plus on peut
- [1](#note3)
+ ^[même si l’on ne doit pas, ceci restant une expérience de pensée]
  conduire vite, même s’il y a des virages.
 
 
@@ -956,10 +920,6 @@ c’est un geste de pointage ou de sélection ; ces
 le geste est un battement rythmique.
 
 
-
-
-
-
 >
 >  Dans cette thèse, nous nous intéressons à la
 >  fonction épistémique de l’activité gestuelle, ainsi qu’à la fonction
@@ -968,33 +928,7 @@ le geste est un battement rythmique.
 >
 
 
-
-
----
-
-
-
-[1](#text3)
-même si l’on ne doit pas, ceci restant une
- expérience de pensée
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## L’exploration haptique : quand l’action et la perception se conjuguent sur le canal haptique
+## L’exploration haptique : quand l’action et la perception se conjuguent sur le canal haptique {#conjuguent}
 
 
  Dans cette
@@ -1198,17 +1132,6 @@ Les résultats expérimentaux ont indiqué que dans une tâche libre
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 ## Conclusion
 
 
@@ -1228,7 +1151,6 @@ Nous avons également relevé quelques propriétés psychophysiques qui nous
 Dans le chapitre suivant, le monde extérieur sera une machine ou un
  ordinateur : on parle alors d’interaction homme-machine, ou de communications
  homme-machine.
-
 
 
 

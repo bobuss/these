@@ -2,17 +2,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-## 6.1  Des
- dispositifs, des interactions, de l’accessibilité[¶](#htoc132 "Lien permanent vers ce titre")
+## 6.1  Des dispositifs, des interactions, de l’accessibilité
 
 
 Du travail réalisé pour cette thèse, nous pouvons tirer plusieurs
@@ -47,21 +37,10 @@ De plus, nous avons produit et utilisé un schéma de conception
 
 
 
+## 6.2  Pour aller plus loin...
 
 
-
-
-
-
-
-
-
-
-## 6.2  Pour
- aller plus loin...[¶](#htoc133 "Lien permanent vers ce titre")
-
-
-### D’autres applications de la localisation relative[¶](#toc57 "Lien permanent vers ce titre")
+### D’autres applications de la localisation relative
 
 
 Nous pouvons imaginer d’autres utilisations à la localisation relative, en
@@ -99,12 +78,10 @@ Figure 6.1 : le prototype Body’Haptic
  ce sens; cependant, l’approche semble possible.
 
 
-### D’autres dispositifs : les écrans tactiles à retour
- haptique[¶](#toc58 "Lien permanent vers ce titre")
+### D’autres dispositifs : les écrans tactiles à retour haptique
 
 
-#### Motivations,
- justifications[¶](#htoc136 "Lien permanent vers ce titre")
+#### Motivations, justifications
 
 
 Comme nous l’avons plusieurs fois noté, tout au long de ce document, nous
@@ -119,11 +96,10 @@ L’idée est alors venue qu’une approche quasi magique viendrait d’un écra
  pas au travers de celui-ci.
 
 
-#### Réalisations
- industrielles récentes[¶](#htoc137 "Lien permanent vers ce titre")
+#### Réalisations industrielles récentes
 
 
-La firme Alpine [1](#note17) a proposé un écran tactile
+La firme Alpine ^[http://www.alpine-usa.com/products/leading_technology/leading_tech_iva-d300.htm] a proposé un écran tactile
  disposant d’un retour tactile (figure [6.2](#alpine)). Le
  rôle de ce dispositif est la manipulation de l’autoradio, sans avoir
  nécessairement besoin de regarder l’écran. Cette approche reprend exactement
@@ -139,7 +115,7 @@ Figure 6.2 : IVA-D300 (DVD/CD/MP3/WMA Receiver/Mobile Multimedia
 
 
 
-La société Immersion [2](#note18), conceptrice de la souris que
+La société Immersion ^[http://immr.client.shareholder.com/ReleaseDetail.cfm?ReleaseID=164236], conceptrice de la souris que
  nous avons utilisée a également proposé récemment un écran tactile à retour
  tactile, le TouchScreen (figure [6.3](#touchscreen)). La
  société immersion est déjà spécialisée dans les périphériques à retour de
@@ -156,7 +132,7 @@ Figure 6.3 : Immersion tactile touchscreen
 
 
 
-Enfin, Tactiva [3](#note19), une start-up californienne a
+Enfin, Tactiva ^[http://tactiva.com/tactapad.html], une start-up californienne a
  proposé le tactapad (figure [6.4](#tactapad)). Ce dispositif
  propose la bi-manualité et le retour tactile. Néanmoins, il ne s’agit pour le
  moment que d’un prototype, non encore disponible sur le marché, et encore
@@ -170,8 +146,7 @@ Figure 6.4 : le tactapad : peut-être le dispositif parfait ?
 
 
 
-#### Problèmes
- subsistants[¶](#htoc138 "Lien permanent vers ce titre")
+#### Problèmes subsistants
 
 
 Toutes ces tentatives n’ont pas encore montré leur potentiel. D’après les
@@ -181,7 +156,7 @@ Toutes ces tentatives n’ont pas encore montré leur potentiel. D’après les
  d’accessibilité.
 
 
-### Le mot de la fin[¶](#toc59 "Lien permanent vers ce titre")
+### Le mot de la fin
 
 
 Au final, cette thèse illustre bien le domaine de l’interaction
@@ -203,27 +178,6 @@ Au final, cette thèse illustre bien le domaine de l’interaction
 >  Homme-Machine auront été à la base du plaisir que j’ai eu à travailler
 >  sur cette thèse.
 >
-
-
-
-
-
-
-
-
----
-
-
-
-[1](#text17)
-
-<http://www.alpine-usa.com/products/leading_technology/leading_tech_iva-d300.htm>
-[2](#text18)
-
-<http://immr.client.shareholder.com/ReleaseDetail.cfm?ReleaseID=164236>
-[3](#text19)
-<http://tactiva.com/tactapad.html>
-
 
 
 
