@@ -1,0 +1,71 @@
+
+# Introduction {-}
+
+
+L’informatique désigne l’automatisation du traitement de l’information par
+ un système[1](#note1).
+
+
+Une partie de ces traitements est de plus en plus réalisée au sein même de
+ nos salons, dans nos maisons ; il s’agit de l’informatique personnelle. Dans
+ ce contexte, les traitements effectués par le système doivent généralement
+ fournir une réponse à la personne qui utilise ce système ; personne que nous
+ appellerons utilisateur dans toute la suite de ce document.
+
+
+Maintenant, nous avons un système et un utilisateur. Nous pouvons à
+ présent nous demander comment le second utilise le premier... et comment le
+ premier répond au second. C’est cette démarche de questionnement qui
+ sous-tend le domaine de l’interaction Homme-Machine (ou IHM, ou HCI en
+ anglais).
+
+
+Dans le sens machine-humain, l’interaction est produite par les
+ dispositifs de sortie, tels que l’écran, ou plus indirectement, par
+ l’imprimante. Dans le sens opposé, c’est à dire humain-machine, on se sert
+ généralement d’un clavier et d’une souris, mais comme nous le verrons, il
+ existe bien d’autres dispositifs permettant d’agir sur la machine. Et dans
+ cette thèse, nous étudierons plus précisément le matériel d’interaction, basé
+ sur le sens du toucher, et des mouvements.
+
+
+Nous pourrons alors nous poser la question suivante : quels problèmes
+ apparaissent lorsque l’utilisateur ne peut pas voir l’écran, soit à cause
+ d’un handicap perceptif, soit parce que la vue est monopolisée par une autre
+ tâche ? Et comment un dispositif basé sur les sens du toucher et du
+ mouvement peut-il être utilisé dans un tel contexte, que peut-il amener, et
+ quelles en sont les limites ?
+
+
+La première partie de ce document est focalisée sur l’interaction
+ Homme-Machine mettant en œuvre le retour de force ou les sensation tactiles,
+ et elle pose l’état de l’art. Pour commencer nous étudions dans le chapitre 2
+ (le premier chapitre étant cette introduction) le côté humain de ces
+ perceptions, en nous intéressant notamment aux neurosciences. Nous parlerons
+ au chapitre 3 des communications homme-machine proprement dites, depuis les
+ principales définitions, jusqu’aux applications de l’interaction haptique,
+ tout en ayant détaillé les moyens techniques d’interaction. Le quatrième
+ chapitre de cette thèse proposera alors une utilisation du retour de force
+ visant à améliorer les performances d’une tâche de pointage.
+
+
+La deuxième partie de cette thèse traite des possibilités du retour de
+ force en terme d’accessibilité, avec dans le chapitre 5, les principales
+ définitions et réalisations de ce domaine. Le chapitre 6 introduit alors mes
+ propositions : un contexte d’utilisation des dispositifs de pointage à retour
+ de force : la localisation relative. Nous appliquerons alors cette approche à
+ l’apprentissage de cartes géographiques, ou d’accords de musique.
+
+
+Nous conclurons alors, et dresserons les perspectives possibles à ces
+ travaux.
+
+
+
+
+---
+
+
+[1](#text1)
+<http://fr.wikipedia.org/wiki/Informatique>
+

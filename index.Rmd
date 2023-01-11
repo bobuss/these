@@ -1,0 +1,201 @@
+---
+title: "Adaptations et Interactions gestuelles et haptiques, ciblées utilisateurs.Vers plus d’utilisabilité et d’accessibilité"
+author: "Bertrand Tornil"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [bibliographie.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  Thêse de doctorat, Spécialité informatique
+  Présentée par M. Bertrand TORNIL
+  le 8 décembre 2006
+  Pour obtenir le grade de DOCTEUR de l’UNIVERSIT é TOULOUSE
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+
+# Preface {-}
+
+Avec les interfaces graphiques à manipulation directe,
+ l'utilisateur interagit avec l'ordinateur à l'aide d'un écran, d'un
+ dispositif de pointage (généralement une souris) et d'un clavier. Ces
+ interfaces sont faciles à apprendre et à utiliser, grâce à une spatialisation
+ de l'information qui réduit la charge cognitive de l'utilisateur. Toutefois,
+ ce schéma d'interaction est incomplet : il exclut notamment les utilisateurs
+ non-voyants. Aussi, dans ce cas, l'utilisation du retour de force peut aider
+ en palliant, autant que raisonnablement possible, à l'absence du canal
+ visuel.
+
+
+Dans ce travail de thèse, nous nous sommes intéressés au retour de force,
+ ainsi qu'à ces applications dans les systèmes interactifs.
+
+
+Le système tactilo-kinesthésique ou « haptique » est la synthèse des
+ mouvements d'exploration du système moteur (les mouvements) et des
+ perceptions tactiles (le sens du toucher) et kinesthésiques (la connaissance
+ que l'on a des positions et mouvements de notre corps et de nos membres).
+ Ainsi, le système haptique permet de percevoir, et d'agir sur notre
+ environnement.
+
+
+Parallèlement à cette dualité, nous avons considéré ces deux aspects selon
+ deux approches.
+
+
+Dans une première approche, nous utilisons un système à retour de force
+ pour essayer d'améliorer les temps lors d'une tâche de pointage. Il nous est
+ apparu que le retour de force était un élément distracteur. Les temps de
+ pointage se sont écroulés de 25% lors d'une première expérience. Par la
+ suite, nous avons montré lors d'une deuxième expérience, qu'en modulant
+ l'intensité du retour d'effort selon l'inverse de la vitesse, il était
+ possible d'améliorer cette situation.
+
+
+Dans une deuxième approche, nous avons défini un contexte d'utilisation de
+ périphériques de pointage à retour de force dans un cadre d'accéssiblité des
+ personnes non-voyantes à certains documents graphiques : il s'agit de la
+ « localisation relative ». Dans ce contexte d'utilisation, il est question de
+ se reconstruire une image mentale de ce qu'il y a d'affiché à l'écran, sans
+ la modalité visuelle. Nous avons ensuite développé des prototypes appliquant
+ la localisation relative dans les domaines de la géographie, de l'anatomie et
+ de l'harmonie musicale. Ceci nous a amené à créer une série de classes
+ génériques permettant la générations des documents nécessaires à
+ l'utilisation de nos périphériques, dans un contexte d'application orientée
+ Web : les documents graphiques utilisent le formalisme XML (SVG pour la 2D et
+ X3D pour la 3D), et une architecture client-serveur est mise en place : le
+ serveur Web Apache, exécutant des scripts php ou perl, eux-mêmes générant les
+ documents et les médias.
+
+
+Thèse soutenue le 8 décembre 2006, devant le jury composé de :
+
+
+- Noëlle Carbonell, Rapporteur
+- Jaime Lopez Krahe, Rapporteur
+- Dominique Archambault, Examinateur
+- Philippe Palanque, Examinateur
+- Florence Sedes, Examinateur
+- Monique Truquet, Membre invité
+- Nadine Baptiste-Jessel, Directrice de thèse
+
+
+## Entrée bibtex {-}
+
+
+```
+
+@PhDThesis{ To2006.5,
+  author = {Tornil, Bertrand},
+  title = "{Adaptations et Interactions gestuelles et haptiques, ciblées utilisateurs. Vers plus d'utilisabilité et d'accessibilité.}",
+  year = {2006},
+  month = {décembre},
+  url = {https://www.tornil.me/these/},
+  type = {Thèse de doctorat},
+  school = {Université Paul Sabatier},
+  address = {Toulouse, France},
+  language = {français}
+}
+```
+
+
+## Remerciements {-}
+
+
+Ca y est, c’est l’heure des remerciements. Pour un lecteur, cette page est
+ tout au début de ce document. Mais pour moi, ce sont les derniers mots que je
+ vais y ajouter, cinq années après avoir débuté l’aventure.
+
+
+Je remercie tout d’abord mes, rapporteurs, les professeurs Noëlle Carbonell
+ et Jaime Lopez Krahe, pour leur patience, et leurs précieuses remarques sur
+ mon travail. Je remercie également les autres membres du jury, Florence
+ Sedes, Philippe Palanque et Dominique Archambault, qui ont accepté de prendre
+ sur leurs temps pour participer à ma soutenance.
+
+
+Je présente ici toute ma gratitude à Nadine Baptiste-Jessel, ma directrice
+ de thèse, qui m’aura aidé à finalement achever cette thèse, même à 400 km de
+ distance. Un grand merci, également au reste de l’équipe : Dany et Benoît,
+ pour tous ces instants. Un merci tout spécial à Monique Truquet, pour sa
+ précieuse relecture.
+
+
+Cinq ans, ce sont des rencontres au sein de l’université. Machine à café
+ et refaisage de monde avec Romain, Laurent, Cédric, Amélie, Fred... Mais
+ aussi ouverture sur d’autres domaines de la recherche...
+
+
+Cinq ans, ce sont des rencontres hors de l’université. Merci à Matthieu,
+ Tony, Lionel, Benj, Xavier et Vincent, pour la vie toulousaine ; merci à
+ Arnaud, Christelle, David, Hervé, Charlot, Alex, Didier, Filou, Jay,
+ Moustique, Pipi, Vivie, et à tout ceux du berry que j’oublie...
+
+
+Cinq ans, c’est trop long pour un financement classique de thèse. Aussi,
+ j’ai été amené à travailler pour la terminer. Et ce sont des nouvelles
+ rencontres, qui marquent, elles aussi : Seb, Greg, Corinne, Karine et Alex de
+ WS-Interactive. Et comme cinq ans, c’est vraiment trop long, je suis déjà
+ dans un autre cadre professionnel aujourd’hui, et je remercie déjà pour la
+ suite Alain, Solange et Paul de UIXperts.
+
+
+Cinq ans, enfin, c’est déjà une bonne tranche de vie. Il y a cinq ans, la
+ famille, c’était surtout mon père : Merci papa... pour tout... Et depuis, il
+ y a eu la rencontre avec ma douce et tendre Ariane, qui, cette année, a passé
+ le plus bel examen qui soit, en donnant naissance à Sasha, notre petite
+ louloute.
+
+
+
+>
+>  Il était un aveugle qui cherchait son chemin,
+>
+>  Et prenait repères de son oreille et de sa main.
+>
+>  Il demandait aux passants qu’il rencontrait,
+>
+>  De décrire séant objets et actions qu’eux voyaient.
+>
+>  Mais rien n’y fit vraiment car les indices qu’il reçut,
+>
+>  Remplaçaient difficilement sa vue perdue.
+>
+>
+>
+>  Ailleurs se promenait un astronaute,
+>
+>  Qui voyait parfaitement et sans faute,
+>
+>  Il consultait sa carte, sans peine ni effort,
+>
+>  Et savait d’avance trouver son chemin en dehors.
+>
+>  Mais ses membres sans poids au gré du vent allaient
+>
+>  Contre sa volonté pourtant fort développée.
+>
+>
+>
+>  Finalement il n’eut de meilleur choix que de demander,
+>
+>  Au passant aveugle qu’il rencontrât,
+>
+>  Si ce dernier pouvait lui prêter,
+>
+>  le temps d’un pas,
+>
+>  Une main ferme et un pied assuré.
+>
+>  Ensemble ils découvrirent l’art de conjuguer
+>
+>  Ce qu’avant ils ne faisaient que regretter.
+>
+>
+>
+> Ramstein, La métaphore de l’astronaute et de l’aveugle, 1995
+>
+

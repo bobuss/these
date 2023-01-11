@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:xml="http://www.w3.org/XML/1998/namespace"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg1"
+   sodipodi:version="0.32"
+   inkscape:version="0.41"
+   width="841.88975pt"
+   height="595.27559pt"
+   sodipodi:docbase="/home/bobuss/these/publications/RJCIHM04"
+   sodipodi:docname="manipFinale.svg">
+  <defs
+     id="defs3">
+    <marker
+       style="overflow:visible;"
+       id="Arrow1M"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1M">
+      <path
+         transform="scale(0.4)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2893"
+         sodipodi:nodetypes="ccccc" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1L"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1L">
+      <path
+         transform="scale(0.8)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2895"
+         sodipodi:nodetypes="ccccc" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.75785831"
+     inkscape:cx="351.39574"
+     inkscape:cy="232.07368"
+     inkscape:window-width="1070"
+     inkscape:window-height="940"
+     inkscape:window-x="112"
+     inkscape:window-y="66"
+     inkscape:current-layer="svg1" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF
+       id="RDF5">
+      <cc:Work
+         rdf:about=""
+         id="Work6">
+        <dc:format
+           id="format7">image/svg+xml</dc:format>
+        <dc:type
+           id="type9"
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     inkscape:export-filename="/home/bobuss/these/publications/RJCIHM04/rect28z93.png"
+     inkscape:export-ydpi="90.000000"
+     inkscape:export-xdpi="90.000000"
+     y="20.507435"
+     x="-12.013624"
+     height="425.87500"
+     width="897.54144"
+     id="rect2893"
+     style="stroke-opacity:1.0000000;stroke-dashoffset:0.0000000;stroke-dasharray:3.9075619 3.9075619;stroke-miterlimit:4.0000000;stroke-linejoin:miter;stroke-linecap:butt;stroke-width:3.9075618;stroke:none;fill-rule:nonzero;fill-opacity:1.0000000;fill:#ffffff" />
+  <path
+     inkscape:export-ydpi="90.000000"
+     inkscape:export-xdpi="90.000000"
+     inkscape:export-filename="/home/bobuss/these/publications/RJCIHM04/rect28z93.png"
+     style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:4.7399235;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-opacity:0.41159418;marker-start:url(#Arrow1L);marker-mid:none"
+     d="M 518.85508,198.15197 C 400.21960,171.45609 168.24071,243.61324 168.24071,243.61324"
+     id="path3438" />
+  <rect
+     inkscape:export-ydpi="90.000000"
+     inkscape:export-xdpi="90.000000"
+     inkscape:export-filename="/home/bobuss/these/publications/RJCIHM04/rect28z93.png"
+     style="fill:#dae300;fill-opacity:0.086274512;fill-rule:evenodd;stroke:#000000;stroke-width:1.0673521pt;stroke-linecap:butt;stroke-linejoin:bevel;stroke-opacity:1.0000000"
+     id="rect2163"
+     width="191.32864"
+     height="395.53915"
+     x="325.07919"
+     y="37.070812" />
+  <g
+     inkscape:export-ydpi="90.000000"
+     inkscape:export-xdpi="90.000000"
+     inkscape:export-filename="/home/bobuss/these/publications/RJCIHM04/rect28z93.png"
+     id="g2079"
+     transform="matrix(2.263697,0.000000,0.000000,2.299061,-149.5616,69.08642)">
+    <image
+       xlink:href="mouseholdright.png"
+       sodipodi:absref="/home/tornil/publi/RJCIHM04/mouseholdright.png"
+       width="42.696907"
+       height="48.141720"
+       id="image2944"
+       x="149.05550"
+       y="79.340164" />
+    <image
+       xlink:href="mouseholdright.png"
+       sodipodi:absref="/home/tornil/publi/RJCIHM04/mouseholdright.png"
+       width="42.696907"
+       height="48.141720"
+       id="image2941"
+       x="77.006302"
+       y="37.253365"
+       style="opacity:0.49999997" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff0000;fill-opacity:0.48115942;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       id="path912"
+       sodipodi:cx="367.50000"
+       sodipodi:cy="121.11218"
+       sodipodi:rx="32.500000"
+       sodipodi:ry="32.500000"
+       d="M 400.00000 121.11218 A 32.500000 32.500000 0 1 1  335.00000,121.11218 A 32.500000 32.500000 0 1 1  400.00000 121.11218 z"
+       transform="matrix(0.225707,0.000000,0.100634,0.145447,2.693868,46.05720)" />
+    <text
+       xml:space="preserve"
+       style="font-size:64.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Courier 10 Pitch;text-anchor:start;writing-mode:lr-tb"
+       x="414.83633"
+       y="458.1629"
+       id="text1537"
+       sodipodi:linespacing="100%"
+       transform="scale(0.225707,0.145447)"><tspan
+         x="414.83633"
+         y="458.16290"
+         sodipodi:role="line"
+         id="tspan1540">1</tspan></text>
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.48755389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:1.9502155 1.9502155 ;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;marker-start:url(#Arrow1L)"
+       d="M 159.70943,105.43096 L 95.740702,105.94766"
+       id="path2919" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.50466102;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:2.0186441 2.0186441 ;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;marker-start:url(#Arrow1L);marker-mid:none;marker-end:none"
+       d="M 88.767351,95.300752 L 96.046477,67.475236"
+       id="path2920" />
+    <image
+       xlink:href="mouseholdright.png"
+       sodipodi:absref="/home/tornil/publi/RJCIHM04/mouseholdright.png"
+       width="42.696907"
+       height="48.141720"
+       id="image2946"
+       x="64.389442"
+       y="78.573677"
+       style="opacity:0.79896909" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff0000;fill-opacity:0.48115942;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       id="path2947"
+       sodipodi:cx="367.50000"
+       sodipodi:cy="121.11218"
+       sodipodi:rx="32.500000"
+       sodipodi:ry="32.500000"
+       d="M 400.00000 121.11218 A 32.500000 32.500000 0 1 1  335.00000,121.11218 A 32.500000 32.500000 0 1 1  400.00000 121.11218 z"
+       transform="matrix(0.225707,0.000000,0.100634,0.145447,-8.321882,87.38646)" />
+    <text
+       xml:space="preserve"
+       style="font-size:64.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Courier 10 Pitch;text-anchor:start;writing-mode:lr-tb"
+       x="366.03085"
+       y="742.31543"
+       id="text2948"
+       sodipodi:linespacing="100%"
+       transform="scale(0.225707,0.145447)"><tspan
+         x="366.03085"
+         y="742.31543"
+         sodipodi:role="line"
+         id="tspan2955">2</tspan><tspan
+         x="366.03085"
+         y="806.31543"
+         sodipodi:role="line"
+         id="tspan2957"></tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff0000;fill-opacity:0.48115942;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       id="path2951"
+       sodipodi:cx="367.50000"
+       sodipodi:cy="121.11218"
+       sodipodi:rx="32.500000"
+       sodipodi:ry="32.500000"
+       d="M 400.00000 121.11218 A 32.500000 32.500000 0 1 1  335.00000,121.11218 A 32.500000 32.500000 0 1 1  400.00000 121.11218 z"
+       transform="matrix(0.225707,0.000000,0.100634,0.145447,77.69052,87.57810)" />
+    <text
+       xml:space="preserve"
+       style="font-size:64.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Courier 10 Pitch;text-anchor:start;writing-mode:lr-tb"
+       x="746.03052"
+       y="743.63287"
+       id="text2952"
+       sodipodi:linespacing="100%"
+       transform="scale(0.225707,0.145447)"><tspan
+         x="746.03052"
+         y="743.63287"
+         sodipodi:role="line"
+         id="tspan2959">3</tspan></text>
+  </g>
+  <image
+     inkscape:export-ydpi="90.000000"
+     inkscape:export-xdpi="90.000000"
+     inkscape:export-filename="/home/bobuss/these/publications/RJCIHM04/rect28z93.png"
+     xlink:href="geo.png"
+     sodipodi:absref="/home/tornil/publi/RJCIHM04/geo.png"
+     width="286.57330"
+     height="172.63383"
+     id="image1794"
+     x="578.47375"
+     y="84.876503" />
+  <rect
+     inkscape:export-ydpi="90.000000"
+     inkscape:export-xdpi="90.000000"
+     inkscape:export-filename="/home/bobuss/these/publications/RJCIHM04/rect28z93.png"
+     style="fill:#0000ff;fill-opacity:0.086274512;fill-rule:evenodd;stroke:#000000;stroke-width:0.57047930pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+     id="rect1907"
+     width="289.99365"
+     height="167.99159"
+     x="576.76355"
+     y="89.685829" />
+  <g
+     inkscape:export-ydpi="90.000000"
+     inkscape:export-xdpi="90.000000"
+     inkscape:export-filename="/home/bobuss/these/publications/RJCIHM04/rect28z93.png"
+     id="g1890"
+     transform="matrix(0.680712,0.000000,0.144407,0.637307,382.6910,13.77117)">
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff0000;fill-opacity:0.92753625;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       id="path1758"
+       sodipodi:cx="367.50000"
+       sodipodi:cy="121.11218"
+       sodipodi:rx="32.500000"
+       sodipodi:ry="32.500000"
+       d="M 400.00000 121.11218 A 32.500000 32.500000 0 1 1  335.00000,121.11218 A 32.500000 32.500000 0 1 1  400.00000 121.11218 z"
+       transform="matrix(0.555831,-0.115427,0.140208,0.289531,151.0093,213.8374)" />
+    <text
+       xml:space="preserve"
+       style="font-size:64.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Courier 10 Pitch;text-anchor:start;writing-mode:lr-tb"
+       x="820.42389"
+       y="904.14014"
+       id="text1759"
+       sodipodi:linespacing="100%"
+       transform="matrix(0.555831,-0.115427,-0.107616,0.340995,0.000000,0.000000)"><tspan
+         x="820.42389"
+         y="904.14014"
+         sodipodi:role="line"
+         id="tspan1760">1</tspan></text>
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.1324606;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:4.5298424 4.5298424 ;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;marker-start:url(#Arrow1L)"
+       d="M 492.73947,270.76292 L 334.82650,304.68797"
+       id="path1762" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.3897551;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:5.5590207 5.5590207 ;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;marker-start:url(#Arrow1L);marker-mid:none;marker-end:none"
+       d="M 325.53139,283.29296 L 364.04508,214.33475"
+       id="path1763" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff0000;fill-opacity:0.92753625;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       id="path1764"
+       sodipodi:cx="367.50000"
+       sodipodi:cy="121.11218"
+       sodipodi:rx="32.500000"
+       sodipodi:ry="32.500000"
+       d="M 400.00000 121.11218 A 32.500000 32.500000 0 1 1  335.00000,121.11218 A 32.500000 32.500000 0 1 1  400.00000 121.11218 z"
+       transform="matrix(0.555831,-0.115427,0.140208,0.289531,94.17602,316.1840)" />
+    <text
+       xml:space="preserve"
+       style="font-size:64.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Courier 10 Pitch;text-anchor:start;writing-mode:lr-tb"
+       x="771.61841"
+       y="1188.2926"
+       id="text1765"
+       sodipodi:linespacing="100%"
+       transform="matrix(0.555831,-0.115427,-0.107616,0.340995,0.000000,0.000000)"><tspan
+         x="771.61841"
+         y="1188.2926"
+         sodipodi:role="line"
+         id="tspan1766">2</tspan><tspan
+         x="771.61841"
+         y="1252.2926"
+         sodipodi:role="line"
+         id="tspan1768"></tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff0000;fill-opacity:0.92753625;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       id="path1770"
+       sodipodi:cx="367.50000"
+       sodipodi:cy="121.11218"
+       sodipodi:rx="32.500000"
+       sodipodi:ry="32.500000"
+       d="M 400.00000 121.11218 A 32.500000 32.500000 0 1 1  335.00000,121.11218 A 32.500000 32.500000 0 1 1  400.00000 121.11218 z"
+       transform="matrix(0.555831,-0.115427,0.140208,0.289531,304.9764,272.8278)" />
+    <text
+       xml:space="preserve"
+       style="font-size:64.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Courier 10 Pitch;text-anchor:start;writing-mode:lr-tb"
+       x="1151.618"
+       y="1189.61"
+       id="text1771"
+       sodipodi:linespacing="100%"
+       transform="matrix(0.555831,-0.115427,-0.107616,0.340995,0.000000,0.000000)"><tspan
+         x="1151.6180"
+         y="1189.6100"
+         sodipodi:role="line"
+         id="tspan1772">3</tspan></text>
+  </g>
+  <image
+     inkscape:export-ydpi="90.000000"
+     inkscape:export-xdpi="90.000000"
+     inkscape:export-filename="/home/bobuss/these/publications/RJCIHM04/rect28z93.png"
+     xlink:href="body.png"
+     sodipodi:absref="/home/tornil/publi/RJCIHM04/body.png"
+     width="301.62048"
+     height="141.50763"
+     id="image1721"
+     x="577.65112"
+     y="271.90384" />
+  <rect
+     inkscape:export-ydpi="90.000000"
+     inkscape:export-xdpi="90.000000"
+     inkscape:export-filename="/home/bobuss/these/publications/RJCIHM04/rect28z93.png"
+     style="fill:#0000ff;fill-opacity:0.086956508;fill-rule:evenodd;stroke:#000000;stroke-width:0.66304541pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+     id="rect1723"
+     width="288.35477"
+     height="138.38200"
+     x="578.02625"
+     y="274.73239" />
+  <g
+     inkscape:export-ydpi="90.000000"
+     inkscape:export-xdpi="90.000000"
+     inkscape:export-filename="/home/bobuss/these/publications/RJCIHM04/rect28z93.png"
+     id="g1740"
+     transform="matrix(0.718144,0.000000,0.000000,0.714685,373.6714,-113.1416)">
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff0000;fill-opacity:0.92753625;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       id="path2063"
+       sodipodi:cx="367.50000"
+       sodipodi:cy="121.11218"
+       sodipodi:rx="32.500000"
+       sodipodi:ry="32.500000"
+       d="M 400.00000 121.11218 A 32.500000 32.500000 0 1 1  335.00000,121.11218 A 32.500000 32.500000 0 1 1  400.00000 121.11218 z"
+       transform="matrix(0.572082,-7.565884e-2,0.376327,0.354197,99.65965,567.8089)" />
+    <text
+       xml:space="preserve"
+       style="font-size:64.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Courier 10 Pitch;text-anchor:start;writing-mode:lr-tb"
+       x="266.55969"
+       y="665.74426"
+       id="text2064"
+       sodipodi:linespacing="100%"
+       transform="matrix(0.572082,-7.565884e-2,0.121257,0.387930,111.4606,351.7025)"><tspan
+         x="266.55969"
+         y="665.74426"
+         sodipodi:role="line"
+         id="tspan2065">1</tspan></text>
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.2613742;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:5.0454969 5.0454969 ;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;marker-start:url(#Arrow1L)"
+       d="M 387.26658,295.91802 L 191.03320,297.04541"
+       id="path2067"
+       transform="matrix(0.826243,-0.109272,0.382088,1.222389,111.4606,351.7025)" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.5479579;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:6.1918317 6.1918317 ;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;marker-start:url(#Arrow1L);marker-mid:none;marker-end:none"
+       d="M 169.64143,273.81479 L 191.97121,213.10193"
+       id="path2068"
+       transform="matrix(0.826243,-0.109272,0.382088,1.222389,111.4606,351.7025)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff0000;fill-opacity:0.92753625;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       id="path2069"
+       sodipodi:cx="367.50000"
+       sodipodi:cy="121.11218"
+       sodipodi:rx="32.500000"
+       sodipodi:ry="32.500000"
+       d="M 400.00000 121.11218 A 32.500000 32.500000 0 1 1  335.00000,121.11218 A 32.500000 32.500000 0 1 1  400.00000 121.11218 z"
+       transform="matrix(0.572082,-7.565884e-2,0.376327,0.354197,107.0936,681.6138)" />
+    <text
+       xml:space="preserve"
+       style="font-size:64.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Courier 10 Pitch;text-anchor:start;writing-mode:lr-tb"
+       x="217.75421"
+       y="949.89673"
+       id="text2070"
+       sodipodi:linespacing="100%"
+       transform="matrix(0.572082,-7.565884e-2,0.121257,0.387930,111.4606,351.7025)"><tspan
+         x="217.75421"
+         y="949.89673"
+         sodipodi:role="line"
+         id="tspan2071">2</tspan><tspan
+         x="217.75421"
+         y="1013.8967"
+         sodipodi:role="line"
+         id="tspan2073"></tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff0000;fill-opacity:0.92753625;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       id="path2075"
+       sodipodi:cx="367.50000"
+       sodipodi:cy="121.11218"
+       sodipodi:rx="32.500000"
+       sodipodi:ry="32.500000"
+       d="M 400.00000 121.11218 A 32.500000 32.500000 0 1 1  335.00000,121.11218 A 32.500000 32.500000 0 1 1  400.00000 121.11218 z"
+       transform="matrix(0.572082,-7.565884e-2,0.376327,0.354197,324.3629,653.4118)" />
+    <text
+       xml:space="preserve"
+       style="font-size:64.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Courier 10 Pitch;text-anchor:start;writing-mode:lr-tb"
+       x="597.75385"
+       y="951.21417"
+       id="text2076"
+       sodipodi:linespacing="100%"
+       transform="matrix(0.572082,-7.565884e-2,0.121257,0.387930,111.4606,351.7025)"><tspan
+         x="597.75385"
+         y="951.21417"
+         sodipodi:role="line"
+         id="tspan2077">3</tspan></text>
+  </g>
+  <text
+     inkscape:export-ydpi="90.000000"
+     inkscape:export-xdpi="90.000000"
+     inkscape:export-filename="/home/bobuss/these/publications/RJCIHM04/rect28z93.png"
+     xml:space="preserve"
+     style="font-size:20.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Courier 10 Pitch;text-anchor:middle;writing-mode:lr-tb"
+     x="423.42233"
+     y="233.18344"
+     id="text2130"
+     sodipodi:linespacing="100%"><tspan
+       x="423.42233"
+       y="233.18344"
+       sodipodi:role="line"
+       id="tspan2151">&quot;Lot, </tspan><tspan
+       x="423.42233"
+       y="253.18344"
+       sodipodi:role="line"
+       id="tspan2153">Tarn et Garonne,</tspan><tspan
+       x="423.42233"
+       y="273.18344"
+       sodipodi:role="line"
+       id="tspan2155">Aveyron&quot;</tspan></text>
+  <text
+     inkscape:export-ydpi="90.000000"
+     inkscape:export-xdpi="90.000000"
+     inkscape:export-filename="/home/bobuss/these/publications/RJCIHM04/rect28z93.png"
+     xml:space="preserve"
+     style="font-size:20.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Courier 10 Pitch;text-anchor:middle;writing-mode:lr-tb"
+     x="400.1012"
+     y="360.92789"
+     id="text2139"
+     sodipodi:linespacing="100%"><tspan
+       x="400.10120"
+       y="360.92789"
+       sodipodi:role="line"
+       id="tspan3439">&quot;Tête, </tspan><tspan
+       x="400.10120"
+       y="380.92789"
+       sodipodi:role="line"
+       id="tspan3441">Buste, </tspan><tspan
+       x="400.10120"
+       y="400.92789"
+       sodipodi:role="line"
+       id="tspan3443">Bras gauche&quot;</tspan></text>
+  <path
+     inkscape:export-ydpi="90.000000"
+     inkscape:export-xdpi="90.000000"
+     inkscape:export-filename="/home/bobuss/these/publications/RJCIHM04/rect28z93.png"
+     style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:5.2553883;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-opacity:0.41159418;marker-start:url(#Arrow1L);marker-mid:none"
+     d="M 514.93914,400.45094 C 343.69710,444.25545 203.11224,374.30575 203.11224,374.30575"
+     id="path3437" />
+  <image
+     inkscape:export-filename="/home/bobuss/these/publications/RJCIHM04/rect28z93.png"
+     inkscape:export-ydpi="90.000000"
+     inkscape:export-xdpi="90.000000"
+     xlink:href="haut-parleur.png"
+     sodipodi:absref="/home/bobuss/these/publications/RJCIHM04/haut-parleur.png"
+     width="128.87508"
+     height="134.61620"
+     id="image1415"
+     x="359.15939"
+     y="45.123066" />
+</svg>

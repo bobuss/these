@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg5019"
+   sodipodi:version="0.32"
+   inkscape:version="0.41"
+   sodipodi:docbase="/home/bobuss/these/papier/icmc2005"
+   sodipodi:docname="chordHaptic.svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4000000"
+     inkscape:cx="264.11454"
+     inkscape:cy="853.89640"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1019"
+     inkscape:window-height="789"
+     inkscape:window-x="198"
+     inkscape:window-y="166" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF
+       id="RDF5">
+      <cc:Work
+         rdf:about=""
+         id="Work6">
+        <dc:format
+           id="format7">image/svg+xml</dc:format>
+        <dc:type
+           id="type9"
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       inkscape:export-ydpi="90.010002"
+       inkscape:export-xdpi="90.010002"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/hapticChord.png"
+       y="145.93361"
+       x="175.71428"
+       height="185.71428"
+       width="200.00000"
+       id="rect9551"
+       style="fill:#ffffff;fill-opacity:1.0000000;stroke:none" />
+    <polygon
+       id="polygon12t11"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(51.70747,72.55429)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text12t11"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="370.70746"
+       y="350.55429"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="370.70746"
+         y="350.55429"
+         sodipodi:role="line"
+         id="tspan2664">D♭</tspan></text>
+    <polygon
+       id="polygon12t12"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(112.7075,37.15429)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text12t12"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="431.70749"
+       y="315.1543"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="431.70749"
+         y="315.15430"
+         sodipodi:role="line"
+         id="tspan2660">F</tspan></text>
+    <polygon
+       id="polygon13t10"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(-70.29253,72.55429)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text13t10"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="248.70747"
+       y="350.55429"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="248.70747"
+         y="350.55429"
+         sodipodi:role="line"
+         id="tspan2666">C</tspan></text>
+    <polygon
+       id="polygon13t11"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(-9.292529,37.15429)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text13t11"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="309.70746"
+       y="315.1543"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="309.70746"
+         y="315.15430"
+         sodipodi:role="line"
+         id="tspan2644">E</tspan></text>
+    <polygon
+       id="polygon13t12"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(51.70747,1.754286)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text13t12"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="370.70746"
+       y="279.75427"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="370.70746"
+         y="279.75427"
+         sodipodi:role="line"
+         id="tspan2662">A♭</tspan></text>
+    <polygon
+       id="polygon13t13"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(112.7075,-33.64571)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text13t13"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="430.27893"
+       y="245.78287"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="430.27893"
+         y="245.78287"
+         sodipodi:role="line"
+         id="tspan2658">C</tspan></text>
+    <polygon
+       id="polygon14t9"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(-192.2926,72.55429)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text14t9"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="126.7074"
+       y="350.55429"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="126.70740"
+         y="350.55429"
+         sodipodi:role="line"
+         id="tspan2642">B</tspan></text>
+    <polygon
+       id="polygon14t10"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(-131.2926,37.15429)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text14t10"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="187.7074"
+       y="315.1543"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="187.70740"
+         y="315.15430"
+         sodipodi:role="line"
+         id="tspan2668">E♭</tspan></text>
+    <polygon
+       id="polygon14t11"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.82450336;fill:#f03d26;opacity:1.0000000"
+       transform="translate(-70.29253,1.754286)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text14t11"
+       pointer-events="none"
+       style="opacity:1.0000000;font-size:20.000000;fill:#000000;font-family:Bitstream Vera Sans;text-anchor:middle;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;line-height:100%;fill-opacity:0.95033115"
+       x="248.70747"
+       y="279.75427"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="248.70747"
+         y="279.75427"
+         sodipodi:role="line"
+         id="tspan2636">G</tspan></text>
+    <polygon
+       id="polygon14t12"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.82450336;fill:#f03d26;opacity:1.0000000"
+       transform="translate(-9.292529,-33.64571)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text14t12"
+       pointer-events="none"
+       style="opacity:1.0000000;font-size:20.000000;fill:#000000;font-family:Bitstream Vera Sans;text-anchor:middle;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;line-height:100%;fill-opacity:0.95033115"
+       x="309.70746"
+       y="244.35429"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="309.70746"
+         y="244.35429"
+         sodipodi:role="line"
+         id="tspan2634">B</tspan></text>
+    <polygon
+       id="polygon14t13"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(51.70747,-69.04571)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text14t13"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="370.70746"
+       y="208.95428"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="370.70746"
+         y="208.95428"
+         sodipodi:role="line"
+         id="tspan2652">E♭</tspan></text>
+    <polygon
+       id="polygon14t14"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(112.7075,-104.4457)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text14t14"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="431.70749"
+       y="173.55431"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="431.70749"
+         y="173.55431"
+         sodipodi:role="line"
+         id="tspan2656">G</tspan></text>
+    <polygon
+       id="polygon15t9"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(-253.2926,37.15429)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text15t9"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="65.707397"
+       y="315.1543"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="65.707397"
+         y="315.15430"
+         sodipodi:role="line"
+         id="tspan2640">D</tspan></text>
+    <polygon
+       id="polygon15t10"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(-192.2926,1.754286)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text15t10"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="126.7074"
+       y="279.75427"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="126.70740"
+         y="279.75427"
+         sodipodi:role="line"
+         id="tspan2670">G♭</tspan></text>
+    <polygon
+       id="polygon15t11"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(-131.2926,-33.64571)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text15t11"
+       pointer-events="none"
+       style="font-size:20.000000;fill:#000000;font-family:Bitstream Vera Sans;text-anchor:middle;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;line-height:100%;opacity:0.60843373"
+       x="187.7074"
+       y="244.35429"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         id="tspan8033"
+         sodipodi:role="line"
+         y="244.35429"
+         x="187.70740">B♭</tspan></text>
+    <polygon
+       id="polygon15t12"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.82450336;fill:#f03d26;opacity:1.0000000"
+       transform="translate(-70.29253,-69.04571)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text15t12"
+       pointer-events="none"
+       style="opacity:1.0000000;font-size:20.000000;fill:#000000;font-family:Bitstream Vera Sans;text-anchor:middle;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;line-height:100%;fill-opacity:0.95033115"
+       x="248.70747"
+       y="208.95428"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="248.70747"
+         y="208.95428"
+         sodipodi:role="line"
+         id="tspan2648">D</tspan></text>
+    <polygon
+       id="polygon15t13"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(-9.292529,-104.4457)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text15t13"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="309.70746"
+       y="173.55431"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="309.70746"
+         y="173.55431"
+         sodipodi:role="line"
+         id="tspan2650">G♭</tspan></text>
+    <polygon
+       id="polygon15t14"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(51.70747,-139.8457)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text15t14"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="370.70746"
+       y="138.1543"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="370.70746"
+         y="138.15430"
+         sodipodi:role="line"
+         id="tspan2654">B♭</tspan></text>
+    <polygon
+       id="polygon15t15"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(112.7075,-175.2457)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text15t15"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="431.70749"
+       y="102.7543"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="431.70749"
+         y="102.75430"
+         sodipodi:role="line"
+         id="tspan2624">D</tspan></text>
+    <polygon
+       id="polygon16t10"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(-253.2926,-33.64571)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text16t10"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="65.707397"
+       y="244.35429"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="65.707397"
+         y="244.35429"
+         sodipodi:role="line"
+         id="tspan2638">A</tspan></text>
+    <polygon
+       id="polygon16t11"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(-192.2926,-69.04571)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text16t11"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="126.7074"
+       y="208.95428"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="126.70740"
+         y="208.95428"
+         sodipodi:role="line"
+         id="tspan2672">D♭</tspan></text>
+    <polygon
+       id="polygon16t12"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(-131.2926,-104.4457)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text16t12"
+       pointer-events="none"
+       style="font-size:20.000000;fill:#000000;font-family:Bitstream Vera Sans;text-anchor:middle;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;line-height:100%;opacity:0.60843373"
+       x="187.7074"
+       y="173.55431"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="187.70740"
+         y="173.55431"
+         sodipodi:role="line"
+         id="tspan2630">F</tspan></text>
+    <polygon
+       id="polygon16t13"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(-70.29253,-139.8457)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text16t13"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="248.70747"
+       y="138.1543"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="248.70747"
+         y="138.15430"
+         sodipodi:role="line"
+         id="tspan2632">A</tspan></text>
+    <polygon
+       id="polygon16t14"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(-9.292529,-175.2457)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text16t14"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="309.70746"
+       y="102.7543"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="309.70746"
+         y="102.75430"
+         sodipodi:role="line"
+         id="tspan2622">D♭</tspan></text>
+    <polygon
+       id="polygon16t15"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(51.70747,-210.6457)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text16t15"
+       pointer-events="none"
+       style="font-size:20.000000;fill:#000000;font-family:Bitstream Vera Sans;text-anchor:middle;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;line-height:100%;opacity:0.60843373"
+       x="370.70746"
+       y="67.354301"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="370.70746"
+         y="67.354301"
+         sodipodi:role="line"
+         id="tspan2610">F</tspan></text>
+    <polygon
+       id="polygon17t11"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(-253.2926,-104.4457)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text17t11"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="65.707397"
+       y="173.55431"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="65.707397"
+         y="173.55431"
+         sodipodi:role="line"
+         id="tspan2626">E</tspan></text>
+    <polygon
+       id="polygon17t12"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(-192.2926,-139.8457)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text17t12"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="126.7074"
+       y="138.1543"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="126.70740"
+         y="138.15430"
+         sodipodi:role="line"
+         id="tspan2614">A♭</tspan></text>
+    <polygon
+       id="polygon17t13"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(-131.2926,-175.2457)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text17t13"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="187.7074"
+       y="102.7543"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="187.70740"
+         y="102.75430"
+         sodipodi:role="line"
+         id="tspan2616">C</tspan></text>
+    <polygon
+       id="polygon17t14"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(-70.29253,-210.6457)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text17t14"
+       pointer-events="none"
+       style="font-size:20.000000;fill:#000000;font-family:Bitstream Vera Sans;text-anchor:middle;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;line-height:100%;opacity:0.60843373"
+       x="248.70747"
+       y="67.354301"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="248.70747"
+         y="67.354301"
+         sodipodi:role="line"
+         id="tspan2608">E</tspan></text>
+    <polygon
+       id="polygon18t12"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(-253.2926,-175.2457)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text18t12"
+       pointer-events="none"
+       style="line-height:100%;writing-mode:lr;font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="65.707397"
+       y="102.7543"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="65.707397"
+         y="102.75430"
+         sodipodi:role="line"
+         id="tspan2618">B</tspan></text>
+    <polygon
+       id="polygon18t13"
+       points="359.17200,272.83700 349.09500,290.29100 339.01800,307.74400 318.86400,307.74400 298.71000,307.74400 288.63300,290.29100 278.55600,272.83700 288.63300,255.38300 298.71000,237.92900 318.86400,237.92900 339.01800,237.92900 349.09500,255.38300 359.17200,272.83700 "
+       style="stroke-width:1.0000000pt;stroke:#000000;fill-rule:evenodd;fill-opacity:0.75000000;fill:#ffff00;opacity:0.60843373"
+       transform="translate(-192.2926,-210.6457)"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000" />
+    <text
+       id="text18t13"
+       pointer-events="none"
+       style="font-variant:normal;font-stretch:normal;font-style:normal;font-weight:normal;line-height:100%;writing-mode:lr;text-anchor:middle;font-family:Bitstream Vera Sans;fill:#000000;font-size:20.000000;opacity:0.60843373"
+       x="126.7074"
+       y="67.354301"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/home/bobuss/these/papier/icmc2005/gamme.png"
+       inkscape:export-xdpi="90.000000"
+       inkscape:export-ydpi="90.000000"><tspan
+         x="126.70740"
+         y="67.354301"
+         sodipodi:role="line"
+         id="tspan2620">E♭</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.42"
+   sodipodi:docbase="/home/tornil/these/manuscrit2/img"
+   sodipodi:docname="mouvements.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lstart"
+       style="overflow:visible">
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path2150"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) translate(-5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Sstart"
+       style="overflow:visible">
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path983"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.2)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;">
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path2156"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(-5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path2159"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(-5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path2167"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.8)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="214.12955"
+     inkscape:cy="583.81310"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="960"
+     inkscape:window-height="790"
+     inkscape:window-x="10"
+     inkscape:window-y="49" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1.0000000;stroke:none;stroke-width:0.93750000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect2297"
+       width="338.70416"
+       height="152.02795"
+       x="56.568542"
+       y="373.53967"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750012;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 72.864241,55.515041 L 140.85146,55.515041"
+       id="path2193" />
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans"
+       x="91.570335"
+       y="41.729805"
+       id="text2197"><tspan
+         sodipodi:role="line"
+         id="tspan2199"
+         x="91.570335"
+         y="41.729805">100px</tspan></text>
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.25000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       d="M 65.053821,36.603301 L 65.053821,161.76120"
+       id="path2205" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.25000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       d="M 147.43177,36.603301 L 147.43177,161.76120"
+       id="path2207" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.25000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       d="M 229.80971,36.603301 L 229.80971,161.76120"
+       id="path2209" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750000;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 103.94469,88.575641 C 146.37110,73.019291 185.96908,86.454321 185.96908,86.454321"
+       id="path2211" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750000;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 193.04015,94.720011 C 150.61374,110.27636 111.01576,96.841331 111.01576,96.841331"
+       id="path2213" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750012;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 73.924900,223.49687 L 141.91212,223.49687"
+       id="path2215" />
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans"
+       x="92.630997"
+       y="209.71164"
+       id="text2217"><tspan
+         sodipodi:role="line"
+         id="tspan2219"
+         x="92.630997"
+         y="209.71164">100px</tspan></text>
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.25000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       d="M 66.114480,205.60181 L 66.114480,330.75971"
+       id="path2221" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.25000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       d="M 147.78531,205.60181 L 147.78531,330.75971"
+       id="path2223" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.25000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       d="M 229.45614,205.60181 L 229.45614,330.75971"
+       id="path2225" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750000;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 105.00535,256.55747 C 147.43176,241.00112 187.02974,254.43615 187.02974,254.43615"
+       id="path2227" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750000;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 194.10081,262.70184 C 151.67440,278.25819 112.07642,264.82316 112.07642,264.82316"
+       id="path2229" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.25000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       d="M 311.12698,205.60181 L 311.12698,330.75971"
+       id="path2231" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750000;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 187.38329,260.86594 C 229.80970,245.30959 269.40768,258.74462 269.40768,258.74462"
+       id="path2233" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750000;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 276.47875,267.01031 C 234.05234,282.56666 194.45436,269.13163 194.45436,269.13163"
+       id="path2235" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93749982;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 108.55644,241.53030 C 190.46713,225.97395 266.91713,239.40898 266.91713,239.40898"
+       id="path2237" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93749982;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 272.22049,279.98198 C 190.30980,295.53833 113.85980,282.10330 113.85980,282.10330"
+       id="path2239" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750012;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 72.687464,401.88655 L 140.67468,401.88655"
+       id="path2241"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000" />
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans"
+       x="79.39357"
+       y="388.10132"
+       id="text2243"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000"><tspan
+         sodipodi:role="line"
+         id="tspan2245"
+         x="79.393570"
+         y="388.10132">A=100px</tspan></text>
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.25000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       d="M 64.877044,383.99149 L 64.877044,509.14939"
+       id="path2247"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.25000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       d="M 145.88496,383.99149 L 145.88496,509.14939"
+       id="path2249"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.25000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       d="M 226.89288,383.99149 L 226.89288,509.14939"
+       id="path2251"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750036;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 103.52823,454.03903 C 124.25794,438.48268 143.60567,451.91771 143.60567,451.91771"
+       id="path2253"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.25000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       d="M 307.90080,383.99149 L 307.90080,509.14939"
+       id="path2257"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750012;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 107.19837,439.01186 C 168.02074,423.45551 224.78831,436.89054 224.78831,436.89054"
+       id="path2263"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.25000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       d="M 388.90874,385.20694 L 388.90874,510.36484"
+       id="path2267"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750012;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 108.35253,416.35723 C 209.85880,390.38391 304.59802,412.81541 304.59802,412.81541"
+       id="path2277"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93749994;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 349.49216,507.27714 C 246.16446,533.25046 149.72523,510.81896 149.72523,510.81896"
+       id="path2279"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750036;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 187.62303,464.53686 C 166.89332,480.09321 147.54559,466.65818 147.54559,466.65818"
+       id="path2281"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750036;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 186.02219,456.57860 C 206.75190,441.02225 226.09963,454.45728 226.09963,454.45728"
+       id="path2283"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750036;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 270.11699,467.07643 C 249.38728,482.63278 230.03955,469.19775 230.03955,469.19775"
+       id="path2285"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750036;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 266.16432,456.96338 C 286.89403,441.40703 306.24176,454.84206 306.24176,454.84206"
+       id="path2287"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750036;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 350.25912,467.46121 C 329.52941,483.01756 310.18168,469.58253 310.18168,469.58253"
+       id="path2289"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750012;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 184.44976,428.20649 C 245.27213,412.65014 302.03970,426.08517 302.03970,426.08517"
+       id="path2291"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750012;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 348.70875,483.62873 C 287.88638,499.18508 231.11881,485.75005 231.11881,485.75005"
+       id="path2293"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.93750012;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 268.75038,495.40691 C 207.92801,510.96326 151.16044,497.52823 151.16044,497.52823"
+       id="path2295"
+       inkscape:export-filename="/home/tornil/these/manuscrit2/img/mvts.png"
+       inkscape:export-xdpi="150.12000"
+       inkscape:export-ydpi="150.12000" />
+  </g>
+</svg>
