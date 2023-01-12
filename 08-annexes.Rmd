@@ -236,87 +236,343 @@
 ### Pour les périphériques à retour kinesthésique
 
 
-| Technologie | Description | Avantages | Inconvénients |
-| --- | --- | --- | --- |
-| Moteurs électromagnétiques | Produit un couple grâce à 2 champs
- magnétiques créés par 2 bobines ou une bobine et un aimant. | * Simple à contrôler
-* Propre, silencieux
-* Conception et installation facile
- | * Composants lourds
-* Puissance faible sur les petites
- distances
-* Dissipation de la chaleur
-* Forces statiques
- |
-| Hydraulique | Un fluide hydraulique est pressurisé
- par un générateur, contrôlé par des servo-valves et acheminé aux
- activateurs | * Forces, puissance en sortie, rigidité et
- bande passante
- | * Masse importante
-* Maintenance (gestion des liquides)
-* Conception ardue
-* Prix
- |
-| Pneumatique | Un gaz (couramment de l’air) est
- pressurisé par un générateur, contrôlé par des servo-valves et
- acheminé aux activateurs | * Force statiques
-* Assez légers
-* Maintenance assez simple
- | * Faible bande passante
-* Faible rigidité pour la mise en
- action
-* Faible puissance
- |
-| Piézoélectrique | Transcrit les vibrations du moteur
- piézoélectrique en forces utilisables tels que les couples ou les
- forces à basses vitesses | * Grandes forces pour les petites vitesses,
- dans un petit volume
- | * Nécessite gestion ardue de la
- précision
-* Bruit gênant et potentiellement
- dangereux
- |
-| Magnéto-restrictive | Les dispositifs magnéto-restrictifs
- changent de forme sous l’effet d’un champ magnétique | * Grandes forces pour les petites vitesses,
- dans un petit volume
- | * Bruit gênant et potentiellement
- dangereux
-* Dissipation de la chaleur
-* Nécessite une gestion ardue de la
- précision
- |
-| Alliage à mémoire de forme (SMA :
- Shape Memory Alloy) | Les fils et les ressorts de SMA se
- contractent quand ils sont chauffés et s’étendent pendant qu’ils se
- refroidissent sous l’effort | * Bon rapport puissance/masse
- | * Peu efficace pendant une contraction
-* Dissipation de la chaleur
-* Bande passante limitée
- |
+<table class="table table-bordered">
+
+  <tbody>
+    <tr>
+      <th>Technologie</th>
+
+      <th>Description</th>
+
+      <th>Avantages</th>
+
+      <th>Inconvénients</th>
+    </tr>
+
+    <tr>
+      <td>Moteurs électromagnétiques</td>
+
+      <td>Produit un couple grâce à 2 champs
+        magnétiques créés par 2 bobines ou une bobine et un aimant.</td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Simple à contrôler</li>
+
+          <li class="li-itemize">Propre, silencieux</li>
+
+          <li class="li-itemize">Conception et installation facile</li>
+        </ul>
+      </td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Composants lourds</li>
+
+          <li class="li-itemize">Puissance faible sur les petites
+            distances</li>
+
+          <li class="li-itemize">Dissipation de la chaleur</li>
+
+          <li class="li-itemize">Forces statiques</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Hydraulique</td>
+
+      <td>Un fluide hydraulique est pressurisé
+        par un générateur, contrôlé par des servo-valves et acheminé aux
+        activateurs</td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Forces, puissance en sortie, rigidité et
+            bande passante</li>
+        </ul>
+      </td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Masse importante</li>
+
+          <li class="li-itemize">Maintenance (gestion des liquides)</li>
+
+          <li class="li-itemize">Conception ardue</li>
+
+          <li class="li-itemize">Prix</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Pneumatique</td>
+
+      <td>Un gaz (couramment de l’air) est
+        pressurisé par un générateur, contrôlé par des servo-valves et
+        acheminé aux activateurs</td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Force statiques</li>
+
+          <li class="li-itemize">Assez légers</li>
+
+          <li class="li-itemize">Maintenance assez simple</li>
+        </ul>
+      </td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Faible bande passante</li>
+
+          <li class="li-itemize">Faible rigidité pour la mise en
+            action</li>
+
+          <li class="li-itemize">Faible puissance</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Piézoélectrique</td>
+
+      <td>Transcrit les vibrations du moteur
+        piézoélectrique en forces utilisables tels que les couples ou les
+        forces à basses vitesses</td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Grandes forces pour les petites vitesses,
+            dans un petit volume</li>
+        </ul>
+      </td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Nécessite gestion ardue de la
+            précision</li>
+
+          <li class="li-itemize">Bruit gênant et potentiellement
+            dangereux</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Magnéto-restrictive</td>
+
+      <td>Les dispositifs magnéto-restrictifs
+        changent de forme sous l’effet d’un champ magnétique</td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Grandes forces pour les petites vitesses,
+            dans un petit volume</li>
+        </ul>
+      </td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Bruit gênant et potentiellement
+            dangereux</li>
+
+          <li class="li-itemize">Dissipation de la chaleur</li>
+
+          <li class="li-itemize">Nécessite une gestion ardue de la
+            précision</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Alliage à mémoire de forme (SMA&nbsp;:
+        Shape Memory Alloy)</td>
+
+      <td>Les fils et les ressorts de SMA se
+        contractent quand ils sont chauffés et s’étendent pendant qu’ils se
+        refroidissent sous l’effort</td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Bon rapport puissance/masse</li>
+        </ul>
+      </td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Peu efficace pendant une contraction</li>
+
+          <li class="li-itemize">Dissipation de la chaleur</li>
+
+          <li class="li-itemize">Bande passante limitée</li>
+        </ul>
+      </td>
+    </tr>
+
+
+  </tbody>
+</table>
 
 
 
 ### Pour les périphériques à retour tactile
 
 
-| Technologie | Description | Avantages | Inconvénients |
-| --- | --- | --- | --- |
-| Cristaux piézoélectriques | Les changements du champ électrique provoquent la contraction et l’extension des cristaux | * Bonne résolution spatiale | * Restreint aux fréquences sonores |
-| Pneumatique |  Plusieurs formes : | Faible masse sur la main | Faibles résolutions spatiale et temporelle Faible bande passante |
-| | * jets d’air | | |
-| | * anneaux d’air  | | |
-| | * ballons d’air | | |
-| | * tableaux de ballons d’air | | |
-| Alliage à mémoire de forme | Les fils et les ressorts de SMA se contractent quand ils sont chauffés et s’étendent pendant qu’ils se refroidissent sous l’effort | * Bon rapport puissance/masse | * Dissipation de la chaleur |
-| | | | * Faible efficacité pendant la contraction |
-| Solénoïde | Une bobine magnétique applique une force à un piston métallique | * bande passante | * Non linéaire   |
-| | |  * équilibre des forces | * nécessite un dispositif de contrôle |
-| | | | * Lourd |
-| Voice coil (haut-parleur) | Une bobine magnétique vibre afin de transmettre un signal de basse amplitude et haute fréquence à une peau | * Haute résolution temporelle * taille relativement réduite | * Faible résolution spatiale * Taille du dispositif peu flexible |
-| | | | |
-| | | | |
-| Pompe à chaleur | Dispositif semi-conducteur qui déplace l’énergie thermique pour chauffer ou refroidir la peau | * pas de matière fluide à utiliser | * Faibles résolutions spatiale et temporelle * Encombrant * Faible bande passante |
+<table class="table table-bordered">
 
+  <tbody>
+    <tr>
+      <th>Technologie</th>
+
+      <th>Description</th>
+
+      <th>Avantages</th>
+
+      <th>Inconvénients</th>
+    </tr>
+
+    <tr>
+      <td>Cristaux piézoélectriques</td>
+
+      <td>Les changements du champ électrique
+        provoquent la contraction et l’extension des cristaux</td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Bonne résolution spatiale</li>
+        </ul>
+      </td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Restreint aux fréquences sonores</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Pneumatique</td>
+
+      <td>
+        Plusieurs formes&nbsp;:
+
+        <ul class="itemize">
+          <li class="li-itemize">jets d’air</li>
+
+          <li class="li-itemize">anneaux d’air</li>
+
+          <li class="li-itemize">ballons d’air</li>
+
+          <li class="li-itemize">tableaux de ballons d’air</li>
+        </ul>
+      </td>
+
+      <td>Faible masse sur la main</td>
+
+      <td>Faibles résolutions spatiale et
+        temporelle Faible bande passante</td>
+    </tr>
+
+    <tr>
+      <td>Alliage à mémoire de forme</td>
+
+      <td>Les fils et les ressorts de SMA se
+        contractent quand ils sont chauffés et s’étendent pendant qu’ils se
+        refroidissent sous l’effort</td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Bon rapport puissance/masse</li>
+        </ul>
+      </td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Dissipation de la chaleur</li>
+
+          <li class="li-itemize">Faible efficacité pendant la
+            contraction</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Solénoïde</td>
+
+      <td>Une bobine magnétique applique une
+        force à un piston métallique</td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">bande passante</li>
+
+          <li class="li-itemize">équilibre des forces</li>
+        </ul>
+      </td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Non linéaire</li>
+
+          <li class="li-itemize">nécessite un dispositif de contrôle</li>
+
+          <li class="li-itemize">Lourd</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Voice coil (haut-parleur)</td>
+
+      <td>Une bobine magnétique vibre afin de
+        transmettre un signal de basse amplitude et haute fréquence à une
+        peau</td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Haute résolution temporelle</li>
+
+          <li class="li-itemize">taille relativement réduite</li>
+        </ul>
+      </td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Faible résolution spatiale</li>
+
+          <li class="li-itemize">Taille du dispositif peu flexible</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Pompe à chaleur</td>
+
+      <td>Dispositif semi-conducteur qui déplace
+        l’énergie thermique pour chauffer ou refroidir la peau</td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">pas de matière fluide à utiliser</li>
+        </ul>
+      </td>
+
+      <td>
+        <ul class="itemize">
+          <li class="li-itemize">Faibles résolutions spatiale et
+            temporelle</li>
+
+          <li class="li-itemize">Encombrant</li>
+
+          <li class="li-itemize">Faible bande passante</li>
+        </ul>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
 
 
 
@@ -328,28 +584,111 @@
 
 C’est le périphérique le plus populaire sur le marché, utilisé par de
  nombreux laboratoires dans le cadre de la recherche sur l’interaction
- haptique. Il est décliné en 6 versions que nous allons détailler dans le
- tableau [7.1](#cap:La-gamme-des).
+ haptique. Il est décliné en 6 versions que nous allons détailler dans le
+ tableau \@ref(tab:phantoms).
+
+Table: (\#tab:phantoms) La gamme des PHANTOMs
+
+| |
+|-|
+
+<table class="table table-bordered">
+
+  <tbody>
+    <tr>
+      <th>&nbsp;</th>
+
+      <th>Modèle</th>
+
+      <th>Degrés de liberté (in/out)</th>
+
+      <th>Espace de travail (H x L x P)</th>
+
+      <th>Forces (en pic / continues)</th>
+    </tr>
+
+    <tr>
+      <td><img src="img/phantom10.png"></td>
+
+      <td>Premium 1.0</td>
+
+      <td>6/3</td>
+
+      <td>18 x 25 x 13 cm</td>
+
+      <td>8.5 / 1.4 N</td>
+    </tr>
+
+    <tr>
+      <td><img src="img/phantom15.png"></td>
+
+      <td>Premium 1.5</td>
+
+      <td>6/3</td>
+
+      <td>27 x 37.5 x 19.5 cm</td>
+
+      <td>8.5 / 8.5 / 1.4 N</td>
+    </tr>
+
+    <tr>
+      <td><img src="img/phantom30.png"></td>
+
+      <td>Premium 3.0</td>
+
+      <td>6/3</td>
+
+      <td>59 x 84 x 41 cm</td>
+
+      <td>22 / 3 N</td>
+    </tr>
+
+    <tr>
+      <td><img src="img/phantom6Dof.png"></td>
+
+      <td>6 DoF</td>
+
+      <td>6/6</td>
+
+      <td>16 x 13 x 13 cm</td>
+
+      <td>8.5 / 1.4 N</td>
+    </tr>
+
+    <tr>
+      <td><img src="img/phantomDesktop.png"></td>
+
+      <td>Desktop</td>
+
+      <td>6/3</td>
+
+      <td>12 x 16 x 7 cm</td>
+
+      <td>6.4 / 1.7 N</td>
+    </tr>
+
+    <tr>
+      <td><img src="img/phantom-omni.png"></td>
+
+      <td>Omni</td>
+
+      <td>6/3</td>
+
+      <td>&nbsp;</td>
+
+      <td>3.3 / 0.88 N</td>
+    </tr>
 
 
-|   | Modèle      | Degrés de liberté (in/out) | Espace de travail (H x L x P) | Forces (en pic / continues) |
-|---|-------------|----------------------------|-------------------------------|-----------------------------|
-|   | Premium 1.0 | 6/3                        | 18 x 25 x 13 cm               | 8.5 / 1.4 N                 |
-|   | Premium 1.5 | 6/3                        | 27 x 37.5 x 19.5 cm           | 8.5 / 8.5 / 1.4 N           |
-|   | Premium 3.0 | 6/3                        | 59 x 84 x 41 cm               | 22 / 3 N                    |
-|   | 6 DoF       | 6/6                        | 16 x 13 x 13 cm               | 8.5 / 1.4 N                 |
-|   | Desktop     | 6/3                        | 12 x 16 x 7 cm                | 6.4 / 1.7 N                 |
-|   | Omni        | 6/3                        |                               | 3.3 / 0.88 N                |
-
-
-Table 7.1 : La gamme des PHANTOMs
+  </tbody>
+</table>
 
 
 
 ## La *Web Accessibility Initiative* (WAI) du *World Wide Web Consortium* (W3C) {#accessibilite}
 
 
-Le *World Wide Web Consortium*, abrégé W3C ^[http://www.w3.org], est un
+Le *World Wide Web Consortium*, abrégé W3C^[http://www.w3.org], est un
  consortium fondé en octobre 1994 pour promouvoir la compatibilité des
  technologies du *World Wide Web* telles que HTML, XHTML, XML, CSS,
  PNG, SVG et SOAP. Le W3C n’émet pas des normes, mais des recommandations.
@@ -396,10 +735,10 @@ Les recommandations de la WAI actuellement en vigueur sont :
 >  prolifération d’un contenu Web qui pourra être lu par une plus large
 >  proportion de lecteurs et à la prolifération d’outil d’édition qui
 >  pourront être utilisés par une plus large proportion d’auteurs.
->  ^[tiré de http://www.la-grange.net/w3c/atag10/]
+> ^[tiré de http://www.la-grange.net/w3c/atag10/]
 >
 * les *Web Content Accessibility Guidelines*
- (WCAG) montrent comment rendre un site web accessible ^[tiré de
+ (WCAG) montrent comment rendre un site web accessible^[tiré de
  http://www.la-grange.net/w3c/WAI-WEBCONTENT-TECHS/]
 * les *User Agent Accessibility Guidelines*
  (UAAG), enfin, posent les règles pour l’accessibilité des agents
@@ -412,10 +751,10 @@ Les recommandations de la WAI actuellement en vigueur sont :
 	 contenu Web pour les utilisateurs. Cela peut comprendre les navigateurs
 	 Web, les lecteurs de média, les modules d’extension et d’autres
 	 programmes ( y compris les technologies d’assistance ) qui participent
-	 à la récupération et la restitution d’un contenu Web. ^[tiré de
+	 à la récupération et la restitution d’un contenu Web.^[tiré de
  http://www.yoyodesign.org/doc/w3c/uaag/cover.html]
-     ![](img/specsWAI.png)
-Figure 7.1 : WAI, ATAG, WCAG et UUAG
+
+![(#fig:wai)WAI, ATAG, WCAG et UUAG](img/specsWAI.png)
 
 
 
@@ -429,15 +768,18 @@ Figure 7.1 : WAI, ATAG, WCAG et UUAG
 Classiquement, les applications Web permettent aux utilisateurs
  d’effectuer des choix (suivre un lien, remplir et valider un formulaire). Une
  requête est alors envoyée au serveur HTTP, qui agit en fonction de l’action
- et des données reçues, et retourne une nouvelle page (figure [7.2](#ajax1)). Ce fonctionnement consomme inutilement une partie de la
+ et des données reçues, et retourne une nouvelle page (figure \@ref(fig:ajax1)).
+ Ce fonctionnement consomme inutilement une partie de la
  bande passante, une grande partie du code (X)HTML étant commune aux
  différentes pages de l’application. Et parce qu’une requête au serveur HTTP
  doit être réalisée à chaque interaction avec l’application, le temps de
  réponse de l’application dépend fortement du temps de réponse du serveur
  HTTP. Cela conduit à des interfaces utilisateurs plus lentes que leurs
  équivalents natives.
- ![](img/ajax1.png)
-Figure 7.2 : Modèle classique de l’interaction Web (synchrone)
+
+![(#fig:ajax1)Modèle classique de l’interaction Web (synchrone)](img/ajax1.png)
+
+
 Les applications utilisant les techniques AJAX quant à elles peuvent
  envoyer des requêtes au serveur HTTP pour récupérer uniquement les données
  nécessaires en utilisant la requête HTTP XMLHttpRequest. Les applications
@@ -445,8 +787,9 @@ Les applications utilisant les techniques AJAX quant à elles peuvent
  navigateur et le serveur HTTP étant fortement réduite. Le temps de traitement
  de la requête côté serveur est également légèrement réduit, une partie du
  traitement étant réalisé sur l’ordinateur d’où provient la requête
- (figure [7.3](#ajax2)).
- ![](img/ajax2.png)
-Figure 7.3 : Modèle d’interaction AJAX (asynchrone)
+ (figure \@ref(fig:ajax2)).
+
+![(#fig:ajax2)Modèle d’interaction AJAX (asynchrone)](img/ajax2.png)
+
 
 

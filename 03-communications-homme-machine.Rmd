@@ -922,8 +922,8 @@ Les afficheurs brailles (figure \@ref(fig:plagebraille)) utilisent
 
 
 
-Toujours dans la même approche, les sociétés ABTIM ^[http://www.abtim.com] et
-KGS ^[http://www.kgs-america.com/dvs.htm] ont équipé de cellules des surfaces
+Toujours dans la même approche, les sociétés ABTIM^[http://www.abtim.com] et
+KGS^[http://www.kgs-america.com/dvs.htm] ont équipé de cellules des surfaces
 plus grande. Il ont ainsi réalisé des systèmes capables de reproduire des
 dessins en relief (figure \@ref(fig:tactiledisplay)).
 
@@ -1095,7 +1095,7 @@ Sensable™, le concepteur des PHANTOMs, propose plusieurs bibliothèques de
  permet un contrôle encore très précis.
 
 
-Nous pouvons également citer le H3D API de SenseGraphics ^[http://www.sensegraphics.se].
+Nous pouvons également citer le H3D API de SenseGraphics^[http://www.sensegraphics.se].
  C’est une bibliothèque de programmation haptique open-source (licence GPL
  dans un cadre de recherche), basée sur le format de fichier X3D (il s’agit du
  format de description de formes 3D, basé sur XML ; c’est le successeur du
@@ -1195,7 +1195,7 @@ Cette approche de l’utilisation des dispositifs
 
 
 Un logiciel de modélisation tridimensionnelle nommé
-FreeForm ^[http://www.sensable.com/products/3ddesign/concept/index.asp], a été
+FreeForm^[http://www.sensable.com/products/3ddesign/concept/index.asp], a été
 présenté par Sensable Technologies Inc. Ce système se base sur une métaphore du
 sculpteur : l’utilisateur se sert du PHANTOM pour sculpter une pierre
 virtuelle présentée à l’écran, et rendue par un retour de force.
@@ -1252,7 +1252,7 @@ Un des intérêts du retour haptique est qu’il peut simuler l’utilisation
 
 
 Le centre lavalois de ressources
-technologiques ^[CLARTE : <http://www.clarte.asso.fr/>] a proposé le système VTT
+technologiques^[CLARTE : <http://www.clarte.asso.fr/>] a proposé le système VTT
  (*Virtual Technical Trainer*) qui est un simulateur de machine outils.
  Ce simulateur a comme raison d’être l’actuelle utilisation quasi systématique
  de machines à commandes numériques. Or ces dernières ont pour particularité

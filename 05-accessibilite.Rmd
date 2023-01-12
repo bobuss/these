@@ -609,7 +609,7 @@ Très récemment, Wai Yu et ses collègues ont proposé un système multimodal
 
 
 Homere est un système qui a été réalisé par la société
-ONDIM ^[http://www.ondim.fr/], en partenariat avec le Commissariat à
+ONDIM^[http://www.ondim.fr/], en partenariat avec le Commissariat à
 l’Energie Atomique et PSA Peugeot Citroën [@lecuyer2003homere]. Il s’agit
  d’un système d’assistance à la reconnaissance d’itinéraires urbains pour
  aveugles et malvoyants. Le dispositif haptique revient à simuler une canne
@@ -627,7 +627,7 @@ l’Energie Atomique et PSA Peugeot Citroën [@lecuyer2003homere]. Il s’agit
 
 [@colwell2001non] a déduit de ses
  expériences une série de recommandations quant à l’utilisation du mode
- haptique pour les non-voyants : ^[(1) et (2) concernent les textures virtuelles,
+ haptique pour les non-voyants :^[(1) et (2) concernent les textures virtuelles,
  (3) à (7) sont sur les objets virtuels, (8) à (9) concernent les objets
  complexes et leurs orientations et enfin (10) et (11) traitent de l’espace
  haptique et de sa navigation.]
@@ -645,7 +645,7 @@ l’Energie Atomique et PSA Peugeot Citroën [@lecuyer2003homere]. Il s’agit
  un grand objet virtuel que sur un petit.
 4. La taille d’un objet virtuel est perçue comme
  étant plus grande lorsque l’objet est exploré de l’intérieur, et plus
- petite lorsque l’objet est exploré de l’extérieur. ^[Les recommandations
+ petite lorsque l’objet est exploré de l’extérieur.^[Les recommandations
  (3) et (4) suggèrent que si la taille des objets est un paramètre important,
  il peut être nécessaire de biaiser la taille de l’objet virtuel par rapport
  à sa taille réelle.]

@@ -3,7 +3,7 @@
 
 
 L’informatique désigne l’automatisation du traitement de l’information par
- un système ^[http://fr.wikipedia.org/wiki/Informatique].
+ un système^[http://fr.wikipedia.org/wiki/Informatique].
 
 
 Une partie de ces traitements est de plus en plus réalisée au sein même de

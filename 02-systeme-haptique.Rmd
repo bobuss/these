@@ -44,16 +44,65 @@ Pour autant, il faut rester prudent avec une telle approche. En effet, la
 Table: (\#tab:perception) Classification des sensations de Sherrington
  [@calas2016precis]
 
-|                                                                      |                                                                                             |                                                                                                                                                                                                    |
-|----------------------------------------------------------------------|---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **les extérocepteurs :** nous renseignent sur le monde extérieur     | **télérécepteurs :** perception à distance                                                  | récepteurs visuels                                                                                                                                                                                 |
-|                                                                      |                                                                                             | récepteurs auditifs                                                                                                                                                                                |
-|                                                                      |                                                                                             | récepteurs olfactifs                                                                                                                                                                               |
-|                                                                      | **récepteurs de contact**                                                                   | récepteurs gustatifs                                                                                                                                                                               |
-|                                                                      |                                                                                             | récepteurs cutanés du toucher                                                                                                                                                                      |
-| **les intérocepteurs :** nous renseignent sur notre propre organisme | **viscérocepteurs :** disséminés dans les viscères                                          | nous renseignent sur un paramètre physiologique interne (la douleur par exemple)                                                                                                                   |
-|                                                                      | **propriocepteurs :** regroupés (oreille interne) ou disséminés (fuseaux neuro-musculaires) | nous renseignent sur un paramètre lié au travail de relation : l’état de tension des muscles, sur la position relative des différentes parties du corps, et sur la position du corps dans l’espace |
+| |
+|-|
 
+<table class="table table-bordered">
+
+  <tbody>
+    <tr>
+      <td rowspan="5"><strong>les extérocepteurs&nbsp;:</strong>
+        nous renseignent sur le monde extérieur</td>
+
+      <td rowspan="3"><strong>télérécepteurs&nbsp;:</strong>
+        perception à distance</td>
+
+      <td>récepteurs visuels</td>
+    </tr>
+
+    <tr>
+      <td>récepteurs auditifs</td>
+    </tr>
+
+    <tr>
+      <td>récepteurs olfactifs</td>
+    </tr>
+
+    <tr>
+      <td rowspan="2"><strong>récepteurs de
+          contact</strong></td>
+
+      <td>récepteurs gustatifs</td>
+    </tr>
+
+    <tr>
+      <td>récepteurs cutanés du toucher</td>
+    </tr>
+
+    <tr>
+      <td rowspan="2"><strong>les
+          intérocepteurs&nbsp;:</strong> nous renseignent sur notre propre organisme</td>
+
+      <td><strong>viscérocepteurs&nbsp;:</strong>
+        disséminés dans les viscères</td>
+
+      <td>nous renseignent sur un paramètre
+        physiologique interne (la douleur par exemple)</td>
+    </tr>
+
+    <tr>
+      <td><strong>propriocepteurs&nbsp;:</strong>
+        regroupés (oreille interne) ou disséminés (fuseaux
+        neuro-musculaires)</td>
+
+      <td>nous renseignent sur un paramètre lié
+        au travail de relation&nbsp;: l’état de tension des muscles, sur la
+        position relative des différentes parties du corps, et sur la
+        position du corps dans l’espace</td>
+    </tr>
+
+  </tbody>
+</table>
 
 
 Étudions plus précisément tout ce vocabulaire...
@@ -76,7 +125,7 @@ Celle qui nous renseigne sur les positions, attitudes, mouvements de
 1. le sens kinésique ou kinesthésique : il nous
  renseigne sur nos mouvements proprement dits (déplacements de nos
  membres et de notre corps dans l’espace) ;
-2. le sens statique ou vestibulaire : sens qui a
+1. le sens statique ou vestibulaire : sens qui a
  son organe dans l’oreille interne et qui nous donne le sens de la
  verticalité, des mouvements de rotation et de translation ; il préside à
  l’équilibration générale du corps.
@@ -195,7 +244,7 @@ Une autre définition est celle de [(Gibson,
 * Le toucher dynamique : une stimulation de la peau
  avec des mouvements des articulations et des muscles.
 * Le toucher orienté: une stimulation de la peau avec
- une stimulation vestibulaire ^[relatif notamment au sens de l’équilibre].
+ une stimulation vestibulaire^[relatif notamment au sens de l’équilibre].
 
 
 [@appelle2013haptic] a très justement noté
@@ -641,7 +690,7 @@ Il est également possible de dériver les deux côtés de l’équation
  qui dit que la vitesse instantanée est proportionnelle à la largeur du
  tunnel. Ceci parait logique si l’on considère l’analogie avec la conduite
  d’une voiture sur une route : plus la route est large, plus on peut
- ^[même si l’on ne doit pas, ceci restant une expérience de pensée]
+^[même si l’on ne doit pas, ceci restant une expérience de pensée]
  conduire vite, même s’il y a des virages.
 
 

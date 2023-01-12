@@ -1115,7 +1115,7 @@ Une autre possibilité consiste à utiliser des cartes tactiles. Ces
 
 
 Le projet CDV (pour Cartographie pour Déficients
- Visuels ^[site web : <http://tactile.nrcan.gc.ca/>]), au Canada,
+ Visuels^[site web : <http://tactile.nrcan.gc.ca/>]), au Canada,
  [@siekierska2001tactile] propose l’accès à des cartes prêtes à imprimer
  en se servant d’un amplificateur thermique : la représentation graphique
  (figure \@ref(fig:canada)) est téléchargée,
