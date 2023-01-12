@@ -6,7 +6,8 @@
 
 Nous allons proposer dans ce chapitre un cadre d’utilisation des
  périphériques de pointage à retour de force. Nous avons déjà abordé les
- limites de ce type de dispositif dans le chapitre \@ref(communications).
+ limites de ce type de dispositif dans le chapitre
+ \@ref(communications-homme-machine).
 
 
 Maintenant, du potentiel du système haptique (voir \@ref(conjuguent), \@ref(performances) et \@ref(perception)), nous pouvons déjà édicter plusieurs règles :

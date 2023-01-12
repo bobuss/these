@@ -646,7 +646,7 @@ Une dernière classe d’interaction peut venir s’ajouter. Il s’agit des
 ## Les périphériques de sortie à retour haptique
 
 
-### Historique
+### Historique {#historique}
 
 
 La télé-robotique est le domaine technologique qui a nécessité la création
@@ -690,7 +690,7 @@ Nous pouvons considérer que le premier périphérique à retour de force
 
 Par la suite, d’autres périphériques ont été conçus pour la
  télé-robotique, mais il ne s’agit ici que de simuler à distance une
- interaction physique qui a lieu dans le monde réel.  En 1965,
+ interaction physique qui a lieu dans le monde réel. En 1965,
  sous l’impulsion de Ivan Sutherland, Fred Brooks Jr. et ses collègues de
  l’université Chapel Hill de Caroline du Nord, se sont lancés dans le projet
  GROPE, visant à atteindre une simulation en temps réel pour la manipulation
@@ -1019,7 +1019,7 @@ Le système haptique humain a un rôle important à jouer dans l’interaction
  homme-machine. **A l’inverse des systèmes visuels et auditifs, le sens
  haptique est capable à la fois de percevoir et d’agir sur l’environnement**
  et est une partie importante de la plupart des activités humaines. La
- figure \@ref(interactionhaptique) illustre la double boucle d’interaction
+ figure \@ref(fig:interactionhaptique) illustre la double boucle d’interaction
  liée au système haptique : l’homme et la machine agissent et perçoivent sur
  le mode haptique, en même temps. Les schémas de fonctionnement pour l’homme
  et pour la machine sont très similaires : il y a dans les deux cas une boucle

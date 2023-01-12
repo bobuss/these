@@ -10,68 +10,60 @@ Du fait des interfaces WIMP (*Windows, Icons, Menu, Pointing
 
 
 1. repérage de la cible
-2. déplacement de la souris au dessus de la
- cible
+2. déplacement de la souris au dessus de la cible
 3. clic sur la cible
 
 
 La cible pouvant être une icône, un élément d’un menu, une partie d’une
  fenêtre. Les moyens quantitatifs avec lesquels nous pouvons évaluer les performances
  motrices humaines lors d’une tâche d’acquisition de cible sont basés sur les
- recherches de Fitts (voir par :Loi-de-Fitts).
+ recherches de Fitts (voir \@ref(fitts)).
 
 
-Pour rappel, la loi de Fitts énonce que le temps du mouvement *T* requis pour sélectionner une cible de taille *W* situé à une distance *A* est :
+Pour rappel, la loi de Fitts énonce que le temps du mouvement *T* requis
+pour sélectionner une cible de taille *W* situé à une distance *A* est :
  [@fitts1954information]
-
-
 
  \[ MT=a+b\log\_{2}(A/W+1)\]
 
 Le problème de l’amélioration du temps de pointage est un domaine de
- recherche actuellement très actif. On pourra se rapporter à [@balakrishnan2004beating] pour une étude
- exhaustive des moyens employés pour diminuer ce temps. En considérant
- l’équation ([2](022-protocole-de-test.html#eq:mackenzieID)), réduire
- *MT* peut s’obtenir en diminuant la distance
- *A*, en augmentant la taille *W*, ou adaptant les deux en même temps.
+ recherche actuellement très actif. On pourra se rapporter à
+ [@balakrishnan2004beating] pour une étude exhaustive des moyens employés pour
+ diminuer ce temps. En considérant l’équation (\@ref(eq:mackenzieID)), réduire
+ *MT* peut s’obtenir en diminuant la distance *A*, en augmentant la taille *W*,
+ ou adaptant les deux en même temps.
 
 
-Par exemple, pour diminuer la distance *A*, on
- peut utiliser des menus circulaire (*pie menus*). [@callahan1988empirical] ont comparé ces
+Par exemple, pour diminuer la distance *A*, on peut utiliser des menus
+ circulaire (*pie menus*). [@callahan1988empirical] ont comparé ces
  menus aux traditionnels menus linéaires que l’on retrouve dans tous nos
  systèmes d’exploitation, et a observé une amélioration des temps de pointage
- de 15 à 20%. [(Baudisch et al.,
- 2003)](047-bibliographie.html#Baudisch2003) ont, quant à eux, proposé de diminuer temporairement cette
- distance, en étirant les icônes cibles vers le curseur de la souris
- (figure [3.1](#cap:Diminution-de-la)).
+ de 15 à 20%. [@baudisch2003drag] ont, quant à eux, proposé de diminuer
+ temporairement cette distance, en étirant les icônes cibles vers le curseur
+ de la souris (figure \@ref(fig:diminution)).
 
+![(#fig:diminution)Diminution de la distance entre l’icône et ses
+ cibles](img/toto-002.png)
 
-
-![](img/toto-002.png)
-Figure 3.1 : Diminution de la
- distance entre l’icône et ses cibles
 
 
 
 Pour augmenter la taille de la cible *W*, il y a
- eu plusieurs façons de faire : [(Worden
- et al., 1997)](047-bibliographie.html#Worden1997) ont proposé l’utilisation d’un curseur-région
- (figure [3.2](#cap:Les-curseurs-r=E9gion-de)), à l’inverse
+ eu plusieurs façons de faire : [@worden1997making] ont proposé l’utilisation
+ d’un curseur-région (figure \@ref(fig:areacursor)), à l’inverse
  d’un curseur-point tel que nous utilisons en manipulant notre souris. Il y a
- aussi la possibilité de dilater la cible à l’approche du curseur [@mcguffin2002acquisition], à l’instar de
- ce qui se passe sur la barre d’application (le Dock) du système MacOSX
- d’Apple.
+ aussi la possibilité de dilater la cible à l’approche du curseur
+ [@mcguffin2002acquisition], à l’instar de ce qui se passe sur la barre
+ d’application (le Dock) du système MacOSX d’Apple.
 
 
-
-![](img/areaCursor.jpg)
-Figure 3.2 : Les curseurs-régions de [@worden1997making] ; à gauche :
+![(#fig:areacursor)Les curseurs-régions de [@worden1997making] ; à gauche :
  la sélection avec un curseur-point a lieu lorsque l’intersection des
  deux segments est sur la cible ; au milieu : la sélection avec un
  curseur-région a lieu dès qu’une partie du curseur intersecte la
  cible ; à droite : lorsque plusieurs cibles se trouvent sous le
  curseur-région, c’est le comportement d’un curseur-point qui est
- utilisé
+ utilisé](img/areaCursor.jpg)
 
 
 
@@ -88,8 +80,8 @@ Enfin, [@blanch2004semantic] ont
 Cette notion de distracteurs va revenir dans notre approche, comme nous
  allons le voir.
 
-## Travaux
- antérieurs intégrant le retour d’effort dans une tâche de pointage
+
+## Travaux antérieurs intégrant le retour d’effort dans une tâche de pointage
 
 
 Plusieurs études ont évalué l’utilisation de périphériques haptiques dans
@@ -99,51 +91,50 @@ Plusieurs études ont évalué l’utilisation de périphériques haptiques dans
 
 Dans un premier temps, cependant, nous citons les résultats obtenus dans
  le domaine de la simulation physique. Pour rappel, ce fut [un des domaines
- précurseurs dans recherche sur l’interaction haptique](016-les-peripheriques-de-sortie-a-retour-haptique.html#sub:La-simulation-physique). Et dans ce contexte, l’apport du retour de force
- est flagrant en terme d’efficacité. Avec le retour de force, il est 30%
- plus rapide de placer une molécule correctement, et les trajectoires
- moléculaires sont 41% plus courtes ([Brooks
- et al., 1990](047-bibliographie.html#Brooks1990)).
+ précurseurs dans recherche sur l’interaction haptique](\@ref(historique)). Et
+ dans ce contexte, l’apport du retour de force est flagrant en terme
+ d’efficacité. Avec le retour de force, il est 30% plus rapide de placer
+ une molécule correctement, et les trajectoires moléculaires sont 41% plus
+ courtes [@brooks1990project].
 
 
-Retrouvons maintenant nos tâches de pointage dans un environnement
- virtuel...
+Retrouvons maintenant nos tâches de pointage dans un environnement virtuel...
 
 
-En 1996, Akamatsu et MacKenzie ([Akamatsu
- et Mackenzie, 1996](047-bibliographie.html#Akamatsu1996)) ont étudié une souris tactile à retour de force. Ils
- ont montré des réductions significatives du temps de mouvement *MT* lorsque la modalité tactile est employée. L’effet est
+En 1996, Akamatsu et MacKenzie [@akamatsu1996movement] ont étudié une souris
+ tactile à retour de force. Ils ont montré des réductions significatives du
+ temps de mouvement *MT* lorsque la modalité tactile est employée. L’effet est
  particulièrement prononcé pour les petites cibles. Cependant, ils ont
  également noté une augmentation du taux d’erreur. De plus, l’emploi de la
  modalité kinesthésique seule ne fait pas baisser significativement les temps
- d’acquisition d’une cible. Enfin, l’ indice de performance *IP* lors de l’emploi du retour de force n’est pas
- significativement différent de celui observé sans retour de force.
+ d’acquisition d’une cible. Enfin, l’ indice de performance *IP* lors de
+ l’emploi du retour de force n’est pas significativement différent de celui
+ observé sans retour de force.
 
 
-Eberhardt ([Eberhardt et al.,
- 1997](047-bibliographie.html#Eberhardt1997)) et Hasser ([Hasser et Goldenberg,
- 1998](047-bibliographie.html#Hasser1998)) ont étudié, les effets de bassins d’attraction autour des cibles.
- Ces bassins amènent le pointeur de la souris au centre de la cible. Dans ces
- cas, les performances observées lors d’une tâche de pointage sont réellement
- meilleures (de l’ordre de 25%)que sans retour de force.
+Eberhardt [@eberhardt1997force] et Hasser [@hasser1998user] ont étudié,
+les effets de bassins d’attraction autour des cibles. Ces bassins amènent
+le pointeur de la souris au centre de la cible. Dans ces cas, les performances
+observées lors d’une tâche de pointage sont réellement meilleures (de l’ordre
+de 25%) que sans retour de force.
 
 
-Pour Wall, l’étude s’est focalisé sur l’indice de performance *IP* (soit l’inverse de la pente de régression linéaire) au
- cours d’une tâche de pointage effectuée avec un PHANTOM [@wall2000quantification]. En 2000,il a ainsi retrouvé
- les résultats de Akamatsu et MacKenzie, à savoir que le retour de force, bien
- qu’améliorant les temps d’acquisition des cibles, n’a pas d’effets sur
- l’indice de performance *IP*. Par contre, pour les
- mouvements balistiques (*IP*<3*bits*), ils ont montré une amélioration significative de
- l’indice de performance de la tâche.
+Pour Wall, l’étude s’est focalisé sur l’indice de performance *IP* (soit
+l’inverse de la pente de régression linéaire) au cours d’une tâche de
+pointage effectuée avec un PHANTOM [@wall2000quantification]. En 2000, il
+a ainsi retrouvé les résultats de Akamatsu et MacKenzie, à savoir que le
+retour de force, bien qu’améliorant les temps d’acquisition des cibles, n’a
+pas d’effets sur l’indice de performance *IP*. Par contre, pour les
+ mouvements balistiques (*IP*<3*bits*), ils ont montré une amélioration
+ significative de l’indice de performance de la tâche.
 
 
 Enfin, Dennerlein a également étudié l’apport du retour de force. Dans une
- première étude ([Dennerlein et al.,
- 2000](047-bibliographie.html#Dennerlein2000)) réalisé en 2000, c’est le suivi de courbes. Le retour de force
- prenait la forme d’une attraction du curseur sur la courbe grâce à une sorte
- de tunnel haptique. Il s’est avéré que les mouvements effectués avec un
- retour de force étaient 52% plus rapides que sans. Dans une deuxième étude,
- [@dennerlein2001haptic] se sont
+ première étude [@dennerlein2000force]) réalisé en 2000, c’est le suivi de
+ courbes. Le retour de force prenait la forme d’une attraction du curseur sur
+ la courbe grâce à une sorte de tunnel haptique. Il s’est avéré que les
+ mouvements effectués avec un retour de force étaient 52% plus rapides que
+ sans. Dans une deuxième étude, [@dennerlein2001haptic] se sont
  intéressés aux mouvements d’acquisition de cibles. Pour le retour de force,
  généré par une souris, c’est le concept de bassins d’attractions autour de la
  cible qui a été retenu. Les résultats sont similaires à ceux de Eberhardt et
@@ -162,25 +153,20 @@ En conclusion, il apparaît que le retour de force tend à améliorer les
  significativement différents. De plus, dans le cas de perturbations issues
  d’autres cibles potentielles qui génèrent leur propre retour de force, comme
  dans le cas d’un bureau haptiquement augmenté (par exemple l’immersion haptic
- desktop [@ImmersionCorporation2005]),
- les performances baissent.
+ desktop [@ImmersionCorporation2005]), les performances baissent.
 
 
 Nous allons maintenant étudier comment ces perturbations influent sur les
  performances, dans le cas d’un retour de force restreint à la cible, et avec
  un espace de travail entièrement rempli de distracteurs haptique (cas qui
- pourrait se retrouver avec le bureau visible sur la figure [3.3](#cap:Voici-le-bureau)).
+ pourrait se retrouver avec le bureau visible sur la figure \@ref(fig:benoit).
+
+![(#fig:benoit)Voici le bureau encombré de Benoit...](img/ecran.jpg)
 
 
 
-![](img/ecran.jpg)
-Figure 3.3 : Voici le bureau
- encombré de Benoit...
 
-
-
-## Protocole
- de test
+## Protocole de test
 
 
 ### Sujets
@@ -195,16 +181,14 @@ Neuf sujets volontaires (8 hommes et 1 femme, âgés de 21 ans à 40 ans) ont
 
 
 Nous utilisons la souris à retour de force Wingman Force Feedback Mouse
- (Figure cap :mouse) conçue par [@ImmersionCorporation2005] et commercialisée par
- Logitech.
-
+ (Figure \@ref(fig:wingman)) conçue par [@ImmersionCorporation2005] et
+ commercialisée par Logitech.
 
 La manipulation d’un périphérique de pointage à retour de force, comme
  notre souris, est basée sur la perception kinesthésique du bras, de la main
  et des doigts. La perception cutanée n’est que peu stimulée dans cette
  interaction. En d’autres mots, ici, il ne s’agit pas de ressentir une
  texture.
-
 
 L’ ordinateur utilisé est un PC 1GHz. Les données ont été collectées par
  le serveur (Apache 2 tournant sur un PC à 733 Mhz) sous forme de feuilles de
@@ -242,17 +226,15 @@ L’ensemble de l’expérience est divisée en 4 phases, correspondants à 4
 Intensit\acute{e}=\frac{Intensit\acute{e}\_{max}}{vitesse+1}\]
 
  L’intensité sera ainsi plus faible lorsque la vitesse de la
- souris est élevée (voir figure [3.4](#cap:Dans-la-condition)).
+ souris est élevée (voir figure \@ref(fig:intensite)).
 
-
-
-![](img/entensite.png)
-Figure 3.4 : Dans la
- condition MTDFH, l’intensité du retour de force dépend de la vitesse
- du pointeur. Dans le cas idéal d’une trajectoire minimisant le jerk
- (voir par :Loi-de-jerk), on aurait le résultat ci-dessus.
+![(#fig:intensite)Dans la condition MTDFH, l’intensité du retour de force
+ dépend de la vitesse du pointeur. Dans le cas idéal d’une trajectoire
+ minimisant le jerk (voir \@ref(jerk)), on aurait le résultat ci-dessus.
  Avant chaque phase chronométrée, une phase d’entraînement permet au sujet de
- s’habituer à manipuler le périphérique dans les différentes conditions.
+ s’habituer à manipuler le périphérique dans les différentes
+ conditions.](img/entensite.png)
+
 
 
 Il y a 10 cibles différentes. Chacune est présentée 4 fois au sujet par
@@ -261,6 +243,7 @@ Il y a 10 cibles différentes. Chacune est présentée 4 fois au sujet par
 
 
 Les paramètres de l’expérience sont résumés dans la table [3.1](#table1).
+
 |                           |                                                      |
 |---------------------------|------------------------------------------------------|
 | DISTANCES À LA CIBLE      | 21, 72, 92, 138, 205, 233, 415, 586, 831, 938 pixels |
@@ -279,17 +262,18 @@ Table 3.1 : paramètres de
 
 Ces conditions forment un ensemble homogène de tâches de pointage. Dans ce
  protocole de test, nous utilisons la formulation de l’indice de difficulté de
- la tâche proposée par MacKenzie ([MacKenzie,
- 1992](047-bibliographie.html#MacKenzie92)) :
+ la tâche proposée par MacKenzie [@mackenzie1992fitts :
 
 
 
- \begin{equation}
-ID=\log\_{2}(A/W+1)\label{eq:mackenzieID}\end{equation}
+\begin{equation}
+ ID=\log\_{2}(A/W+1)
+ (#eq:mackenzieID)
+\end{equation}
 
  où *A* est la distance à la cible, et
  *W* la taille de la cible (en l’occurrence sa
- largeur). En utilisant l’équation \eqref{eq:mackenzieID}, nous
+ largeur). En utilisant l’équation \@ref(eq:mackenzieID), nous
  obtenons des indices de difficultés compris entre :
 
 
@@ -305,28 +289,25 @@ ID\_{min}=\log\_{2}\left(\frac{21}{40}+1\right)=0.61bits\]
 ID=\log\_{2}\left(\frac{938}{40}+1\right)=4.61bits\]
 
  Au final, l’interface de l’expérimentation est présentée sur la
- figure [3.5](#cap:protocole). (nous noterons que le choix de
+ figure \@ref(fig:protocole). (nous noterons que le choix de
  l’interface provient de nos recherches sur la représentation instantanée de
- la musique, voir la section [Music’Haptic](036-application-a-la-musique-music-haptic.html)).
+ la musique, voir la section [Application à la musique : Music’Haptic].
 
+![(#fig:protocole)Origine et cibles du protocole## Résultats et discussion](img/damier.svg)
 
-
-`![](img/damier.svg)`
-Figure 3.5 : Origine et cibles du protocole## Résultats
- et discussion
 
 
 L’analyse de la variance (ANOVA) sur les temps de pointage, permet de nous
  prononcer sur la significativité des facteurs jouant sur nos mesures : les
  différentes conditions expérimentales et l’indice de difficulté. Il apparaît
- que le facteur conditions expérimentales est très significatif (*F*9,39=24.96,  *p*<0.0001), ainsi que le facteur indice de difficulté
- (*F*3,39=10.3,  *p*<0.0001). De plus, les deux facteurs n’influent pas l’un
- sur l’autre (*F*27,39=0.35, 
- *p*=1.0000).
-
+ que le facteur conditions expérimentales est très significatif
+ (*F*9,39=24.96, *p*<0.0001), ainsi que le facteur indice de difficulté
+ (*F*3,39=10.3, *p*<0.0001). De plus, les deux facteurs n’influent pas l’un
+ sur l’autre (*F*27,39=0.35, *p*=1.0000).
 
 Les moyennes des temps pour les 4 conditions de retour haptique sont dans
  le tableau [3.2](#table3).
+
 | MT     | MTF     | MTDF     | MTDFH    |
 |--------|---------|----------|----------|
 | 585 ms | 584 ms  | 723 ms   | 676 ms   |
@@ -342,35 +323,36 @@ Table 3.2 : Moyennes des temps des
 
 Nous pouvons déjà observer qu’il n’y a pas de différence significative
  entre cliquer sur une cible sans retour de force (MT) et avec retour de force
- (MTF). Ceci rejoint les observations de Akamatsu [@akamatsu1996movement] et s’explique par
- le fait que le retour de force sur la cible n’est activé que lorsque le
- pointeur s’y trouve, à la différence d’autres expériences qui élargissaient
- le bassin d’attraction au delà de la taille de la cible [@hasser1998user] [@eberhardt1997force] [@wall2000quantification]. Par contre, le fait qu’il y
- ait des champs de force entre l’origine et la cible (MTDF et MTDFH) génère
- une hausse significative des temps (respectivement +23,6% et +15,6% par
- rapport au mouvement sans retour de force). Enfin, l’adaptation du retour de
- force sur la vitesse du curseur permet de réduire cette perte de performance
- de 6,5% .
+ (MTF). Ceci rejoint les observations de Akamatsu [@akamatsu1996movement] et
+ s’explique par le fait que le retour de force sur la cible n’est activé que
+ lorsque le pointeur s’y trouve, à la différence d’autres expériences qui
+ élargissaient le bassin d’attraction au delà de la taille de la cible
+ [@hasser1998user] [@eberhardt1997force] [@wall2000quantification]. Par
+ contre, le fait qu’il y ait des champs de force entre l’origine et la cible
+ (MTDF et MTDFH) génère une hausse significative des temps (respectivement
+ +23,6% et +15,6% par rapport au mouvement sans retour de force). Enfin,
+ l’adaptation du retour de force sur la vitesse du curseur permet de réduire
+ cette perte de performance de 6,5% .
 
 
 Nous aurions pu espérer une amélioration plus nette des temps de pointage
- dans la condition MTDFH. Cependant, [le modèle d’impulsion initiale optimisée de Meyer](008-le-systeme-haptique-cote-action-le-systeme-moteur.html#htoc17) nous apporte une explication
- possible : Le geste le plus fréquent lors d’une tâche d’acquisition de cible
- consiste en un premier mouvement initial qui peut dépasser ou ne pas
- atteindre la cible, suivi de plus petits mouvements correctifs pour parvenir
- réellement sur la cible. Avec notre retour de force adaptatif, le geste de
- pointage pouvait se retrouver « emprisonné » sur une zone proche de la
- cible.
+ dans la condition MTDFH. Cependant, [Le modèle d’impulsion initiale] nous
+ apporte une explication possible : Le geste le plus fréquent lors d’une tâche
+ d’acquisition de cible consiste en un premier mouvement initial qui peut
+ dépasser ou ne pas atteindre la cible, suivi de plus petits mouvements
+ correctifs pour parvenir réellement sur la cible. Avec notre retour de force
+ adaptatif, le geste de pointage pouvait se retrouver « emprisonné » sur une
+ zone proche de la cible.
 
 
 Les régressions linéaires sur les moyennes des données nous donnent les
- coefficients de régression linéaire de l’équation ([3](008-le-systeme-haptique-cote-action-le-systeme-moteur.html#eq:mackenzie)) pour les différentes conditions de retour
- haptique. Ainsi, la table [3.3](#table2) présente les
- différents modèles de la loi de Fitts selon ces conditions. Chaque modèle a
- été calculé en effectuant une régression linéaire entre les 10 indices de
- difficulté (*ID*), calculé en utilisant
- l’équation [2](022-protocole-de-test.html#eq:mackenzieID), et les temps
- observés.
+ coefficients de régression linéaire de l’équation \@ref(eq:mackenzieID) pour
+ les différentes conditions de retour haptique. Ainsi, la table [3.3](#table2)
+ présente les différents modèles de la loi de Fitts selon ces conditions.
+ Chaque modèle a été calculé en effectuant une régression linéaire entre les
+ 10 indices de difficulté (*ID*), calculé en utilisant l’équation
+ \@ref(eq:mackenzieID), et les temps observés.
+
 |            |                           |      |
 |------------|---------------------------|------|
 | Conditions | Modèle de la loi de Fitts | *R*2 |
@@ -395,13 +377,11 @@ Les différentes conditions ne diffèrent de manière significative que de
 
 
 Nous pouvons maintenant tracer la synthèse des mesures de notre expérience
- (figure [3.6](#cap:test)).
+ (figure \@ref(fig:synthese)).
 
 
-
-![](img/synth.png)
-Figure 3.6 : Temps du mouvement pour les 4 conditions de retour
- haptique
+![(#fig:synthese)Temps du mouvement pour les 4 conditions de retour
+ haptique](img/synth.png)
 
 
 
@@ -412,6 +392,8 @@ La méthode statistique de Bonferroni permet de grouper les observations en
  d’adapter le retour haptique à la vitesse de la souris (condition MTDFH)
  n’apparaît donc pas significativement différent de la condition sans
  adaptation (*p*>0.15).
+
+
 
 ## Conclusion
 
@@ -437,12 +419,12 @@ Pour aller plus loin, nous pouvons imaginer tester d’autres adaptation
 
 Notons que dans un contexte d’accessibilité, l’intérêt de l’utilisation de
  dispositifs à retour de force a déjà été prouvé, par exemple auprès de
- personnes handicapés moteurs [(Keates
- et al., 2002)](047-bibliographie.html#Keates2002).
+ personnes handicapés moteurs [@keates2002use].
 
 
 Au final, cette étude nous a permis d’étudier la partie action du mode
- haptique, et plus précisément [les gestes **déictiques**](008-le-systeme-haptique-cote-action-le-systeme-moteur.html#toc8) [@McNeill92]. Dans tout ce chapitre, en effet, il s’agissait
+ haptique, et plus précisément [les gestes **déictiques**](#définitions)
+ [@McNeill92]. Dans tout ce chapitre, en effet, il s’agissait
  d’utiliser une souris à retour de force dans un registre classique pour une
  souris : le pointage. Le retour de force essayant d’améliorer la vitesse de
  pointage.

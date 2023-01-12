@@ -679,7 +679,7 @@ Il a été montré que la valeur de l’exposant β était constante et fixée �
  mouvement en référence à une représentation
 
 
-#### Loi de jerk minimal
+#### Loi de jerk minimal {#jerk}
 
 
 Connaissant le point de départ d’un geste, le point d’arrivée, et la durée
@@ -825,7 +825,7 @@ Nous en terminons ici pour les aspects mathématiques du mouvement, et nous
  : nous allons parler des gestes.
 
 
-### Le geste : définitions
+### Le geste : définitions {#définitions}
 
 
 
@@ -893,13 +893,16 @@ La fonction sémiotique du geste a vu ses caractéristiques précisée par
 **Iconique :**
 le geste est parallèle à un discours
  concret ;
+
 **Métaphorique :**
 le geste est parallèle à un discours
  abstrait ;
+
 **Déictique :**
 c’est un geste de pointage ou de sélection ; ces
  gestes ont reçu beaucoup d’attention car ils correspondent aux principales
  tâches sur les systèmes interactifs actuels.
+
 **bâton :**
 le geste est un battement rythmique.
 
