@@ -513,7 +513,7 @@ Le temps du mouvement $MT$ requis pour
  distance $A$ est :
 
 \begin{equation}
- MT=a+b\log_{2}(2A/W)\label{eq:fitts}
+ MT=a+b\log_{2}(2A/W)
  (\#eq:fitts)
 \end{equation}
 

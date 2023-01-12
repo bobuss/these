@@ -5,16 +5,13 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [bibliographie.bib]
-biblio-style: "apalike"
-# url: your book url like https://bookdown.org/yihui/bookdown
-# cover-image: path to the social sharing image like images/cover.jpg
 description: |
   Thêse de doctorat, Spécialité informatique
   Présentée par M. Bertrand TORNIL
   le 8 décembre 2006
   Pour obtenir le grade de DOCTEUR de l’UNIVERSIT é TOULOUSE
 link-citations: yes
-github-repo: rstudio/bookdown-demo
+github-repo: bobuss/these
 ---
 
 
