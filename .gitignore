@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+rsconnect
+_book
+_bookdown_files
+packages.bib
+
+.vscode
+.DS_Store
+.DS_Store?
+
+*.log
