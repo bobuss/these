@@ -2,7 +2,7 @@
 
 
 
-## 6.1  Des dispositifs, des interactions, de l’accessibilité
+## Des dispositifs, des interactions, de l’accessibilité
 
 
 Du travail réalisé pour cette thèse, nous pouvons tirer plusieurs
@@ -37,7 +37,7 @@ De plus, nous avons produit et utilisé un schéma de conception
 
 
 
-## 6.2  Pour aller plus loin...
+## Pour aller plus loin...
 
 
 ### D’autres applications de la localisation relative
@@ -46,14 +46,17 @@ De plus, nous avons produit et utilisé un schéma de conception
 Nous pouvons imaginer d’autres utilisations à la localisation relative, en
  passant en revu quelques utilisations du formalisme XML.
 
-
 * Chimie haptic : Le format de fichier CML (Chemical
  Markup Language) est l’implémentation XML de descriptions de molécules
- chimiques. Nous présentons en [annexe](042-la-feuille-de-style-xsl-pour-transformer-du-cml-en-svg.html#xslCML) une feuille de style XSLT (le langage de
- transformation d’un formalisme XML en un autre) qui transforme un fichier
+ chimiques. Nous présentons en
+ [annexe](#La feuille de style XSL pour transformer du CML en SVG) une feuille
+ de style XSLT (le langage de transformation d’un formalisme XML en un autre)
+ qui transforme un fichier
  CML décrivant une molécule en deux dimension, en un fichier SVG exploitable
  avec notre approche.
-* Body’Haptic (figure [6.1](#bodyhapt)): L’approche est ici plus indirecte. Nous avons cherché
+
+* Body’Haptic (figure \@ref(fig:body)): L’approche est ici plus indirecte.
+ Nous avons cherché
  à appliquer à la 3D, la localisation relative. Le SVG ne serait ici d’aucun
  secours, et nous nous sommes tourné vers son équivalent en 3D : le X3D. Du
  côté périphérique, c’est toujours un dispositif de pointage qui a été
@@ -68,10 +71,8 @@ Nous pouvons imaginer d’autres utilisations à la localisation relative, en
  en ligne pour tester, et en sommes resté à une exploration des os du
  corps humain.
 
+![(#fig:body)le prototype Body’Haptic](img/body.png)
 
-
-![](img/body.png)
-Figure 6.1 : le prototype Body’Haptic
 * à plus long terme, les interfaces graphiques : le
  XUL de Mozilla et le XAML de Microsoft sont des applications du XML visant
  à décrire des interfaces graphiques. Nous n’avons pas plus développé dans
@@ -99,8 +100,9 @@ L’idée est alors venue qu’une approche quasi magique viendrait d’un écra
 #### Réalisations industrielles récentes
 
 
-La firme Alpine ^[http://www.alpine-usa.com/products/leading_technology/leading_tech_iva-d300.htm] a proposé un écran tactile
- disposant d’un retour tactile (figure [6.2](#alpine)). Le
+La firme Alpine ^[http://www.alpine-usa.com/products/leading_technology/leading_tech_iva-d300.htm]
+ a proposé un écran tactile
+ disposant d’un retour tactile (figure \@ref(fig:iva2)). Le
  rôle de ce dispositif est la manipulation de l’autoradio, sans avoir
  nécessairement besoin de regarder l’écran. Cette approche reprend exactement
  notre positionnement dans le domaine de l’accessibilité. Néanmoins, le
@@ -109,15 +111,16 @@ La firme Alpine ^[http://www.alpine-usa.com/products/leading_technology/leading_
 
 
 ![](img/demo_touch.jpg)
-![](img/iva-d300_hdr.jpg)
-Figure 6.2 : IVA-D300 (DVD/CD/MP3/WMA Receiver/Mobile Multimedia
- Station)
+
+![(#fig:iva2)IVA-D300 (DVD/CD/MP3/WMA Receiver/Mobile Multimedia
+ Station)](img/iva-d300_hdr.jpg)
 
 
 
-La société Immersion ^[http://immr.client.shareholder.com/ReleaseDetail.cfm?ReleaseID=164236], conceptrice de la souris que
+La société Immersion ^[http://immr.client.shareholder.com/ReleaseDetail.cfm?ReleaseID=164236],
+ conceptrice de la souris que
  nous avons utilisée a également proposé récemment un écran tactile à retour
- tactile, le TouchScreen (figure [6.3](#touchscreen)). La
+ tactile, le TouchScreen (figure \@ref(fig:touchscreen))). La
  société immersion est déjà spécialisée dans les périphériques à retour de
  force (manettes de jeu, souris, outils chirurgicaux), et le touchscreen
  semble particulièrement adapté aux domaines de la recherche dans
@@ -127,13 +130,13 @@ La société Immersion ^[http://immr.client.shareholder.com/ReleaseDetail.cfm?Re
 
 
 
-![](img/touchscreen.png)
-Figure 6.3 : Immersion tactile touchscreen
+![(#fig:touchscreen)Immersion tactile touchscreen](img/touchscreen.png)
+
 
 
 
 Enfin, Tactiva ^[http://tactiva.com/tactapad.html], une start-up californienne a
- proposé le tactapad (figure [6.4](#tactapad)). Ce dispositif
+ proposé le tactapad (figure \@ref(fig:tactiva)). Ce dispositif
  propose la bi-manualité et le retour tactile. Néanmoins, il ne s’agit pour le
  moment que d’un prototype, non encore disponible sur le marché, et encore
  moins accessible dans un but de recherche. Il s’agit pourtant de la tentative
@@ -141,8 +144,9 @@ Enfin, Tactiva ^[http://tactiva.com/tactapad.html], une start-up californienne a
 
 
 
-![](img/tactapad2.jpg)
-Figure 6.4 : le tactapad : peut-être le dispositif parfait ?
+![(#fig:tactiva)le tactapad : peut-être le dispositif
+parfait ?](img/tactapad2.jpg)
+
 
 
 

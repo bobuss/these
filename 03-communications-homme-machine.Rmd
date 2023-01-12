@@ -975,7 +975,7 @@ En se référant aux [procédures d’exploration haptique](#conjuguent) propos�
 
 
 
-Table (\@tab:possibilite) Les possibilités des mouvements d’exploration avec un
+Table: (\#tab:possibilite) Les possibilités des mouvements d’exploration avec un
  périphérique  de pointage
 
 |                                 |                                                                 |

@@ -1,17 +1,12 @@
 # There de doctorat, Bertrand Tornil
 
-Reformatted in RMarkdown.
+Reformatted using
+- [RMarkdown](https://rmarkdown.rstudio.com/)
+- [bookdown](https://bookdown.org/)
 
 
-## To Fix:
+## To fix
 
-- damier.svg
-- all svg files in 06-localisation-relative.Rmd
-
-
-
-- internal links
-
-
-
-- Toccata reference
+- Toccata biblio
+- non standard tables
+- general refence chapter

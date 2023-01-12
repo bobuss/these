@@ -20,21 +20,21 @@ La cible pouvant être une icône, un élément d’un menu, une partie d’une
  recherches de Fitts (voir \@ref(fitts)).
 
 
-Pour rappel, la loi de Fitts énonce que le temps du mouvement *T* requis
-pour sélectionner une cible de taille *W* situé à une distance *A* est :
+Pour rappel, la loi de Fitts énonce que le temps du mouvement $T$ requis
+pour sélectionner une cible de taille $W$ situé à une distance $A$ est :
  [@fitts1954information]
 
- \[ MT=a+b\log\_{2}(A/W+1)\]
+ \[ MT=a+b\log_{2}(A/W+1)\]
 
 Le problème de l’amélioration du temps de pointage est un domaine de
  recherche actuellement très actif. On pourra se rapporter à
  [@balakrishnan2004beating] pour une étude exhaustive des moyens employés pour
  diminuer ce temps. En considérant l’équation (\@ref(eq:mackenzieID)), réduire
- *MT* peut s’obtenir en diminuant la distance *A*, en augmentant la taille *W*,
+ $MT$ peut s’obtenir en diminuant la distance $A$, en augmentant la taille $W$,
  ou adaptant les deux en même temps.
 
 
-Par exemple, pour diminuer la distance *A*, on peut utiliser des menus
+Par exemple, pour diminuer la distance $A$, on peut utiliser des menus
  circulaire (*pie menus*). [@callahan1988empirical] ont comparé ces
  menus aux traditionnels menus linéaires que l’on retrouve dans tous nos
  systèmes d’exploitation, et a observé une amélioration des temps de pointage
@@ -48,7 +48,7 @@ Par exemple, pour diminuer la distance *A*, on peut utiliser des menus
 
 
 
-Pour augmenter la taille de la cible *W*, il y a
+Pour augmenter la taille de la cible $W$, il y a
  eu plusieurs façons de faire : [@worden1997making] ont proposé l’utilisation
  d’un curseur-région (figure \@ref(fig:areacursor)), à l’inverse
  d’un curseur-point tel que nous utilisons en manipulant notre souris. Il y a
@@ -103,11 +103,11 @@ Retrouvons maintenant nos tâches de pointage dans un environnement virtuel...
 
 En 1996, Akamatsu et MacKenzie [@akamatsu1996movement] ont étudié une souris
  tactile à retour de force. Ils ont montré des réductions significatives du
- temps de mouvement *MT* lorsque la modalité tactile est employée. L’effet est
+ temps de mouvement $MT$ lorsque la modalité tactile est employée. L’effet est
  particulièrement prononcé pour les petites cibles. Cependant, ils ont
  également noté une augmentation du taux d’erreur. De plus, l’emploi de la
  modalité kinesthésique seule ne fait pas baisser significativement les temps
- d’acquisition d’une cible. Enfin, l’ indice de performance *IP* lors de
+ d’acquisition d’une cible. Enfin, l’ indice de performance $IP$ lors de
  l’emploi du retour de force n’est pas significativement différent de celui
  observé sans retour de force.
 
@@ -119,13 +119,13 @@ observées lors d’une tâche de pointage sont réellement meilleures (de l’o
 de 25%) que sans retour de force.
 
 
-Pour Wall, l’étude s’est focalisé sur l’indice de performance *IP* (soit
+Pour Wall, l’étude s’est focalisé sur l’indice de performance $IP$ (soit
 l’inverse de la pente de régression linéaire) au cours d’une tâche de
 pointage effectuée avec un PHANTOM [@wall2000quantification]. En 2000, il
 a ainsi retrouvé les résultats de Akamatsu et MacKenzie, à savoir que le
 retour de force, bien qu’améliorant les temps d’acquisition des cibles, n’a
-pas d’effets sur l’indice de performance *IP*. Par contre, pour les
- mouvements balistiques (*IP*<3*bits*), ils ont montré une amélioration
+pas d’effets sur l’indice de performance $IP$. Par contre, pour les
+ mouvements balistiques ($IP$<3*bits*), ils ont montré une amélioration
  significative de l’indice de performance de la tâche.
 
 
@@ -267,26 +267,26 @@ Ces conditions forment un ensemble homogène de tâches de pointage. Dans ce
 
 
 \begin{equation}
- ID=\log\_{2}(A/W+1)
+ ID=\log_{2}(A/W+1)
  (#eq:mackenzieID)
 \end{equation}
 
- où *A* est la distance à la cible, et
- *W* la taille de la cible (en l’occurrence sa
+ où $A$ est la distance à la cible, et
+ $W$ la taille de la cible (en l’occurrence sa
  largeur). En utilisant l’équation \@ref(eq:mackenzieID), nous
  obtenons des indices de difficultés compris entre :
 
 
 
 \[
-ID\_{min}=\log\_{2}\left(\frac{21}{40}+1\right)=0.61bits\]
+ID\_{min}=\log_{2}\left(\frac{21}{40}+1\right)=0.61bits\]
 
  et
 
 
 
 \[
-ID=\log\_{2}\left(\frac{938}{40}+1\right)=4.61bits\]
+ID=\log_{2}\left(\frac{938}{40}+1\right)=4.61bits\]
 
  Au final, l’interface de l’expérimentation est présentée sur la
  figure \@ref(fig:protocole). (nous noterons que le choix de
@@ -353,13 +353,13 @@ Les régressions linéaires sur les moyennes des données nous donnent les
  10 indices de difficulté (*ID*), calculé en utilisant l’équation
  \@ref(eq:mackenzieID), et les temps observés.
 
-|            |                           |      |
-|------------|---------------------------|------|
-| Conditions | Modèle de la loi de Fitts | *R*2 |
-| MT         | *MT*=0,25+0,122*ID*       | 0,93 |
-| MTF        | *MT*=0,25+0,120*ID*       | 0,91 |
-| MTDF       | *MT*=0,38+0,123*ID*       | 0,96 |
-| MTDFH      | *MT*=0,31+0,130*ID*       | 0,90 |
+|            |                           |       |
+|------------|---------------------------|-------|
+| Conditions | Modèle de la loi de Fitts | $R^2$ |
+| MT         | $MT=0,25+0,122ID$         | 0,93  |
+| MTF        | $MT=0,25+0,120ID$         | 0,91  |
+| MTDF       | $MT=0,38+0,123ID$         | 0,96  |
+| MTDFH      | $M*=0,31+0,130ID$         | 0,90  |
 
 
 

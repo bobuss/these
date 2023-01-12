@@ -10,7 +10,9 @@ Nous allons proposer dans ce chapitre un cadre d’utilisation des
  \@ref(communications-homme-machine).
 
 
-Maintenant, du potentiel du système haptique (voir \@ref(conjuguent), \@ref(performances) et \@ref(perception)), nous pouvons déjà édicter plusieurs règles :
+Maintenant, du potentiel du système haptique (voir \@ref(conjuguent),
+\@ref(performances) et \@ref(perception)), nous pouvons déjà édicter
+plusieurs règles :
 
 
 
@@ -32,7 +34,8 @@ l’apprentissage par geste actif donne de
  l’exploration, plutôt que sur la présentation.
 
 De plus, les modèles de l’utilisateur (en particulier [le modèle du
- processeur humain](#processeur)) nous indiquent quelques règles à respecter sur l’ergonomie des interfaces :
+ processeur humain](#processeur)) nous indiquent quelques règles à
+ respecter sur l’ergonomie des interfaces :
 
 **Règle 4 :**
 limiter le nombre d’items de menus
@@ -65,22 +68,20 @@ C’est grâce à la mémoire sensorielle associée à notre perception
  la suite la localisation relative .
 
 
-Par exemple, sur la figure [5.1](#cap:localisation), un
+Par exemple, sur la figure \@ref(fig:localisation), un
  utilisateur non-voyant pourra reconnaître les positions relatives de
  départements français de la région Midi-Pyrénées (l’exemple en haut de la
  figure) ou bien la disposition des membres d’un être virtuel (l’exemple du
  bas de la figure).
 
+![(#fig:localisation)La localisation relative](img/manip.png)
 
-
-![](img/manip.png)
-Figure 5.1 : La localisation relative
 
 
 
 Afin d’illustrer ce concept d’interaction, nous proposons **la métaphore
- du levier de vitesse** (figure [5.2](#cap:La-m=E9taphore-du)), qui comprend nombre de similitudes avec la
- localisation relative :
+ du levier de vitesse** (figure \@ref(fig:levier))), qui comprend nombre de
+ similitudes avec la localisation relative :
 
 
 * l’action de l’utilisateur est le déplacement d’un
@@ -94,10 +95,8 @@ Afin d’illustrer ce concept d’interaction, nous proposons **la métaphore
  exemple, la marche arrière est en haut à gauche, ou encore, la boite compte
  6 vitesses.
 
+![(#fig:levier)La métaphore du levier de vitesse](img/levier.jpg)
 
-
-![](img/levier.jpg)
-Figure 5.2 : La métaphore du levier de vitesse
 
 
 
@@ -159,11 +158,11 @@ En pratique, c’est le format de fichiers SVG (*Scalable Vector
 
 Par exemple, considérons le code SVG suivant :
 
-
-
-```
-
-    <rect x="1" y="1" width="1198" height="398" fill="none" stroke="blue" stroke-width="2"/>
+```xml
+<rect x="1" y="1"
+      width="1198" height="398"
+      fill="none" stroke="blue"
+      stroke-width="2" />
 
 ```
 
@@ -171,8 +170,7 @@ Il s’agit de la déclaration d’un rectangle dont le coin supérieur gauche
  est aux coordonnées (1,1), dont la largeur est 1198 et la hauteur 398. En
  connaissant ces données, il est simple de générer une force sur un
  périphérique adapté, de manière à amener le dispositif au centre de ce
- rectangle (en l’occurence, en *x*=599 et
- *y*=296).
+ rectangle (en l’occurence, en *x*=599 et *y*=296).
 
 
 #### Le retour de force
@@ -185,16 +183,12 @@ Notre retour de force est généré via la souris Wingman Force Feedback
 
 
 L’effet que nous utilisons pour situer un point haptique est illustré sur
- la figure [5.3](#cap:Illustration-de-l'effet). Il s’agit d’un
+ la figure \@ref(fig:aimant). Il s’agit d’un
  effet d’encloisonnement elliptique, déclenché lorsque le curseur passe au
  dessus de certaines zones. Le tout étant de placer judicieusement cet effet,
  rapport aux coordonnées que nous lisons dans le ficher SVG.
 
-
-
-`![](img/aimant.svg)`
-Figure 5.3 : Illustration de l’effet
- utilisé
+![(#fig:aimant)Illustration de l’effet utilisé](img/aimant.svg)
 
 
 
@@ -209,25 +203,24 @@ La première approche que nous avons utilisée pour placer l’effet en
  quelles coordonnées allaient avec quel point.
 
 
+
 #### Des approches plus automatiques
 
-
 ##### L’emplacement de l’effet est calculé au chargement du SVG :
-
 
 À la lecture du fichier SVG, il est possible de calculer un couple de
  coordonnées symbolisant le centre d’une forme. En reprenant notre exemple
  précédent, qui code le rectangle, une fonction javascript peut facilement
  calculer le centre de la primitive <rect>, en l’occurence, dans le
- système de coordonnées du SVG, *x**c*=599, et *y**c*=199. Nous avons
+ système de coordonnées du SVG, $x_c=599$, et $y_c=199$. Nous avons
  ainsi développé plusieurs fonctions permettant le calcul du centre d’inertie,
  pour un rectangle, une ellipse.
 
 
 Le problème s’est compliqué lorsque nous nous sommes penché sur les
  primitives <polygon> et <path>. La primitive <polygon> code
- une suite de point de la forme "*x*1,*y*1 
- *x*2,*y*2 ...  *x**n*,*y**n*" afin de dessiner
+ une suite de point de la forme "$x_1,y_1 
+ x_2,y_2... x_n,y_n$" afin de dessiner
  un polygone. La primitive <path> dessine un chemin, en donnant par
  exemple le point de départ, puis une liste de vecteurs. Le calcul en soi du
  centre d’inertie ne pose pas de problème. Par contre, il est également
@@ -238,25 +231,17 @@ Le problème s’est compliqué lorsque nous nous sommes penché sur les
 
 
 
+```xml
+<polygon points="10,10 10,100 100,100 100,90 20,90 20,50 70,10"
+         style="fill: red; stroke: black"/>
 ```
 
-    <polygon 
-      points="10,10 10,100 100,100 100,90 20,90 20,50 70,10"
-      style="fill: red; stroke : black"/>
-
-```
-
-La figure [5.4](#cap:Centre-d'intertie-ext=E9rieur)
- illustre cette forme, ainsi que le centre d’inertie calculé : *x**c*=47,14 et
- *y**c*=137,14.
+La figure \@ref(fig:centre) illustre cette forme, ainsi que le centre
+d’inertie calculé : $x_c=47,14$ et $y_c=137,14$.
 
 
 
-![](img/centre.png)
-Figure 5.4 : Centre d’inertie extérieur à
- la forme
-
-
+![(#fig:centre)Centre d’inertie extérieur à la forme](img/centre.png)
 
 Pour cette raison, et pour éviter d’avoir à se lancer dans de fastidieux
  calculs qui visent à déterminer le centre géodésique de la forme, nous avons
@@ -290,19 +275,14 @@ Nous allons centrer la forme en (0,0); cette origine sera le point de
 
 
 
+```xml
+<polygon points="-20,-20 -20,70 70,70 70,60 -10,60 -10,20 40,-20"
+         style="fill: red; stroke: black"/>
 ```
 
-    <polygon points="-20,-20 -20,70 70,70 70,60 -10,60 -10,20 40,-20"
-      style="fill: red; stroke : black"/>
+nous donne la figure \@ref(fig:centre2):
 
-```
-
-nous donne la figure [5.5](#cap:Forme-centr=E9e-sur) :
-
-
-
-![](img/centre2.png)
-Figure 5.5 : Forme centrée sur l’origine
+![(#fig:centre2)Forme centrée sur l’origine](img/centre2.png)
 
 
 
@@ -350,10 +330,7 @@ Côté serveur, c’est le serveur Web Apache qui est utilisé. Côté client,
  diriger la souris à retour de force.
 
 
-
-![](img/archi.png)
-Figure 5.6 : Architecture du
- système
+![(#fig:architecture)Architecture du système](img/archi.png)
 
 
 
@@ -361,9 +338,8 @@ Et d’un point de vue logiciel, nous nous sommes appuyé sur l’architecture
  Modèle-Vue-Contrôleur (MVC). Il s’agit d’un motif de conception pour le
  développement d’applications logicielles, qui sépare le modèle de données,
  l’interface utilisateur et la logique de contrôle. Ce motif a été mis au
- point par [@Reenskaug:1979a:ext], qui
- travaillait alors sur Smalltalk dans les laboratoires de recherche Xerox
- PARC.
+ point par [@Reenskaug:1979a:ext], qui travaillait alors sur Smalltalk dans
+ les laboratoires de recherche Xerox PARC.
 
 
 Ce modèle d’architecture impose la séparation entre les données, les
@@ -385,24 +361,18 @@ Ce modèle d’architecture impose la séparation entre les données, les
 * Le Contrôleur prend en charge la gestion des
  événements de synchronisation pour mettre à jour la vue ou le modèle.
 
-
 Par extension, et dans un cadre d’utilisation enseignant-élève, nous
  aurions un système avec un côté enseignant
 
-
-
-![](img/mvc.png)
-Figure 5.7 : Le modèle MVC
- Enseignant-Élève
-
+![(#fig:mvc)Le modèle MVC Enseignant-Élève](img/mvc.png)
 
 
 D’un point de vue technique, le XMLHttpRequest est une fonction javascript
  invoquée par le contrôleur vers le modèle. L’avantage de cette fonction est
  qu’elle dispose d’un mode asynchrone, et donc, l’interaction peut continuer
  côté client, sans attendre la réponse du serveur. C’est ce qui est nommé AJAX
- pour Asynchronous Javascript And XML (on pourra se référer à 
- [l’appendice](#ajax) pour plus de détails).
+ pour Asynchronous Javascript And XML (on pourra se référer
+ à [l'annexe sur AJAX](#ajax) pour plus de détails).
 
 
 Les réponses du serveur, enfin, permettent l’extensibilité et la
@@ -495,15 +465,15 @@ L’espace de travail de la souris est ainsi divisé en un certain nombre de
 
 
 Les différents paramètres de l’expérience sont précisés dans le
- tableau [5.1](#cap:Les-conditions-p=E9rimentales).
- |  |  |
-| --- | --- |
-| **Conditions audios :** | Notes, Lettres, ou Silence |
-| **Nombre de régions à trouver :** | 3, 6 ou 9 |
+ tableau \@ref(tab:conditions).
 
+Table: (\#tab:conditions) Les conditions expérimentales
 
-Table 5.1 : Les conditions
- expérimentales
+|                                   |                            |
+|-----------------------------------|----------------------------|
+| **Conditions audios :**           | Notes, Lettres, ou Silence |
+| **Nombre de régions à trouver :** | 3, 6 ou 9                  |
+
 
 
 
@@ -514,15 +484,13 @@ La répartition des points haptiques sur la surface de travail de la souris
  points haptiques sont choisies lors de la génération, parmi 18 positions
  pré-établies. À noter, enfin, que l’espace non-occupé par les formes SVG,
  génère une vibration avec la souris, indiquant au sujet qu’il est sorti de la
- zone d’intérêt. La figure [5.8](#cap:Exemples-des-conf)
+ zone d’intérêt. La figure \@ref(fig:configurations)
  montre quelques configurations que les sujets ont dû explorer.
 
 
-
-`![](img/hick1.svg)`
-Figure 5.8 : Exemples des
+![(#fig:configurations)Exemples des
  configurations à explorer ; les hexagones colorés représentent
- les zones haptiques à trouver et et à localiser
+ les zones haptiques à trouver et et à localiser](img/hick1.svg)
 
 
 
@@ -561,27 +529,23 @@ Pour terminer, nous avons noté les remarques que les sujets pouvaient nous
 
 La première donnée mesurable que nous pouvons commenter est le temps mis
  pour achever la tâche, en fonction du nombre de points et de la nature du
- retour audio. Le tableau [5.2](#cap:Moyennes-des-temps) nous
- indique ces résultats, que la figure [5.9](#cap:Les-temps-selon)
- illustre.
- |  | Notes | Lettres | Silence | Moyenne |
-| --- | --- | --- | --- | --- |
-| 3 points | 55,8 | 48,9 | 56 | 53,6 |
-| 6 points | 117,6 | 87,6 | 144,4 | 116,5 |
-| 9 points | 162 | 117,4 | 183,1 | 154,2 |
-| Moyenne | 111,8 | 84,7 | 127,8 | 108,1 |
+ retour audio. Le tableau \@ref(tab:moyennes) nous
+ indique ces résultats, que la figure \@ref(fig:resultats) illustre.
 
-
-Table 5.2 : Moyennes des
+Table: (\#tab:moyennes) Moyennes des
  temps (en ms), selon les conditions audios (axe horizontal) et le
  nombre de points (axe vertical)
 
+|          | Notes | Lettres | Silence | Moyenne |
+|----------|-------|---------|---------|---------|
+| 3 points | 55,8  | 48,9    | 56      | 53,6    |
+| 6 points | 117,6 | 87,6    | 144,4   | 116,5   |
+| 9 points | 162   | 117,4   | 183,1   | 154,2   |
+| Moyenne  | 111,8 | 84,7    | 127,8   | 108,1   |
 
 
-
-![](img/res_loc_temps.png)
-Figure 5.9 : Les temps selon
- les différentes conditions audios
+![(#fig:resultats)Les temps selon les différentes conditions
+ audios](img/res_loc_temps.png)
 
 
 
@@ -591,15 +555,15 @@ Nous remarquons immédiatement que les performances sont nettement
  50,8% plus lente.
 
 
-À présent, la figure [5.10](#cap:Les-moyennes-tps) présente ces
+À présent, la figure \@ref(fig:moyennes-difficulte) présente ces
  mêmes résultats, en les groupant selon le nombre de points présentés.
 
 
 
-![](img/res_loc_temps_points.png)
-Figure 5.10 : Les moyennes des
+![(#fig:moyennes-difficulte)Les moyennes des
  temps, selon les différentes conditions audios, et en fonction du
- nombre de points à trouver
+ nombre de points à trouver](img/res_loc_temps_points.png)
+
 
 
 
@@ -639,7 +603,7 @@ La note est calculée de la manière suivante :
  des réponses données (il y a un élément en haut, et un autre à droite ),
  ainsi qu’avec une certaine exigence de précision (l’élément du haut est
  deux fois plus éloigné du centre que celui de droite ). Nous notons cette
- partie de la note *A**g*, entre 0 et 10.
+ partie de la note $a$*g*, entre 0 et 10.
 
 
 Nous allons chercher à obtenir une note *N*, sur
@@ -647,9 +611,7 @@ Nous allons chercher à obtenir une note *N*, sur
  notation doit suivre la qualité de la réponse.
 
 
-La note *N* sera alors calculée selon la formule
- :
-
+La note *N* sera alors calculée selon la formule :
 
 
 \[
@@ -659,27 +621,26 @@ N=A\_{g}\left(\frac{N\_{c}}{N\_{r}}\right)\]
  réponses.
 
 
-Au final, le tableau [5.3](#cap:Moyennes-des-notations,)
- présente la synthèse de ces notes, et la figure [5.11](#cap:Notations-selon-les) illustre le comportement des notes, selon
- la nature du retour audio.
- |  | Notes | Lettres | Silence | Moyenne |
-| --- | --- | --- | --- | --- |
-| 3 points | 9,48 | 9,75 | 9,18 | 9,48 |
-| 6 points | 7,28 | 8,03 | 6,33 | 7,21 |
-| 9 points | 5,33 | 6,82 | 4,98 | 5,71 |
-| Moyenne | 7,39 | 8,20 | 6,83 | 7,46 |
+Au final, le tableau \@ref(tab:moyennesaudio)
+ présente la synthèse de ces notes, et la figure \@ref(fig:notations2) illustre
+ le comportement des notes, selon la nature du retour audio.
 
 
-Table 5.3 : Moyennes des notations, sur 10,
+Table: (\#tab:moyennesaudio) Moyennes des notations, sur 10,
  selon les différentes conditions audios, et en fonction du nombre de
  points à trouver
 
+|          | Notes | Lettres | Silence | Moyenne |
+|----------|-------|---------|---------|---------|
+| 3 points | 9,48  | 9,75    | 9,18    | 9,48    |
+| 6 points | 7,28  | 8,03    | 6,33    | 7,21    |
+| 9 points | 5,33  | 6,82    | 4,98    | 5,71    |
+| Moyenne  | 7,39  | 8,20    | 6,83    | 7,46    |
 
 
+![(#fig:notations2)Notations selon les différentes conditions
+audios](img/res_loc_notes.png)
 
-![](img/res_loc_notes.png)
-Figure 5.11 : Notations
- selon les différentes conditions audios
 
 
 
@@ -699,14 +660,14 @@ Nous notons également que les notes s’effondrent très rapidement avec
  point de contact.
 
 
-Maintenant, la figure [5.12](#cap:Notations,-selon-les)
+Maintenant, la figure \@ref(fig:notations3)
  distingue les notes selon le nombre de points à découvrir.
 
 
 
-![](img/res_loc_notes_points.png)
-Figure 5.12 : Notations, selon les différentes
- conditions audios, et en fonction du nombre de points à trouver
+![(#fig:notations3)Notations, selon les différentes
+ conditions audios, et en fonction du nombre de points à
+ trouver](img/res_loc_notes_points.png)
 
 
 
@@ -720,18 +681,16 @@ Il s’agit maintenant de commenter tous ces résultats, ensembles. À savoir,
  obtenue ?
 
 
-##### Corrélation entre le temps de la tâche et la notation ?
+##### Corrélation entre le temps de la tâche et la notation ?
 
 
-Pour terminer, nous synthétisons tous ces résultats sur la figure [5.13](#cap:Corr=E9lation-entre-le).
+Pour terminer, nous synthétisons tous ces résultats sur la
+figure \@ref(fig:correlation).
 
-
-
-![](img/res_correlation.png)
-Figure 5.13 : Corrélation entre le temps mis lors
+![(#fig:correlation)Corrélation entre le temps mis lors
  de la tâche, et la notation. Les grands symboles représentent les
- positions moyennes pour chacune des conditions de retour audio
-
+ positions moyennes pour chacune des conditions de retour
+ audio](img/res_correlation.png)
 
 
 #### En conclusion
@@ -762,6 +721,7 @@ Par la suite, un test impliquant plus de monde pourrait permettre
  facilement, et rapidement, le maniement de la souris.
 
 
+
 ### Modélisation du temps d’exploration
 
 
@@ -777,7 +737,7 @@ Nous allons donc proposer une tâche de recherche d’éléments, parmi un
  ensemble de points haptiques.
 
 
-Nous posons l’hypothèse que le temps *T* de la
+Nous posons l’hypothèse que le temps $T$ de la
  tâche peut se décomposer de la manière suivante :
 
 
@@ -785,30 +745,30 @@ Nous posons l’hypothèse que le temps *T* de la
  \begin{equation}
 T=ET+RT+MT\label{eq:temps}\end{equation}
 
- avec, *T*, le temps total de la tâche,
+ avec, $T$, le temps total de la tâche,
 
 
-*ET*, le temps d’exploration
+$ET$, le temps d’exploration
 
 
-*RT*, le temps de réaction
+$RT$, le temps de réaction
 
 
-et *MT*, le temps du mouvement.
+et $MT$, le temps du mouvement.
 
 
 Ce dernier sera modélisé selon la loi de Fitts. Le temps de réaction
- *RT* sera modélisé selon la loi de Hick-Hyman, que
+ $RT$ sera modélisé selon la loi de Hick-Hyman, que
  nous présentons maintenant.
 
 
 #### La loi de Hick-Hyman
 
 
-Hick et Hyman ([Hyman, 1953](047-bibliographie.html#Hyman1953)) on étudié
- la relation entre le temps de réaction *RT* et le
+Hick et Hyman [@hyman1953stimulus] on étudié
+ la relation entre le temps de réaction $RT$ et le
  nombre de réponses-stimuli alternatifs *n*. Leurs
- résultats montrent que le choix *RT* semble
+ résultats montrent que le choix $RT$ semble
  augmenter régulièrement d’environ 150 ms lorsque le nombre de
  réponses-stimuli *n* double. Ceci suggère une
  relation logarithmique entre le nombre de stimuli-réponses et le temps de
@@ -825,23 +785,23 @@ le temps de réaction pour faire un choix parmi *n* alternatives est :
 
 
 \begin{equation}
-RT=a+b\log\_{2}(n)\label{eq:hick}\end{equation}
+RT=a+b\log_2(n)\label{eq:hick}\end{equation}
 
- où *a* et *b* sont des
+ où $a$ et $b$ sont des
  constantes déterminées empiriquement.
 
 
-*b* est la pente ou le taux de traitement
- d’information et s’exprime en s/bit. Généralement, *b*=127−215 ms/bit d’information.
+$b$ est la pente ou le taux de traitement
+ d’information et s’exprime en s/bit. Généralement, $b=127−215$ ms/bit
+ d’information.
 
 
-*a* est l’ordonnée à l’origine et est exprimé en
- seconde. On estime *a*=179 ms lorsque
- log2*n*=0,  *n*=1. Ainsi, *a* est la vitesse
+$a$ est l’ordonnée à l’origine et est exprimé en secondes. On estime
+ $a=179$ ms lorsque $log_2(n)=0, n=1$. Ainsi, $a$ est la vitesse
  élémentaire du système de perception moteur.
 
 
-Les valeurs de *a* et *b* dépendent :
+Les valeurs de $a$ et $b$ dépendent :
 
 
 * de l’entraînement;
@@ -887,43 +847,41 @@ La tâche demandée aux sujets est la suivante :
 
 
 Visuellement, la tâche peut être représentée comme indiqué sur la
- figure [5.14](#cap:Illustration-de-la). Cependant, lors de ce
+ figure \@ref(fig:procedure4). Cependant, lors de ce
  test, l’écran n’était pas allumé.
 
-
-
-![](img/zone.png)
-Figure 5.14 : Illustration
- de la procédure, pour 4 points
+![(#fig:procedure4)Illustration de la procédure, pour 4 points](img/zone.png)
 
 
 
 Synthétiquement, les conditions expérimentales se trouvent dans le
- tableau [5.4](#cap:Param=E8tres-de-l'exp=E9rience). Ainsi, à
+ tableau \@ref(tab:parametres). Ainsi, à
  chaque session de l’expérience, le nombre de points haptiques augmente. On
  commence avec 2 points ; puis 3, 4, 6, et enfin 9 points. Chaque session
  comporte 10 essais, où les valeurs des nombres lus, et leurs positions, sont
  tirés aléatoirement. Enfin, ces nombres sont lus par une synthèse vocale;
  leurs valeurs varient entre 1000 et 3000. Les sujets ne sont pas au courant
  de ces bornes.
- |  |  |
-| --- | --- |
-| Nombre de zones | 2, 3, 4, 6 et 9 |
-| Valeurs des nombres | [1000;3000] |
-| nombre d’essais par session | 10 |
 
-
-Table 5.4 : Paramètres de
+Table: (\#tab:parametres) Paramètres de
  l’expérience
+
+|                             |                 |
+|-----------------------------|-----------------|
+| Nombre de zones             | 2, 3, 4, 6 et 9 |
+| Valeurs des nombres         | [1000;3000]     |
+| nombre d’essais par session | 10              |
+
 
 
 
 #### Calcul du temps théorique moyen des mouvements
 
 
-Afin de déduire le temps d’exploration *ET*,
- nous allons soustraire au temps total le temps de réaction *RT*, que nous obtenons grâce à la loi de Hick-Hyman, ainsi que
- le temps du mouvements *MT*.
+Afin de déduire le temps d’exploration $ET$,
+ nous allons soustraire au temps total le temps de réaction $RT$,
+ que nous obtenons grâce à la loi de Hick-Hyman, ainsi que
+ le temps du mouvements $MT$.
 
 
 Comme dans chaque situation, la position de la cible à atteindre est
@@ -932,52 +890,52 @@ Comme dans chaque situation, la position de la cible à atteindre est
 
 
 Détaillons le calcul pour 4 zones. La situation est schématisée sur la
- figure [5.15](#mvts)
+ figure \@ref(fig:mvts).
 
+![(#fig:mvts)Les mouvements possibles pour 4 zones à explorer](img/mvts.png)
 
-
-![](img/mvts.png)
-Figure 5.15 : Les mouvements possibles pour 4 zones à explorer
 
 
 
 Nous dénombrons :
 
-
 * 4 mouvements nuls
-* 6 mouvements d’une longueur *A*/2
-* 4 mouvements d’une longueur 3*A*/2
-* et 2 mouvements d’une longueur 5*A*
+* 6 mouvements d’une longueur $a/2$
+* 4 mouvements d’une longueur $3a/2$
+* et 2 mouvements d’une longueur $5a$
 
 
 Soit, respectivement, et d’après la loi de Fitts, des temps de mouvements
  équivalents à:
 
-
 * \(4a\) ms
-* \(6\left[a+\log\_{2}\left(\frac{A}{2W}+1\right)\right]\) ms
-* \(4\left[a+\log\_{2}\left(\frac{3A}{2W}+1\right)\right]\) ms
-* \(2\left[a+\log\_{2}\left(\frac{5A}{2W}+1\right)\right]\) ms
+* \(6\left[a+\log_{2}\left(\frac{A}{2W}+1\right)\right]\) ms
+* \(4\left[a+\log_{2}\left(\frac{3A}{2W}+1\right)\right]\) ms
+* \(2\left[a+\log_{2}\left(\frac{5A}{2W}+1\right)\right]\) ms
 
 
 Tous ces calculs sont théoriques. Pour obtenir une valeur numérique, nous
  allons utiliser les valeurs des coefficients que nous avons déterminés lors
  de l’expérience sur les performances d’une tâche de pointage sur un champ à
  retour de force (voir cha :=C9valuation-des-performances), à savoir
- 380 ms., et *b*=123 ms/bit (condition
+ 380 ms., et $b$=123 ms/bit (condition
  MTDF).
 
 
 Il nous reste alors à déduire la moyenne des temps, en fonction du nombre
- de zones. Les résultats des calculs sont dans le tableaux [5.5](#cap:Temps-th=E9oriques-des).
- |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| n | 2 | 3 | 4 | 6 | 9 |
-| \(MT\_{moy}\) (en ms) | 499 | 528 | 550 | 586 | 627 |
+ de zones. Les résultats des calculs sont dans le tableaux \@ref(tab:ttmv).
 
-
-Table 5.5 : Temps théoriques des mouvements
+Table: (\#tab:ttmv) Temps théoriques des mouvements
  moyens, en fonction du nombre de zones
+
+|                    |     |     |     |     |     |
+|--------------------|-----|-----|-----|-----|-----|
+| n                  | 2   | 3   | 4   | 6   | 9   |
+| $MT_{moy}$ (en ms) | 499 | 528 | 550 | 586 | 627 |
+
+
+
+
 
 
 
@@ -985,106 +943,109 @@ Table 5.5 : Temps théoriques des mouvements
 
 
 En s’appuyant sur la loi de Hick-Hyman, nous pouvons écrire les temps
- théoriques minimum et maximum de réaction, avec les coefficient *b*−=127 ms/bit., et *b*+=215 ms/bit.
+ théoriques minimum et maximum de réaction, avec les coefficient
+ $b−=127$ ms/bit., et $b+=215$ ms/bit.
 
 
 * minimum :
+\begin{equation}
+ RT^{-}(n)=179+127\log_{2}(n)
+ (#eq:RT1)
+\end{equation}
 
- \begin{equation}
-RT^{-}(n)=179+127\log\_{2}(n)\label{eq:RT1}\end{equation}
 * et maximum :
-
- \begin{equation}
-RT^{+}(n)=179+215\log\_{2}(n)\label{eq:RT2}\end{equation}
+\begin{equation}
+ RT^{+}(n)=179+215\log_{2}(n)
+ (#eq:RT2)
+\end{equation}
 
 
 D’où l’évolution des temps théoriques minimum et maximum de réaction, en
- fonction du nombre de zones (tableau [5.6](#cap:Temps-de-r=E9action)).
- |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| Nombre de zones | 2 | 3 | 4 | 6 | 9 |
-| Temps de réaction minimum \(RT^{-}\) (ms) | 306 | 380 | 433 | 507 | 581 |
-| Temps de réaction minimum \(RT^{+}\) (ms) | 394 | 519 | 609 | 734 | 860 |
+ fonction du nombre de zones (tableau \@ref(tab:trmm)).
 
-
-Table 5.6 : Temps de réaction minimum et maximum
+Table: (\#tab:trmm) Temps de réaction minimum et maximum
  théoriques
+
+|                                         |     |     |     |     |     |
+|-----------------------------------------|-----|-----|-----|-----|-----|
+| Nombre de zones                         | 2   | 3   | 4   | 6   | 9   |
+| Temps de réaction minimum $RT^{-}$ (ms) | 306 | 380 | 433 | 507 | 581 |
+| Temps de réaction minimum $RT^{+}$ (ms) | 394 | 519 | 609 | 734 | 860 |
+
+
+
 
 
 
 #### Résultats et discussion
 
 
-Les résultats de l’expérience sont présentés dans le tableau [5.7](#cap:R=E9sultats-de-l'exp=E9rience), et illustrés graphiquement sur
- la figure [5.16](#cap:=C9volution-du-temps).
- |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| Nombre de zones | 2 | 3 | 4 | 6 | 9 |
+Les résultats de l’expérience sont présentés dans le
+ tableau \@ref(tab:resultats2), et illustrés graphiquement sur
+ la figure \@ref(fig:evolution).
+
+Table: (\#tab:resultats2) Résultats de l’expérience
+
+|                              |      |      |      |      |      |
+|------------------------------|------|------|------|------|------|
+| Nombre de zones              | 2    | 3    | 4    | 6    | 9    |
 | Temps moyen de la tâche (ms) | 1291 | 2269 | 2636 | 4869 | 5644 |
 
 
-Table 5.7 : Résultats de
- l’expérience
+![(#fig:evolution)Évolution du temps de la tâche en
+ fonction du nombre de zones](img/exp_explo.png)
 
 
 
+En partant de notre hypothèse de base, c’est à dire $Temps=ET+RT+MT$, nous
+ pouvons déduire les valeurs minimum et maximum des temps d’exporation
+ $ET^{-}$ et $ET^{+}$, en soustrayant aux temps de la tâche, les temps
+ théoriques de réaction ($ET^{-}$ et $ET^{+}$ calculé avec les équations
+ \@ref(eq:RT1) et \@ref(eq:RT2)), ainsi que les temps théoriques moyens des
+ mouvements $MT^{moy}$. Ce calcul est synthétisé dans le
+ tableau \@ref(tab:ttmp).
 
-![](img/exp_explo.png)
-Figure 5.16 : Évolution du temps de la tâche en
- fonction du nombre de zones
+ Table: (\#tab:ttmp) Résultats : les temps moyens de la tâche
+ $T$, les temps théoriques $MT$, et $RT$, d’où par
+ soustraction les temps d’exploration minimum et maximum $ET^{-}$ et $ET^{+}$.
+
+| Nombre de points | Temps (empiriques) | $RT^{-}$ (théoriques) | $RT^{+}$ (théoriques) | $MT^{moy}$ (théoriques) | $ET^{-}$ (déduits) | $ET^{+}$ (déduits) |
+|------------------|--------------------|-----------------------|-----------------------|-------------------------|--------------------|--------------------|
+| 2                | 1291               | 306                   | 394                   | 499                     | 486                | 398                |
+| 3                | 2269               | 380                   | 519                   | 528                     | 1361               | 1222               |
+| 4                | 2636               | 433                   | 609                   | 550                     | 1652               | 1476               |
+| 6                | 4869               | 507                   | 734                   | 586                     | 3776               | 3548               |
+| 9                | 5644               | 581                   | 860                   | 627                     | 4435               | 4156               |
 
 
 
-En partant de notre hypothèse de base, c’est à dire *Temps*=*ET*+*RT*+*MT*, nous pouvons déduire les
- valeurs minimum et maximum des temps d’exporation \(ET^{-}\) et \(ET^{+}\), en soustrayant aux temps de la
- tâche, les temps théoriques de réaction (\(ET^{-}\)et \(ET^{+}\) calculé avec les équations
- [3](#eq:RT1) et [4](#eq:RT2)), ainsi que les temps
- théoriques moyens des mouvements \(MT^{moy}\). Ce calcul est
- synthétisé dans le tableau [5.8](#cap:R=E9sultats-:-les).
- | Nombre de points | Temps (empiriques) | \(RT^{-}\) (théoriques) | \(RT^{+}\) (théoriques) | \(MT^{moy}\) (théoriques) | \(ET^{-}\) (déduits) | \(ET^{+}\) (déduits) |
-| --- | --- | --- | --- | --- | --- | --- |
-| 2 | 1291 | 306 | 394 | 499 | 486 | 398 |
-| 3 | 2269 | 380 | 519 | 528 | 1361 | 1222 |
-| 4 | 2636 | 433 | 609 | 550 | 1652 | 1476 |
-| 6 | 4869 | 507 | 734 | 586 | 3776 | 3548 |
-| 9 | 5644 | 581 | 860 | 627 | 4435 | 4156 |
-
-
-Table 5.8 : Résultats : les temps moyens de la tâche
- *T*, les temps théoriques *MT*, et *RT*, d’où par
- soustraction les temps d’exploration minimum et maximum (\(ET^{-}\)et (\(ET^{+}\).
 
 
 
 Traçons maintenant, la somme des temps de mouvement et d’exploration : on
  a soustrait des temps totaux, le temps de réaction théorique. On peut d’ores
- et déjà noter, sur la figure [5.17](#cap:Temps-d'exploration-et), que dans ce cas, le temps tombe à 0
- quand le nombre de zones est nul. Ceci tend à confirmer notre hypothèse de
- départ. En effet, une fois ôté le temps de réaction, le temps devrait se
- trouver nul, car il n’y a plus, ni exploration, et donc ni mouvement. À noter
- qu’avec une cible unique, le temps *MT*+*ET* est non nul. Cela provient
- du temps de déclenchement du geste (le terme *a*
- dans la loi de Fitts).
+ et déjà noter, sur la figure \@ref(fig:exploration), que dans ce cas, le temps
+ tombe à 0 quand le nombre de zones est nul. Ceci tend à confirmer notre
+ hypothèse de départ. En effet, une fois ôté le temps de réaction, le temps
+ devrait se trouver nul, car il n’y a plus, ni exploration, et donc ni
+ mouvement. À noter qu’avec une cible unique, le temps $MT$+$ET$ est non nul.
+ Cela provient du temps de déclenchement du geste (le terme $a$ dans la loi
+ de Fitts).
+
+![(#fig:exploration)Temps d’exploration et de mouvement,
+ en fonction du nombre de zones](img/exp_explo2.png)
 
 
 
-![](img/exp_explo2.png)
-Figure 5.17 : Temps d’exploration et de mouvement,
- en fonction du nombre de zones
-
-
-
-Soustrayons à présent le temps de mouvement *MT*, et traçons le résultat sur la figure [5.18](#cap:Temps-d'exploration-fx). Nous pouvons y observer que le temps
- d’exploration *ET*, tombe à 0 lorsqu’il n’y a
+Soustrayons à présent le temps de mouvement $MT$, et traçons le résultat
+ sur la figure \@ref(fig:tefn). Nous pouvons y observer que le temps
+ d’exploration $ET$, tombe à 0 lorsqu’il n’y a
  qu’une seule zone haptique. Ceci tend également à confirmer notre hypothèse.
  En effet, on peut imaginer qu’avec une seule zone, il n’y a intuitivement pas
  de phase d’exploration.
 
-
-
-![](img/exp_explo3.png)
-Figure 5.18 : Temps d’exploration en fonction du
- nombre de zones
+![(#fig:tefn)Temps d’exploration en fonction du
+ nombre de zones](img/exp_explo3.png)
 
 
 
@@ -1092,12 +1053,14 @@ Figure 5.18 : Temps d’exploration en fonction du
 
 
 D’après notre expérimentation, le temps d’exploration d’une surface, à la
- recherche d’une zone haptique, semble être linéaire en *n*. Cependant, notons bien que dans notre test, nous n’avons
+ recherche d’une zone haptique, semble être linéaire en *n*. Cependant,
+ notons bien que dans notre test, nous n’avons
  pas étudié les cas au delà de 9 points haptiques. En effet, le modèle du
  processeur humain nous donne une mémorisation à court terme de 7±2 éléments,
  selon la concentration ou la fatigue. Aussi, nous essaierons d’éviter de
  présenter trop de zones haptiques en même temps, dans une tâche de
  mémorisation.
+
 
 
 ### Vers les applications de la localisation relative
@@ -1151,22 +1114,19 @@ Une autre possibilité consiste à utiliser des cartes tactiles. Ces
  emplacements.
 
 
-Le projet CDV (pour Cartographie pour Déficients Visuels ^[site web : <http://tactile.nrcan.gc.ca/>]),
- au Canada ([Siekierska et al.,
- 2001](047-bibliographie.html#Siekierska2001)), propose l’accès à des cartes prêtes à imprimer en se servant d’un
- amplificateur thermique : la représentation graphique (figure [5.19](#cap:Repr=E9sentation-graphique-d'une)) est téléchargée, imprimée
- sur du " papier-capsule " et passé dans un amplificateur thermique. Le
+Le projet CDV (pour Cartographie pour Déficients
+ Visuels ^[site web : <http://tactile.nrcan.gc.ca/>]), au Canada,
+ [@siekierska2001tactile] propose l’accès à des cartes prêtes à imprimer
+ en se servant d’un amplificateur thermique : la représentation graphique
+ (figure \@ref(fig:canada)) est téléchargée,
+ imprimée sur du " papier-capsule " et passé dans un amplificateur thermique. Le
  papier-capsule, un papier qui gonfle sous l’effet de la chaleur, est utilisé
  dans un copieur stéréoscopique pour mettre en relief les surfaces imprimées
  telles que les courbes de niveau, les poncifs et l’information textuelle.
 
-
-
-![](img/fo_fr_br.png)
-Figure 5.19 : Représentation graphique
+![(#fig:canada)Représentation graphique
  d’une carte tactile. Dans cet exemple, il s’agit des différents types
- de forêts du Canada
-
+ de forêts du Canada](img/fo_fr_br.png)
 
 
 Des projets pédagogiques dédiés aux non-voyants ont été mis sur pieds,
@@ -1192,10 +1152,11 @@ Le principe est le suivant : on place une feuille avec le document
  braille souvent encombrant.
 
 
-Enfin, le CDV, encore, propose une application des travaux de [@gardner2001smart]. Il s’agit d’un
- environnement qui permet de lire des carte SVG relativement simples, et de
- les augmenter avec le mode haptique : sensation des frontières et des formes
- des régions.
+Enfin, le CDV, encore, propose une application des travaux
+ de [@gardner2001smart]. Il s’agit d’un environnement qui permet de lire
+ des carte SVG relativement simples, et de les augmenter avec le mode
+ haptique : sensation des frontières et des formes des régions.
+
 
 
 ### L’application Géogr’Haptic
@@ -1242,13 +1203,9 @@ Nous allons maintenant illustrer le fonctionnement de
 Situation de départ : une carte des Etats-Unis est affichée dans le
  navigateur internet. Le pointeur de la souris se trouve sur l’état du Kansas.
  Le son « Kansas » vient de sortir du haut-parleur et la souris
- semble aimantée dans sa position actuelle (figure [5.20](#cap:geo1)).
+ semble aimantée dans sa position actuelle (figure \@ref(fig:initiale)).
 
-
-
-![](img/geo1.png)
-Figure 5.20 : Géogr’haptique, situation initiale
-
+![(#fig:initiale)Géogr’haptique, situation initiale](img/geo1.png)
 
 
 Maintenant, on saisit la souris, et on la pousse vers la gauche. Il faut
@@ -1256,12 +1213,9 @@ Maintenant, on saisit la souris, et on la pousse vers la gauche. Il faut
  d’origine. Pourtant, un instant plus tard, la force ressentie dans la souris
  s’est inversée, le périphérique se stabilise dans une nouvelle position
  située à gauche de la précédente et le mot « Colorado » vient
- d’être prononcé par la synthèse vocale (figure [5.21](#cap:geo2)).
+ d’être prononcé par la synthèse vocale (figure \@ref(fig:finale)).
 
-
-
-![](img/geo2.png)
-Figure 5.21 : Géogr’haptique, situation finale
+![(#fig:finale)Géogr’haptique, situation finale](img/geo2.png)
 
 
 
@@ -1283,7 +1237,8 @@ Nous avons pu faire tester notre prototype de manière informelle par
 Tous nos testeurs ont donc souligné l’intérêt de l’approche, tout en
  regrettant de ne pas disposer d’un accès à une information géographique plus
  large, comme c’est par exemple le cas sur des web-services (non-accessibles
- cependant aux non-voyants) comme Google Maps^[http://maps.google.fr], Yahoo Local^[http://maps.yahoo.com/], ou encore MSN
+ cependant aux non-voyants) comme Google Maps^[http://maps.google.fr],
+ Yahoo Local^[http://maps.yahoo.com/], ou encore MSN
  Virtual Earth^[http://local.live.com].
 
 
@@ -1308,12 +1263,13 @@ Dans cette partie, nous présentons Music’Haptic, un prototype
 ### Spatialisation de l’information musicale et apprentissage
 
 
-La théorie de l’harmonie de Longuet-Higgins [@longuet1962letter] [@longuet2319626] propose
+La théorie de l’harmonie de Longuet-Higgins [@longuet1962letter]
+ [@longuet2319626] propose
  l’utilisation d’un tableau de notes. La représentation de Longuet-Higgins a
  été un des premiers cadres théoriques permettant d’expliquer la perception et
  les traitements cognitifs mis en œuvre lors de l’écoute harmonique. La
- théorie de Longuet-Higgins [@longuet1962letter] [@longuet2319626] affirme que les
- intervalles qui interviennent dans la musique tonale occidentale sont ceux
+ théorie de Longuet-Higgins [@longuet1962letter] [@longuet2319626] affirme que
+ les intervalles qui interviennent dans la musique tonale occidentale sont ceux
  entre les notes dont la fréquence peut s’exprimer comme produit des trois
  facteurs principaux 2, 3, et 5 et aucun autre. Une fois assimilé cette
  assertion, il s’ensuit que l’ensemble constitué des intervalles de l’octave
@@ -1325,18 +1281,16 @@ La théorie de l’harmonie de Longuet-Higgins [@longuet1962letter] [@longuet231
  fréquent d’ oublier de noter l’octave, du fait de l’équivalence entre deux
  notes séparées par cet intervalle, afin de se concentrer sur les deux autres
  dimensions : les quintes justes sont alors sur un axe et les tierces majeures
- sont sur l’autre (figure [5.22](#cap:Repr=E9sentations-de-Longuet-Higgins)).
+ sont sur l’autre (figure \@ref(fig:Longuet-Higgins)).
 
 
-Plus tard, [@steedman1972formal] a
- proposé une notation dérivée de celle de Longuet-Higgins et nous la
- détaillerons dans la prochaine section.
+Plus tard, [@steedman1972formal] a proposé une notation dérivée de celle de
+Longuet-Higgins et nous la détaillerons dans la prochaine section.
 
 
+![(#fig:Longuet-Higgins)Représentations de Longuet-Higgins (à gauche)
+ et de Steedman (à droite)](img/higinsSteedman.png)
 
-![](img/higinsSteedman.png)
-Figure 5.22 : Représentations de
- Longuet-Higgins (à gauche) et de Steedman (à droite)
 
 
 
@@ -1356,8 +1310,8 @@ Figure 5.22 : Représentations de
 
 L’ordinateur a beaucoup été utilisé pour l’apprentissage de la musique. Et
  comme résultante de la nature pluridisciplinaire du domaine, les approches
- employées peuvent être très différentes. On pourra se référer à [@brandao1999computers] pour une étude exhaustive des
- techniques employées.
+ employées peuvent être très différentes. On pourra se référer à
+ [@brandao1999computers] pour une étude exhaustive des techniques employées.
 
 
 Plusieurs contextes ont été employés dans ces tâches :
@@ -1372,7 +1326,9 @@ Plusieurs contextes ont été employés dans ces tâches :
 Pour autant, ces approches oublient souvent les utilisateurs ayant une
  déficience visuelle. L’accessibilité à la notation musicale pour les
  personnes non-voyantes, est généralement basée sur la transcription linéaire
- de la partition, en Braille. Les applications informatiques [@BrailleMusicEditor] et ([Toccata, 2002](047-bibliographie.html#Toccata)) fonctionnent de cette façon. Mais
+ de la partition, en Braille. Les applications informatiques
+ [@BrailleMusicEditor] et ([Toccata, 2002](047-bibliographie.html#Toccata))
+ fonctionnent de cette façon. Mais
  cela implique la connaissance préalable des notions musicale et harmoniques,
  ainsi que du Braille musical.
 
@@ -1389,24 +1345,21 @@ Mark [@steedman1972formal] a proposé une
  autre notation, en décalant les lignes de l’espace, de manière à pouvoir
  intercaler les tierces mineures dans le plan. On se retrouve maintenant avec
  six voisins par notes, et donc, avec une représentation hexagonale
- (figure [5.23](#cap:La-repr=E9sentation-de)).
+ (figure \@ref(fig:steedman)).
 
+![(#fig:steedman)La représentation de Steedman et ses
+ trois axes harmoniques](img/Steedman.png)
 
-
-![](img/Steedman.png)
-Figure 5.23 : La représentation de Steedman et ses
- trois axes harmoniques
 
 
 
 Nous avons choisi cette notation, pour lui appliquer la localisation
  relative. En effet, par rapport à la notation de Longuet-Higgins, les voisins
- d’une note sont équidistants. Donc, la loi de [@fitts1954information] nous donne un temps égal pour accéder
+ d’une note sont équidistants. Donc, la loi de [@fitts1954information] nous
+ donne un temps égal pour accéder
  à chacun de ces voisins. De plus, ces six notes voisines peuvent être
  considérées comme étant les notes les plus harmoniquement proches de la note
  centrale.
-
-
 
 
  Par rapport à la représentation originale, nous avons procédé à une rotation
@@ -1417,7 +1370,7 @@ Nous avons choisi cette notation, pour lui appliquer la localisation
 
 
 Les principales caractéristiques de notre représentation
- (figure [5.24](#cap:La-repr=E9sentation-stee)) sont :
+ (figure \@ref(fig:steedman)) sont :
 
 
 * l’axe vertical est constitué d’un empilement de
@@ -1432,11 +1385,8 @@ Les principales caractéristiques de notre représentation
  Son cycle fait 4 notes de long.
 
 
-
-`![](img/gamme.svg)`
-Figure 5.24 : La représentation de Steedman,
- telle qu’elle est implé-mentée
-
+![(#fig:representation)La représentation de Steedman,
+ telle qu’elle est implémentée](img/gamme.svg)
 
 
 La plus importante des caractéristiques de cette notation (et de celle de
@@ -1445,7 +1395,7 @@ La plus importante des caractéristiques de cette notation (et de celle de
  gardant que les notes jouées. Il se trouve qu’en notant les principaux
  accords de la musique occidentale, on trouve des formes spécifiques; qui plus
  est, ces formes ne varient pas avec la tonalité de l’accord. La
- figure [5.25](#cap:Les-accord-impl=E9ment=E9s)) montre les
+ figure \@ref(fig:chords)) montre les
  accords que nous considérons. Il faut bien garder à l’esprit que ces formes
  (par exemple le triangle isocèle pointant vers la droite pour la quinte
  majeure) restent les mêmes quelle que soit la tonalité de l’accord.
@@ -1456,10 +1406,7 @@ Nous allons nous baser sur cette propriété pour créer un outil
  une phase d’apprentissage, l’utilisateur pourra reconnaître la nature d’un
  accord, d’après sa forme sur la notation.
 
-
-
-`![](img/chords_eng.svg)`
-Figure 5.25 : Les accord implémentés
+![(#fig:chords)Les accord implémentés](img/chords_eng.svg)
 
 
 
@@ -1467,32 +1414,26 @@ Autre avantage de cette notation, surtout dans une tâche
  d’apprentissage : deux accords d’une même nature peuvent avoir deux
  formes différentes dans la notation musicale traditionnelle; on retrouvera
  quoi qu’il arrive la même forme spécifique dans la notation hexagonale. Sur
- la figure [5.26](#cap:Des-formes-diff=E9rentes), le même
+ la figure \#ref(fig:trad1), le même
  accord de 7èmediminuée peut avoir deux formes
  différentes. Avec la notation de Steedman, cet accord est constitué de quatre
  hexagones alignés, quelle que soit la tonalité.
 
-
-
-![](img/trad1.png)
-Figure 5.26 : Des formes différentes dans la
- notation musicale, pour le même accord de 7ème.
-
+![(#fig:trad1)Des formes différentes dans la
+ notation musicale, pour le même accord de 7ème.](img/trad1.png)
 
 
 De plus, si deux accords semblent avoir la même forme dans la notation
  musicale traditionnelle, leurs natures peuvent être différentes. Par exemple,
- sur la figure [5.27](#cap:La-m=EAme-forme), les deux accords
+ sur la figure \@ref(#fig:trad2), les deux accords
  se ressemblent. Pourtant, l’un est un accord de quinte majeure, et l’autre un
  accord de quinte mineure, qui est représenté dans la notation hexagonale par
  un triangle pointant à droite ou à gauche.
 
-
-
-![](img/trad2.png)
-Figure 5.27 : La même forme dans la notation musicale,
+![(#fig:trad2)La même forme dans la notation musicale,
  pour des accords différents : Quinte majeure à gauche, et quinte
- mineur à droite
+ mineur à droite](img/trad2.png)
+
 
 
 
@@ -1500,15 +1441,12 @@ Figure 5.27 : La même forme dans la notation musicale,
 
 
 D’un point de vue système, le fonctionnement de Music’haptic est
- schématisé sur la figure [5.28](#cap:Survol-du-syst=E8me).
+ schématisé sur la figur \@ref(fig:survol).
  Nous avons eu recours à des script CGI exécutés sur le serveur, afin de
  générer les document graphiques (la notation musicale traditionnelle, et les
  portions de SVG), demandés par les requêtes utilisateurs.
 
-
-
-`![](img/organisation.svg)`
-Figure 5.28 : Survol du système
+![(#fig:survol)Survol du système](img/organisation.svg)
 
 
 
@@ -1522,23 +1460,21 @@ Deux modes sont disponibles :
 * le mode damier : dans ce mode, l’utilisateur
  peut librement explorer l’ensemble du damier d’hexagones. Chaque note est
  affichée avec un effet de retour de force, magnétisant le pointeur en son
- centre (figure [5.29](#cap:Une-note-et)). La note est jouée
+ centre (figure \@ref(fig:noteseule)). La note est jouée
  en même temps.
 * le mode accord : ici, l’utilisateur peut isoler
  un accord, et n’explorer que celui-ci. C’est grâce à ce mode, que
  l’utilisateur peut progressivement appréhender la forme spécifique à une
  nature d’accord.
 
+![(#fig:noteseule)Une note et son retour de force](img/noteSeule.svg)
 
-
-`![](img/noteSeule.svg)`
-Figure 5.29 : Une note et son retour de force
 
 
 
 Le clavier permet de basculer entre les différents modes, ainsi que de
  choisir l’accord à explorer ou à étudier (quinte majeur, quinte augmentée,
- etc. voir la figure [5.25](#cap:Les-accord-impl=E9ment=E9s)).
+ etc. voir la figure \@ref(fig:chords)).
 
 
 La dernière possibilité de ce prototype est la génération dynamique des
@@ -1548,11 +1484,9 @@ La dernière possibilité de ce prototype est la génération dynamique des
  le partage entre utilisateur de la souris et enseignant (voyant).
 
 
-
-![](img/musichaptic.png)
-Figure 5.30 : Le retour
+![(#fig:musichaptique)Le retour
  de force sur l’affichage hexagonal, et la notation musicale,
- dynamiquement générée
+ dynamiquement générée](img/musichaptic.png)
 
 
 

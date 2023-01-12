@@ -338,7 +338,7 @@ Les recommandations de la WAI actuellement en vigueur sont :
  utilisateurs.
 
 
-On pourra se référer aux [annexes](\@ref(accessibilite)), pour plus de détails.
+On pourra se référer aux [annexes](#accessibilite), pour plus de détails.
 
 
 ### Autres aspects de l’accessibilité

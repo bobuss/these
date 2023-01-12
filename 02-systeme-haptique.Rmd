@@ -508,32 +508,32 @@ En 1954, Fitts a empiriquement développé un prédicteur quantitatif donnant
  présenté le rapport suivant, connu sous le nom de loi de Fitts.
 
 
-Le temps du mouvement *MT* requis pour
- sélectionner une cible de taille *W* situé à une
- distance *A* est :
+Le temps du mouvement $MT$ requis pour
+ sélectionner une cible de taille $W$ situé à une
+ distance $A$ est :
 
 \begin{equation}
- MT=a+b\log\_{2}(2A/W)\label{eq:fitts}
+ MT=a+b\log_{2}(2A/W)\label{eq:fitts}
  (\#eq:fitts)
 \end{equation}
 
- où *a* et *b* sont des
- constantes déterminées empiriquement. Le logarithme \(\log\_{2}(2A/W)\)
- représente l’indice de difficulté (*ID*) de la
+ où $a$ et $b$ sont des
+ constantes déterminées empiriquement. Le logarithme \(\log_{2}(2A/W)\)
+ représente l’indice de difficulté ($ID$) de la
  tâche et est exprimé en bits (sa base est 2). Plus élevée est la valeur de
- *ID* et plus difficile est la tâche. Si
- *MT* est exprimé en seconde, la constante
- *a* sera exprimée en seconde et *b* en seconde/bit. L’inverse de *b*
- (soit 1/*b*) est l’indice de performance
- (*IP*) et est exprimé en bit/seconde.
+ $ID$ et plus difficile est la tâche. Si
+ $MT$ est exprimé en seconde, la constante
+ $a$ sera exprimée en seconde et $b$ en seconde/bit. L’inverse de $b$
+ (soit $1/b$) est l’indice de performance
+ ($IP$) et est exprimé en bit/seconde.
 
 
 La figure \@ref(fig:LexperiencedeFitts) illustre
  l’expérience qui a permis à Fitts d’établir sa loi. La tâche que devaient
  accomplir les sujets était la suivante. Initialement, la main est placée à
  l’origine du mouvement ; alors, le sujet doit aller le plus vite possible
- toucher une cible distante de *A*cm et large de
- *W*cm.
+ toucher une cible distante de $A$cm et large de
+ $W$cm.
 
 
 
@@ -541,24 +541,24 @@ La figure \@ref(fig:LexperiencedeFitts) illustre
 
 
 La formulation originale de la loi de Fitts \@ref(eq:fitts) s’avère
- cependant inexacte pour les faibles valeur de l’*ID* (< 3bits), montrant une courbure de *MT* au dessus de la droite de régression linéaire. Une autre
+ cependant inexacte pour les faibles valeur de l’$ID$ (< 3bits), montrant une courbure de $MT$ au dessus de la droite de régression linéaire. Une autre
  formulation, proposée en 1960 par Welford [@welford1960measurement], permet de corriger cet
  effet :
 
 \begin{equation}
- MT=a+b\log\_{2}(A/W+0.5)
+ MT=a+b\log_{2}(A/W+0.5)
 \end{equation}
 
  Enfin, en 1992, MacKenzie ([MacKenzie,
  1992](047-bibliographie.html#MacKenzie92)) a également proposé sa propre formulation :
 
 \begin{equation}
- MT=a+b\log\_{2}(A/W+1)
+ MT=a+b\log_{2}(A/W+1)
  (\#eq:shannon)
 \end{equation}
 
  Ces différentes équations ne diffèrent que par la formulation de
- l’*ID*. L’équation \@ref(eq:shannon), connue
+ l’$ID$. L’équation \@ref(eq:shannon), connue
  comme formulation de Shannon, est préférée pour les raisons suivantes
  [@mackenzie1992fitts] :
 
@@ -576,9 +576,9 @@ Enfin, on peut citer quelques extensions à la loi de Fitts. En effet,
  effectué en deux parties (figure \@ref(fig:Tachepour2)),
 
 
-auxquels cas, la formulation de l’indice de difficulté *ID* sera :
+auxquels cas, la formulation de l’indice de difficulté $ID$ sera :
 
-\[ ID\_{2}=2log\_{2}\left(\frac{A}{2W}+1\right)\]
+\[ ID\_{2}=2log_{2}\left(\frac{A}{2W}+1\right)\]
 
 ![(#fig:Tachepour2)Tâche pour n=2](img/fitts2.png)
 
@@ -590,7 +590,7 @@ et pour n parties (figure \@ref(fig:Tachepourn)):
 
 où on aura :
 
-\[ ID\_{N}=Nlog\_{2}\left(\frac{A}{NW}+1\right)\]
+\[ ID\_{N}=Nlog_{2}\left(\frac{A}{NW}+1\right)\]
 
 
 #### La loi d’Accot
@@ -614,26 +614,25 @@ La loi s’exprime ainsi :
  (\#eq:accot)
 \end{equation}
 
- où *T* est le temps moyen pour suivre le chemin,
- *C* est le chemin paramétré par *s*, *W*(*s*) est la largeur du chemin à l’abscisse curviligne
- *s*, et *a* et
- *b* sont des constantes empiriques. Dans le cas
- général, le chemin est complexe, avec une largeur *W*(*s*) variable.
+ où $T$ est le temps moyen pour suivre le chemin,
+ $C$ est le chemin paramétré par $s$, $W(s)$ est la largeur du chemin à
+ l’abscisse curviligne $s$, et $a$ et $b$ sont des constantes empiriques.
+ Dans le cas général, le chemin est complexe, avec une largeur $W(s)$ variable.
 
 
 Des chemins plus simples permettent des simplifications mathématiques. Par
- exemple, si le chemin est un tunnel droit avec une largeur *W* constante,
+ exemple, si le chemin est un tunnel droit avec une largeur $W$ constante,
  l’équation \@ref(eq:accot) devient :
 
 \[
  T=a+b\frac{A}{W}\]
 
- où *A* est la longueur du chemin. On peut
+ où $A$ est la longueur du chemin. On peut
  observer une certaine similarité avec la loi de Fitts.
 
 
 Il est également possible de dériver les deux côtés de l’équation
- \@ref(eq:accot) selon la variable *s*, et obtenir
+ \@ref(eq:accot) selon la variable $s$, et obtenir
  la formulation locale, ou instantanée de la loi :
 
 \[
@@ -662,7 +661,7 @@ Tout tracé curviligne peut être décomposé en parties dont chacune possède
 \[
  V(t)=kR(t)^{\beta}\]
 
- où *V* est la vitesse tangentielle, *R* le rayon de courbure et *k* une
+ où $V$ est la vitesse tangentielle, $R$ le rayon de courbure et $k$ une
  constante appelée gain de vitesse.
 
 
@@ -699,7 +698,7 @@ Pour ce faire, les auteurs ont montré que la douceur d’une trajectoire
  position.
 
 
-Si on note *x*(*t*) la
+Si on note $x(T)$ la
  position d’un système, alors le jerk de ce système sera :
 
 \[
@@ -712,7 +711,7 @@ Si on note *x*(*t*) la
 \[
  H(x(t))=\frac{1}{2}\int\_{t=0}^{T}\dddot{x}^{2}dt\]
 
- où *T* est la durée de la trajectoire.
+ où $T$ est la durée de la trajectoire.
 
 
 Après un calcul de variation, il s’ensuit que la trajectoire minimisant le
@@ -732,7 +731,7 @@ Après un calcul de variation, il s’ensuit que la trajectoire minimisant le
  La figure \@ref(fig:Positionvitesseacceleration)
  trace cette fonction, ainsi que ses trois premières dérivées : vitesse,
  accélération et jerk. La forme en cloche de la courbe de la vitesse
- ẋ(*t*) est typique du principe de minimisation du
+ ẋ($T$) est typique du principe de minimisation du
  jerk.
 
 
@@ -796,12 +795,13 @@ Le processus continue jusqu’à ce que la cible soit atteinte. L’objectif de
 
 
 Il a été montré [@meyer1988optimality] [@rosenbaum1991optimal] que la
- déviation standard *S* entre la fin du premier
- mouvement et la cible augmentait avec la distance *D* et diminuait avec la durée du mouvement *T*, selon la loi :
+ déviation standard $s$ entre la fin du premier
+ mouvement et la cible augmentait avec la distance $D$ et diminuait avec la
+ durée du mouvement $T$, selon la loi :
 
 \[ S=k\left(\frac{D}{T}\right)\]
 
- où *k* est une constante.
+ où $k$ est une constante.
 
 
 Ceci signifie qu’un mouvement sur une longue distance, exécuté pendant un
@@ -811,8 +811,8 @@ Ceci signifie qu’un mouvement sur une longue distance, exécuté pendant un
  le temps total serait extrêmement long.
 
 
-La solution mathématique au problème consiste à jouer sur *D* et *T* de manière à minimiser le
- temps total [@rosenbaum1991optimal]. Dans
+La solution mathématique au problème consiste à jouer sur $D$ et $T$ de manière
+ à minimiser le temps total [@rosenbaum1991optimal]. Dans
  les faits, le mouvement optimal consiste en un premier mouvement de grande
  amplitude et rapide, qui nous amène aussi proche que raisonnablement possible
  de la cible ; suivi par un ou plusieurs petits gestes correctifs, et plus
