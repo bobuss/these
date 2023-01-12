@@ -967,11 +967,16 @@ D’un point de vue général, il s’avère que les dispositifs actuels
 
 En se référant aux [procédures d’exploration haptique](#conjuguent) proposées
  par [@lederman1987haptic], [@wall2004investigation] a dressé le
- tableau [2.3](#cap:Les-possilibites-des), qui montre les possibilités et les
+ tableau \@ref(tab:possibilite), qui montre les possibilités et les
  impossibilités, lorsque l’on manipule un dispositif de pointage. Finalement,
  [@lederman2004haptic] ont également montré que la rigidité du stylet limitait
  également la perception (par rapport à un stylet flexible).
 
+
+
+
+Table (\@tab:possibilite) Les possibilités des mouvements d’exploration avec un
+ périphérique  de pointage
 
 |                                 |                                                                 |
 |---------------------------------|-----------------------------------------------------------------|
@@ -986,11 +991,6 @@ En se référant aux [procédures d’exploration haptique](#conjuguent) propos�
 | Le suivi de contours            | Possible, mais très difficile du fait d’une zone de contact     |
 |                                 | réduite à un point                                              |
 
-
-
-
-Table 2.3 : Les possibilités des mouvements
- d’exploration avec un périphérique de pointage
 
 
 

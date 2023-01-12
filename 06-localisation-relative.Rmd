@@ -1121,7 +1121,7 @@ Nous allons maintenant poursuivre dans ce chapitre en présentant les deux
 
 
 
-## Application à la géographie : geogr’haptique
+## Application à la géographie : geogr’haptique {#geogrhaptique}
 
 
 Géogr’haptique est une application de la localisation relative, dans

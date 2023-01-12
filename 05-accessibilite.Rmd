@@ -1,11 +1,6 @@
 # (PART) Haptique et Accessibilité {-}
 
-
-
 # Vers l’accessibilité
-
-
-
 
 ## Introduction
 
@@ -27,11 +22,6 @@ Dans ce chapitre, nous allons tâcher de synthétiser ce que la littérature
 
 
 
-
-
-
-
-
 ## L’interaction non-visuelle
 
 
@@ -46,32 +36,35 @@ La déclaration des droits des personnes handicapées proclamée par
  est une personne handicapée.
 
 
-En 1980, l’organisation Mondiale de la Santé [@world1980international], dans le rapport du rhumatologue
- britannique, Philip WOOD, introduit une clarification conceptuelle dans la
- définition du handicap, reprise en France sous le titre de " Classification
- internationale des handicaps (CIH) : déficiences, incapacités, désavantages.
- Il y est défini le handicap comme la conséquence des maladies sur la personne
- suivant trois plans :
+En 1980, l’organisation Mondiale de la Santé [@world1980international], dans
+ le rapport du rhumatologue britannique, Philip WOOD, introduit une
+ clarification conceptuelle dans la définition du handicap, reprise en France
+ sous le titre de " Classification internationale des handicaps (CIH) :
+ déficiences, incapacités, désavantages. Il y est défini le handicap comme
+ la conséquence des maladies sur la personne suivant trois plans :
 
 
 * **la déficience**, correspondant à l’altération
  d’une structure ou d’une fonction psychologique, physiologique ou
  anatomique. La déficience peut-être temporaire ou définitive;
+
 * **l’incapacité**, qui est une réduction partielle
  ou totale de la capacité d’accomplir de façon normale une activité.
  L’incapacité est en quelque sorte la conséquence fonctionnelle de la
  déficience mais elle ne dépend pas obligatoirement de celle-ci. D’autre
  part, une déficience peut très bien ne s’accompagner d’aucune
  incapacité;
+
 * **le désavantage** ou **le handicap**,
  conséquence de la déficience ou de l’incapacité sur les conditions
  d’insertion sociale, scolaire ou professionnelle.
 
 
 Dans l’union européenne, c’est près d’un tiers de la population qui
- souffre de troubles divers (voir le tableau [4.1](#cap:Population-souffrant-de)).
+ souffre de troubles divers (voir le tableau \@ref(tab:population)).
 
-
+Table: (\#tab:population) Population souffrant de troubles
+ dans les états membres de l’Union Européenne (adapté de [TIDE 96]).
 
 | Type de troubles     | Estimation (en millions) | % des personnes handicapées | % de la population |
 |----------------------|--------------------------|-----------------------------|--------------------|
@@ -83,13 +76,7 @@ Dans l’union européenne, c’est près d’un tiers de la population qui
 
 
 
-Table 4.1 : Population souffrant de troubles
- dans les états membres de l’Union Européenne (adapté de [TIDE
- 96]).
-
-
-
-Le tableau [4.2](#cap:Populations-non-et) montre les
+Le tableau \@ref(tab:malvoyants) montre les
  statistiques sur les populations mal-voyantes et non-voyantes. En France, sur
  18000 aveugles en âge de travailler, environ 6000 travaillent, dont 1500
  manuels (les 2/3 en secteur protégé), 1500 standardistes, 1300 masseurs
@@ -99,18 +86,16 @@ Le tableau [4.2](#cap:Populations-non-et) montre les
  travail. [Quid 2005]
 
 
+Table: (\#tab:malvoyants) Populations non et mal-voyantes en France et dans le monde
+
+|                              | Troubles visuels | Aveugles + mal-voyants |
+|------------------------------|------------------|------------------------|
+| Monde (OMS février 2000)     | 160 000 000      | 45 000 000             |
+| France (1997)                | 1 500 000        | 110 000 + 250 000      |                                   |                  |                        |
+| % de la population française | 2.6%             |                        |
 
 
-|                   |                              | Troubles visuels | Aveugles + mal-voyants |
-|-------------------|------------------------------|------------------|------------------------|
-|                   | Monde (OMS février 2000)     | 160 000 000      | 45 000 000             |
-|                   | France (1997)                | 1 500 000        |                        |
-| 110 000 + 250 000 |                              |                  |                        |
-|                   | % de la population française | 2.6%             |                        |
 
-
-Table 4.2 : Populations
- non et mal-voyantes en France et dans le monde
 
 
 
@@ -134,13 +119,13 @@ Enfin, la France a voté le 12 février 2005 la loi n°102-2005 pour
 
 En fait, il a été souvent dit que les aveugles développaient des capacités
  sensorielles supra-normales, telles que l’acuité auditive, ou somesthésique.
- Dans la pratique, cependant, il a été prouvé que l’acuité haptique [@heller1989texture] était équivalente chez les
+ Dans la pratique, cependant, il a été prouvé que l’acuité haptique
+ [@heller1989texture] était équivalente chez les
  non-voyants congénitaux, chez les non-voyants accidentels et chez les
  personnes voyantes.
 
 
-### La représentation mentale d’un document par une personne
- non-voyante
+### La représentation mentale d’un document par une personne non-voyante
 
 
 Une personne aveugle se sert énormément de sa mémoire et relativement peu
@@ -148,9 +133,8 @@ Une personne aveugle se sert énormément de sa mémoire et relativement peu
  basée sur la vue et la coordination oeil-main.
 
 
-Pourtant, les travaux de [(Hatwell,
- 1993)](047-bibliographie.html#Hatwell1993) et de [@martial1998representation] ont
- montré que la représentation mentale des non-voyants est identique à celle
+Pourtant, les travaux de [@hatwell1993images] et de [@martial1998representation]
+ ont montré que la représentation mentale des non-voyants est identique à celle
  des voyants. En effet, même si l’on parle habituellement de mémoire visuelle,
  lorsque l’on considère la représentation mentale de quelque chose, tout est
  basé sur l’expérience de l’espace. En d’autres mots, pour se construire une
@@ -202,14 +186,15 @@ En conclusion, un non-voyant se construit une image mentale identique en
 
 
 Contrairement à ceux de l’être humain, les médias non visuels en sortie
- restent limités (tableau [4.3](#cap:Sens-perceptifs-humain)).
+ restent limités (tableau \@ref(tab:media-non-visuels)).
  Les systèmes basés sur les sens de l’odorat et du goût restent très rares.
  Maintenant, les périphériques de pointage à retour d’effort se démocratisent
  de plus en plus (voir [2.5](016-les-peripheriques-de-sortie-a-retour-haptique.html)).
 
 
 
-
+Table: (\#tab:media-non-visuels)Sens perceptifs humain et médias informatiques
+ (adapté de [@truillet1999modelisation])
 
 | Sens perceptifs humain | Médias informatiques                                             | Stimuli                         | Récepteurs                    |
 |------------------------|------------------------------------------------------------------|---------------------------------|-------------------------------|
@@ -220,24 +205,19 @@ Contrairement à ceux de l’être humain, les médias non visuels en sortie
 
 
 
-Table 4.3 : Sens
- perceptifs humain et médias informatiques (adapté de [@truillet1999modelisation])
-
-
-
 ### Utilisation et justification de la multimodalité
 
 
 [@dufresne1995multimodal] ont montré
  l’impact et l’intérêt de la bimodalité audio-haptique pour les utilisateurs
- non-voyants. Le tableau [4.4](#cap:dufrene) indique le
+ non-voyants. Le tableau \@ref(tab:modalite) indique le
  pourcentage de bonnes réponses dans trois situations modales; pour 12 voyants
  et 12 non-voyants. Il est à noter que dans cette expérience, les sujets
  non-voyants ont obtenus de meilleurs scores : leur concentration était
  supérieure.
 
 
-
+Table: (\#tab:modalite) Bonnes réponses dans différentes situations modales
 
 | Modalité         | Testeurs non-voyants : 12 | Testeurs voyants : 12 | Total : 24 |
 |------------------|---------------------------|-----------------------|------------|
@@ -245,14 +225,6 @@ Table 4.3 : Sens
 | Haptique         | 78%                       | 71%                   | 74%        |
 | Audio + haptique | 83%                       | 78%                   | 80%        |
 | Total            | 76%                       | 70%                   | 73%        |
-
-
-Table 4.4 : Bonnes réponses dans différentes situations
- modales
-
-
-
-
 
 
 
@@ -366,12 +338,10 @@ Les recommandations de la WAI actuellement en vigueur sont :
  utilisateurs.
 
 
-On pourra se référer aux [annexes](045-la-web-accessibility-initiative-(wai)-du-world-wide-web-consortium-(w3c).html#sec:La-Web-Accessibility), pour plus de détails.
+On pourra se référer aux [annexes](\@ref(accessibilite)), pour plus de détails.
 
 
 ### Autres aspects de l’accessibilité
-
-
 
 >
 >  L’accessibilité n’est pas une fonctionnalité, mais bien un processus (une
@@ -383,11 +353,6 @@ On pourra se référer aux [annexes](045-la-web-accessibility-initiative-(wai)-d
 
 
 ### Accessibilité: notre positionnement
-
-
-
-
-
 
 
 >
@@ -406,10 +371,6 @@ On pourra se référer aux [annexes](045-la-web-accessibility-initiative-(wai)-d
 >  des situations où le sens de la vue serait mobilisé sur une autre tâche,
 >  par exemple.
 >
-
-
-
-
 
 
 Nous allons cependant passer en revue ce qui a déjà été réalisé
@@ -440,7 +401,8 @@ Nous allons les étudier plus précisément, afin de dégager des pistes pour
 
 
 D. Offen et B. Thomlinson ont développé une librairie de programmation
- permettant d’identifier l’agencement d’un document [@offen2001good]. L’OPENBook (c’est le nom
+ permettant d’identifier l’agencement d’un document [@offen2001good].
+ L’OPENBook (c’est le nom
  de la librairie) est ainsi capable d’identifier les colonnes, les titres, les
  blocs de texte, les illustrations, les légendes, les tableaux, les entêtes et
  les pieds de pages. Un synthétiseur vocal permet de lire le contenu du
@@ -468,8 +430,8 @@ D. Offen et B. Thomlinson ont développé une librairie de programmation
 
 
 C. Ramstein est un des pionniers dans les interfaces utilisateur haptiques
- pour des personnes ayant un handicap visuel [@ramstein1996touching]. Il a été à la
- tête de Haptic Technologies Inc. qui fabriquait et vendait les systèmes de
+ pour des personnes ayant un handicap visuel [@ramstein1996touching]. Il a été à
+ la tête de Haptic Technologies Inc. qui fabriquait et vendait les systèmes de
  PenCAT/MouseCAT et de TouchDesktop (c’est la couche logicielle qui gère les
  périphériques de Haptic Technologies). Le travail de Ramstein s’appuie sur
  des interfaces multimodales. L’information haptique est combinée avec
@@ -490,10 +452,10 @@ J. P. Fritz et K. E. Barner [Department of Electrical and Computer
 
 Les laboratoires de British-Telecom ont étudié l’utilisation d’un
  affichage haptique couplé au VRML (Virtual Reality Markup Language), le
- format pour l’affichage des graphiques 3D sur le Web [@hardwick1998tactile]. Le travail est basé
- sur une expérience acquise du développement d’un navigateur capable de
- piloter un retour de force à partir d’un fichier VRML. On retrouve ici
- l’approche de la bibliothèque de programmation Ghost™SDK de Sensable : le
+ format pour l’affichage des graphiques 3D sur le Web [@hardwick1998tactile].
+ Le travail est basé sur une expérience acquise du développement d’un navigateur
+ capable de piloter un retour de force à partir d’un fichier VRML. On retrouve
+ ici l’approche de la bibliothèque de programmation Ghost™SDK de Sensable : le
  dispositif de pointage remplace le doigt de l’utilisateur dans l’espace
  virtuel, et permet de toucher les objets.
 
@@ -501,51 +463,42 @@ Les laboratoires de British-Telecom ont étudié l’utilisation d’un
 Dans ces trois premières approches, il s’agit de découvrir un objet
  tridimensionnel à l’aide d’un dispositif de pointage à retour de force. On
  retrouve ainsi les limitations suivantes issues du
- tableau [2.3](017-les-applications-du-retour-haptique.html#cap:Les-possilibit=E9s-des) :
+ tableau \@ref(tab:possibilite) :
 
+|----------------------|-------------------------------------------------------------|
+| L’enveloppement      | Non possible en l’absence de plusieurs points de contact    |
+| Le suivi de contours | Possible, mais très difficile du fait d’une zone de contact |
 
-
-L’enveloppement
-Non possible en l’absence de plusieurs points de contact
-Le suivi de contours
-Possible, mais très difficile du fait d’une zone de contact
-
-J. A. Gardner et V. Bulatov ([Gardner et
- Bulatov, 2001](047-bibliographie.html#gardner)) se sont appuyés sur le format SVG (Scalable Vector
- Graphics) qui est le format XML pour les images vectorielles. Associé à une
- souris à retour de force et à un retour sonore, des images peuvent être
- rendue accessibles, tant qu’elles ne sont pas trop complexes aux non-voyants.
- Il s’agissait par exemple de localiser les positions des différentes régions
+J. A. Gardner et V. Bulatov [@gardner2001smart] se sont appuyés sur le format
+ SVG (Scalable Vector Graphics) qui est le format XML pour les images
+ vectorielles. Associé à une souris à retour de force et à un retour sonore, des
+ images peuvent être rendue accessibles, tant qu’elles ne sont pas trop
+ complexes aux non-voyants. Il s’agissait par exemple de localiser les
+ positions des différentes régions
  sur une carte géographique, grâce au rendu d’une texture particulière et d’un
  retour sonore, quand le pointeur de la souris passe au centre d’une chaque
  région. Cette approche est très similaire à ce que nous avons réalisé, voir
- la section [5.3](035-application-a-la-geographie-geogr-haptique.html#sub:L'application-G=E9ogr'Haptic).
+ la section \@ref(geogrhaptique).
 
 
 Wai Yu, de l’université de Glasgow a beaucoup étudié l’utilisation d’une
  souris à retour de force ou du PHANTOM dans les problèmes d’accessibilité. Il
  a proposé tout d’abord une méthode permettant aux non-voyants d’accéder à des
- graphiques mathématiques à l’aide du PHANTOM ([Yu
- et al., 2001](047-bibliographie.html#Yu2001)). La figure [4.1](#cap:Exemples-de-graphes) est issue de cette application : lorsqu’il
+ graphiques mathématiques à l’aide du PHANTOM [@yu2001haptic]. La
+ figure \@ref(fig:haptiquement) est issue de cette application : lorsqu’il
  passe à proximité d’un des segments, le pointeur du dispositif est attiré sur
  lui.
 
-
-
-
-![](img/hapticGraphs.jpg)
-Figure 4.1 : Exemples
- de graphiques haptiquement augmentés
-
+![(#fig:haptiquement)Exemples de graphiques haptiquement augmentés](img/hapticGraphs.jpg)
 
 
 
 Plus tard, il a continué son travail en proposant cette même accessibilité
  dans un contexte Web : l’application tourne dans un navigateur internet et
  utilise la souris Wingman Force Feedback. Pour cela il a exploré la
- construction automatique de graphiques haptiques [@yu2002automatic], puis, il a donné à
- l’utilisateur non-voyant, la possibilité de créer ses propres graphiques
- [@yu2003web].
+ construction automatique de graphiques haptiques [@yu2002automatic], puis, il
+ a donné à l’utilisateur non-voyant, la possibilité de créer ses propres
+ graphiques [@yu2003web].
 
 
 Enfin, [@sjostrom2002non] a également
@@ -554,6 +507,8 @@ Enfin, [@sjostrom2002non] a également
  pédagogique. On peut citer les histogrammes haptiques, obtenus par effet de
  cloisonnement, ou les courbes mathém’haptiques , qui comme pour Wai Yu, sont
  issues d’un effet d’attirance sur la courbe.
+
+
 
 
 ### Permettre d’appréhender les formes et les textures
@@ -567,7 +522,7 @@ Enfin, [@sjostrom2002non] a également
 
 
 Dans ces travaux, les périphériques utilisés sont
- [des PHANTOMs](016-les-peripheriques-de-sortie-a-retour-haptique.html#cap:le-PHANTOM)
+ [des PHANTOMs](\@ref(fig:PHANTOM))
  ou l’Impulse Engine 3000 (figure [4.2](#cap:L'impulse-engine-3000)). En effet,
  pour générer des textures
  probantes, il est nécessaire d’utiliser du matériel disposant d’une
@@ -578,14 +533,10 @@ Dans ces travaux, les périphériques utilisés sont
 [@colwell1998haptic] a étudié la
  perception des textures, des formes et des objets virtuels par des sujets
  voyants et non-voyants à l’aide de l’Impulse Engine 3000
- (figure [4.2](#cap:L'impulse-engine-3000)). Ces travaux font
- partie des grandes références du domaine (voir les  [recommandations de conception](030-recommandations-de-conception.html#sub:Recommandations-de-conceptions).
+ (figure \@ref(fig:impulse)). Ces travaux font partie des grandes références
+ du domaine (voir les [Recommandations de conception].
 
-
-
-![](img/impulse.png)
-Figure 4.2 : L’impulse engine 3000
-
+![(#fig:impulse)L’impulse engine 3000](img/impulse.png)
 
 
 Enfin, [@sjostrom2001designing] a étudié la
@@ -599,8 +550,8 @@ Au final, toutes ces études soulignent le fort potentiel de l’utilisation
  psychophysiques pour discriminer deux textures différentes.
 
 
-### Interface graphique haptiquement augmentée
 
+### Interface graphique haptiquement augmentée
 
 C’est la piste qu’ont suivis [@dufresne1995multimodal],
  [@ramstein1996combining], [@o1997moose] et [@rosenberg1997feelit].
@@ -643,8 +594,8 @@ Cette approche permet de rajouter le retour haptique en tant que modalité
 
 
 Très récemment, Wai Yu et ses collègues ont proposé un système multimodal
- de présentation de pages Internet ([Yu
- et al., 2005](047-bibliographie.html#Yu2005)). Il s’agissait d’appliquer l’approche qu’il a utilisée
+ de présentation de pages Internet [@yu2005improving]. Il s’agissait d’appliquer
+ l’approche qu’il a utilisée
  sur les graphiques mathématiques, au pages Internet. Par exemple, la
  proximité du pointeur de la souris avec une image ou un lien, se
  matérialisait par un retour sonore (synthèse sonore ou sonification) et
@@ -657,18 +608,16 @@ Très récemment, Wai Yu et ses collègues ont proposé un système multimodal
 ### L’accessibilité dans le monde réel : Homere
 
 
-Homere est un système qui a été réalisé par la société ONDIM ^[http://www.ondim.fr/], en
- partenariat avec le Commissariat à l’Energie Atomique et PSA Peugeot Citroën
- [@lecuyer2003homere]. Il s’agit
+Homere est un système qui a été réalisé par la société
+ONDIM ^[http://www.ondim.fr/], en partenariat avec le Commissariat à
+l’Energie Atomique et PSA Peugeot Citroën [@lecuyer2003homere]. Il s’agit
  d’un système d’assistance à la reconnaissance d’itinéraires urbains pour
  aveugles et malvoyants. Le dispositif haptique revient à simuler une canne
  blanche virtuelle. L’ensemble du système permet la reconnaissance d’un
  itinéraire au sein de la Cité des Sciences et de l’Industrie.
 
+![(#fig:homere)Le système Homere](img/homere.jpg)
 
-
-![](img/homere.jpg)
-Figure 4.3 : Le système Homere
 
 
 
@@ -696,9 +645,10 @@ Figure 4.3 : Le système Homere
  un grand objet virtuel que sur un petit.
 4. La taille d’un objet virtuel est perçue comme
  étant plus grande lorsque l’objet est exploré de l’intérieur, et plus
- petite lorsque l’objet est exploré de l’extérieur. ^[Les recommandations (3) et (4) suggèrent que si
- la taille des objets est un paramètre important, il peut être nécessaire de
- biaiser la taille de l’objet virtuel par rapport à sa taille réelle.]
+ petite lorsque l’objet est exploré de l’extérieur. ^[Les recommandations
+ (3) et (4) suggèrent que si la taille des objets est un paramètre important,
+ il peut être nécessaire de biaiser la taille de l’objet virtuel par rapport
+ à sa taille réelle.]
 5. Les objets virtuels n’ont pas besoin de suivre les
  lois de la physique de la même manière que dans le monde réel. Notamment,
  les utilisateurs peuvent passer à travers la surface d’un objet. Ce sont
@@ -780,11 +730,5 @@ Pour finir, et afin de positionner notre proposition (voir chapitre
  suivant), nous avons posé l’état de l’art des réalisations utilisant
  l’interaction haptique dans une démarche d’accessibilité, ainsi que les
  recommandations qui ont été émises.
-
-
-
-
-
-
 
 
