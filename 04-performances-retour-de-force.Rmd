@@ -15,9 +15,9 @@ Du fait des interfaces WIMP (*Windows, Icons, Menu, Pointing
 
 
 La cible pouvant être une icône, un élément d’un menu, une partie d’une
- fenêtre. Les moyens quantitatifs avec lesquels nous pouvons évaluer les performances
- motrices humaines lors d’une tâche d’acquisition de cible sont basés sur les
- recherches de Fitts (voir \@ref(fitts)).
+ fenêtre. Les moyens quantitatifs avec lesquels nous pouvons évaluer les
+ performances motrices humaines lors d’une tâche d’acquisition de cible sont
+ basés sur les recherches de Fitts (voir \@ref(fitts)).
 
 
 Pour rappel, la loi de Fitts énonce que le temps du mouvement $T$ requis
@@ -29,7 +29,7 @@ pour sélectionner une cible de taille $W$ situé à une distance $A$ est :
 Le problème de l’amélioration du temps de pointage est un domaine de
  recherche actuellement très actif. On pourra se rapporter à
  [@balakrishnan2004beating] pour une étude exhaustive des moyens employés pour
- diminuer ce temps. En considérant l’équation (\@ref(eq:mackenzieID)), réduire
+ diminuer ce temps. En considérant l’équation \@ref(eq:mackenzieID), réduire
  $MT$ peut s’obtenir en diminuant la distance $A$, en augmentant la taille $W$,
  ou adaptant les deux en même temps.
 
@@ -242,7 +242,10 @@ Il y a 10 cibles différentes. Chacune est présentée 4 fois au sujet par
  un ensemble de 1440 mouvements pour l’ensemble des sujets.
 
 
-Les paramètres de l’expérience sont résumés dans la table [3.1](#table1).
+Les paramètres de l’expérience sont résumés dans la table
+\@ref(tab:parametres2).
+
+Table: (\#tab:parametres2)paramètres de l’expérience.
 
 |                           |                                                      |
 |---------------------------|------------------------------------------------------|
@@ -253,10 +256,6 @@ Les paramètres de l’expérience sont résumés dans la table [3.1](#table1).
 |                           | * MTDF  retour de force sur le damier,               |
 |                           | * MTDFH : retour de force adaptatif sur le damier    |
 
-
-
-Table 3.1 : paramètres de
- l’expérience.
 
 
 
@@ -296,6 +295,7 @@ ID=\log_{2}\left(\frac{938}{40}+1\right)=4.61bits\]
 ![(#fig:protocole)Origine et cibles du protocole## Résultats et discussion](img/damier.svg)
 
 
+## Résultats et discussion
 
 L’analyse de la variance (ANOVA) sur les temps de pointage, permet de nous
  prononcer sur la significativité des facteurs jouant sur nos mesures : les
@@ -306,7 +306,11 @@ L’analyse de la variance (ANOVA) sur les temps de pointage, permet de nous
  sur l’autre (*F*27,39=0.35, *p*=1.0000).
 
 Les moyennes des temps pour les 4 conditions de retour haptique sont dans
- le tableau [3.2](#table3).
+ le tableau \@ref(tab:moyennes1).
+
+Table: (\#tab:moyennes1)Moyennes des temps des
+ mouvements dans les 4 conditions; les pourcentages donnent l’écart
+ par rapport à la condition $MT$
 
 | MT     | MTF     | MTDF     | MTDFH    |
 |--------|---------|----------|----------|
@@ -314,10 +318,6 @@ Les moyennes des temps pour les 4 conditions de retour haptique sont dans
 | -      | (−0,2%) | (+23,6%) | (+15,6%) |
 
 
-
-Table 3.2 : Moyennes des temps des
- mouvements dans les 4 conditions; les pourcentages donnent l’écart
- par rapport à la condition MT
 
 
 
@@ -347,11 +347,16 @@ Nous aurions pu espérer une amélioration plus nette des temps de pointage
 
 Les régressions linéaires sur les moyennes des données nous donnent les
  coefficients de régression linéaire de l’équation \@ref(eq:mackenzieID) pour
- les différentes conditions de retour haptique. Ainsi, la table [3.3](#table2)
+ les différentes conditions de retour haptique. Ainsi, la table
+ \@ref(tab:modeles1)
  présente les différents modèles de la loi de Fitts selon ces conditions.
  Chaque modèle a été calculé en effectuant une régression linéaire entre les
  10 indices de difficulté (*ID*), calculé en utilisant l’équation
  \@ref(eq:mackenzieID), et les temps observés.
+
+Table: (\#tab:modeles1)Modèles de la loi de Fitts.
+ $MT$ est le temps du mouvement(ms), $ID$ est l’indice de
+ difficulté(bits)
 
 |            |                           |       |
 |------------|---------------------------|-------|
@@ -360,12 +365,6 @@ Les régressions linéaires sur les moyennes des données nous donnent les
 | MTF        | $MT=0,25+0,120ID$         | 0,91  |
 | MTDF       | $MT=0,38+0,123ID$         | 0,96  |
 | MTDFH      | $M*=0,31+0,130ID$         | 0,90  |
-
-
-
-Table 3.3 : Modèles de la loi de Fitts.
- MT est le temps du mouvement(ms), ID est l’indice de
- difficulté(bits)
 
 
 
