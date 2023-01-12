@@ -62,6 +62,7 @@ Table: (\#tab:perception) Classification des sensations de Sherrington
 
 
 **La sensibilité intéroceptive :**
+
 Elle comprend toutes les sensations qui viennent
  de l’estomac, de l’intestin. S’y ajoutent les sensations viscérales, ainsi
  que cette sensibilité générale du corps qu’on appelle la coenesthésie
@@ -69,13 +70,13 @@ Elle comprend toutes les sensations qui viennent
 
 **La sensibilité proprioceptive :**
 
- Celle qui nous renseigne sur les positions, attitudes, mouvements de
+Celle qui nous renseigne sur les positions, attitudes, mouvements de
  notre corps et de nos membres. Cette sensibilité comprend :
 
- 1. le sens kinésique ou kinesthésique : il nous
+1. le sens kinésique ou kinesthésique : il nous
  renseigne sur nos mouvements proprement dits (déplacements de nos
  membres et de notre corps dans l’espace) ;
-1. le sens statique ou vestibulaire : sens qui a
+2. le sens statique ou vestibulaire : sens qui a
  son organe dans l’oreille interne et qui nous donne le sens de la
  verticalité, des mouvements de rotation et de translation ; il préside à
  l’équilibration générale du corps.
@@ -498,7 +499,7 @@ Nous survolons ici quelques lois mathématiques qui tendent à modéliser le
  pointage.
 
 
-#### La loi de Fitts
+#### La loi de Fitts {#fitts}
 
 
 En 1954, Fitts a empiriquement développé un prédicteur quantitatif donnant

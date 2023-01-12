@@ -167,7 +167,7 @@ Dans une autre expérience, [@manghi2003composantes] a demandé à ses sujets
 
 1. Les personnes non-voyantes ont obtenu des
  résultats équivalent quant au taux de réussite de la tâche,
-1. Leurs descriptions d’itinéraires ont été surtout
+2. Leurs descriptions d’itinéraires ont été surtout
  jugées plus pertinent, avec notamment l’utilisation
 	* de repère absolus (le nord, le banc sur le
 	 trottoir...)

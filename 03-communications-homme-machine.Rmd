@@ -1,4 +1,4 @@
-# Communications Homme-Machine {#communications}
+# Communications Homme-Machine {#communications-homme-machine}
 
 
 
@@ -44,22 +44,22 @@ Un système interactif est généralement composé de deux parties :
  stockage de l’information.
 
 
-![(#fig:decompositiondunsysteme) Décomposition d’un système interactif](img/sys_inter.png)
+![(#fig:decompositiondunsysteme) Décomposition d’un système
+ interactif](img/sys_inter.png)
 
 
 
 Il est possible de modéliser un système interactif suivant plusieurs
  points de vue, selon que l’on s’intéresse au domaine de l’application, à
  l’architecture logicielle ou aux aspects ergonomiques et cognitifs entrant en
- jeu dans l’utilisation du système. La figure [2.2](#cap:mod=E9lisations-d'un-syst=E8me) reflète différentes approches
- que l’on peut avoir d’un système
+ jeu dans l’utilisation du système. La figure \@ref(fig:modelisationsdunsysteme)
+ reflète différentes approches que l’on peut avoir d’un système
 
 
 
-![](img/I21.png)
-Figure 2.2 : Modélisations d’un système
+![(#fig:modelisationsdunsysteme)Modélisations d’un système
  informatique interactif. Les flèches indiquent les relations de
- dépendance de chaque modèle (tiré de [@baudel1995aspects])
+ dépendance de chaque modèle (tiré de [@baudel1995aspects])](img/I21.png)
 
 
 
@@ -123,11 +123,13 @@ D’après le petit robert, un mode est une norme
  toucher, l’ouïe, la vue, l’odorat, le goût (réception d’information), et
  aux différents moyens d’expression humains : le geste, la parole (émission
  d’information). Il définit la nature des informations servant pour la
- communication (mode visuel, mode sonore, mode gestuel etc.) .
+ communication (mode visuel, mode sonore, mode gestuel etc.).
+
 **Modalités :**
 Une modalité est une forme concrète particulière
  d’un mode de communication. Par exemple, le bruit, la musique, la parole
  sont des modalités du mode sonore.
+
 **Média :**
 Dans la vie courante, un média désigne un
  support d’information (journal, disque audio...). En informatique, un média
@@ -137,21 +139,25 @@ Dans la vie courante, un média désigne un
  Dans un sens large, les médias désignent les différents périphériques
  d’ordinateur (plutôt non conventionnels) qui permettent la communication,
  en entrée comme en sortie.
+
 **Communication multimodale :**
 une communication est dite multimodale si elle
  fait intervenir plusieurs modes de communications dans les échanges
  d’information. Cependant, en informatique, ce qualificatif s’applique
  également pour les communications ne faisant intervenir qu’un seul mode
  mais avec plusieurs modalités.
+
 **Système multimodal :**
 théoriquement, un système informatique
  multimodal est un système capable d’intégrer plusieurs modes de
  communication. Cependant, on désigne également par ce nom tout système
  capable d’intégrer plusieurs modalités de communication (même s’il
  n’intègre qu’un seul mode).
+
 **Multimodalité :**
 le terme de multimodalité fait référence à
  l’usage de plusieurs modalités pour la réalisation d’une même tâche.
+
 **Multimédia :**
 un système informatique multimédia est un
  système capable d’acquérir et/ou de restituer, par l’intermédiaire des
@@ -208,7 +214,7 @@ Dans leur modèle, The Model Human Processor , S. Card, T. Moran et A.
  1983](047-bibliographie.html#Card1983)). Le processeur humain comprend trois sous-systèmes interdépendants
  : les systèmes sensoriel, moteur et cognitif. Chacun d’eux dispose d’une
  mémoire et d’un processeur dont les performances se caractérisent à l’aide de
- paramètres (figure [2.3](#cap:Le-mod=E8le-du)).
+ paramètres (figure \@ref(fig:processorhumain)).
 
 
 Pour une mémoire, les paramètres essentiels sont :
@@ -231,9 +237,9 @@ Pour un processeur, le paramètre important est
 
 
 
-![](img/humanProcessor.png)
-Figure 2.3 : Le modèle du processeur humain (d’après
- [@booth2004human])
+![(#fig:processorhumain)Le modèle du processeur humain (d’après
+ [@booth2004human])](img/humanProcessor.png)
+
 
 
 
@@ -263,9 +269,8 @@ Et ceci peut se retrouver dans une conception des interfaces de systèmes
 
 
 
-![](img/systemecognitif.png)
-Figure 2.4 : Le système sensoriel visuel
- et sa relation avec le système cognitif (tiré et adapté de [@coutaz1988interface])
+![(#fig:coutaz)Le système sensoriel visuel et sa relation avec le système
+cognitif (tiré et adapté de [@coutaz1988interface])](img/systemecognitif.png)
 
 
 
@@ -338,13 +343,15 @@ Outre le modèle de l’homonculus déterminé expérimentalement, le modèle du
 [@norman1988psychology] est une approche cognitiviste de la modélisation de l’utilisateur
  : l’individu élabore un modèle conceptuel du système informatique. Le
  comportement est conditionné par l’environnement et par la représentation
- interne que l’utilisateur se fait du système. La figure [2.5](#cap:norman) illustre ce modèle de l’action. Le point fort de
+ interne que l’utilisateur se fait du système. La figure \@ref(fig:norman) illustre ce modèle de l’action. Le point fort de
  cette approche est qu’elle permet d’expliquer les réussites, difficultés et
  erreurs de l’utilisateur.
 
 
-![](img/design.png)
-Figure 2.5 : Le modèle de l’action de Norman
+![(#fig:norman)Le modèle de l’action de Norman](img/design.png)
+
+
+
 ## Les périphériques d’entrée
 
 
@@ -353,13 +360,12 @@ Figure 2.5 : Le modèle de l’action de Norman
 
 Pour manipuler un point dans l’espace virtuel de la mémoire de
  l’ordinateur, nous avons besoin d’un dispositif dit de pointage. Le plus
- commun de ces dispositifs, c’est la souris. La figure [2.6](#cap:La-premi=E8re-souris) montre la première souris de l’histoire,
+ commun de ces dispositifs, c’est la souris. La figure
+ \@ref(fig:Lapremieresouris) montre la première souris de l’histoire,
  créée par Douglas Engelbart et William English en 1964.
 
 
-
-![](img/firstMouse.png)
-Figure 2.6 : La première souris de l’histoire
+![(#fig:Lapremieresouris)La première souris de l’histoire](img/firstMouse.png)
 
 
 
@@ -430,14 +436,14 @@ Le modèle de [@card1991morphological] se
 * résolution (entre 1 bit et l’infini).
 
 
-La figure cap :Espace-de-conception reprend la taxonomie de [@card1991morphological], ainsi que celle de chacun
- de ses prédécesseurs.
+La figure \@ref(fig:Espacedeconception) reprend la taxonomie de
+ [@card1991morphological], ainsi que celle de chacun de ses prédécesseurs.
 
 
 
-![](img/cards.png)
-Figure 2.7 : Espace
- de conception des dispositifs d’entrée (tiré de [@card1991morphological])
+![(#fig:Espacedeconception)Espace de conception des dispositifs d’entrée (tiré de
+ [@card1991morphological])](img/cards.png)
+
 
 
 
@@ -445,20 +451,19 @@ Figure 2.7 : Espace
 
 
 Pour évaluer les performances des dispositifs de pointage, les recherches
- ont souvent utilisé la loi de Fitts (voir par :Loi-de-Fitts). La
- figure cap :Les-performances-des montre les performances de différents
+ ont souvent utilisé la loi de Fitts (voir \@ref(fitts)). La
+ figure \@ref(fig:accot) montre les performances de différents
  dispositifs de pointage selon la loi d’Accot (voir par :La-loi-d’Accot).
 
 
 
-![](img/steering.png)
-Figure 2.8 : Les
- performances des périphériques de pointage selon la loi d’Accot (tiré
- de [@accot1999performance])
+![(#fig:accot)Les performances des périphériques de pointage selon la loi d’Accot (tiré
+ de [@accot1999performance])](img/steering.png)
 
 
 
-##### Comment lire ce graphique ?
+
+##### Comment lire ce graphique ? {-}
 
 
 L’axe horizontal indique l’indice de difficulté de la tâche. Comme il
@@ -482,43 +487,40 @@ La souris apparaît comme un des périphériques les plus performants, avec
  performants.
 
 
-Une autre étude ([MacKenzie et al.,
- 2001](047-bibliographie.html#MacKenzie2001)) confirme ce résultat (figure [2.9](#cap:Les-performances-de)).
+Une autre étude [@mackenzie2001accuracy] confirme ce résultat (figure \@ref(fig:performances)).
+
+
+![(#fig:performances)Les performances de dispositifs de pointage (adapté de [@mackenzie2001accuracy]](img/comparaison.png)
 
 
 
-![](img/comparaison.png)
-Figure 2.9 : Les
- performances de dispositifs de pointage (adapté de [@mackenzie2001accuracy]
 
-
-
-##### La tâche effectuée et l’interprétation de ce graphique
+##### La tâche effectuée et l’interprétation de ce graphique {-}
 
 
 Les sujets devaient aller pointer le plus vite possible, différentes
- cibles placées sur un cercle. La figure [2.10](#cap:La-t=E2che-de) précise l’ordre des mouvements à réaliser.
+ cibles placées sur un cercle. La figure \@ref(fig:Latache) précise l’ordre des
+ mouvements à réaliser.
 
 
 
-![](img/CHI01-f6.jpg)
-Figure 2.10 : La tâche de pointage dans l’expérience de
- McKenzie
+![(#fig:Latache)La tâche de pointage dans l’expérience de
+ McKenzie](img/CHI01-f6.jpg)
 
 
 
-Sur le graphique de la figure [2.9](#cap:Les-performances-de), on retrouve bien le fait que la souris
- est bien plus efficace que les autres dispositifs de pointage. Il y a
- également un effet d’apprentissage qui apparaît (le temps du mouvement
+
+Sur le graphique de la figure \@ref(fig:performances), on retrouve bien le fait
+ que la souris est bien plus efficace que les autres dispositifs de pointage. Il
+ y a également un effet d’apprentissage qui apparaît (le temps du mouvement
  diminue au fur et à mesure de l’expérience), mais ce n’est pas le sujet de
  notre discussion.
 
 
-Enfin, d’un point de vue ergonomique, [(Zhai
- et al., 1996)](047-bibliographie.html#Zhai1996) a démontré que les périphériques d’entrée manipulés
- avec les doigts, obtiennent de meilleures performances lors d’une tâche de
- pointage, que les dispositifs qui nécessitent la mise en action du poignet
- et/ou du coude et/ou de l’épaule.
+Enfin, d’un point de vue ergonomique, [@zhai1996influence] a démontré que les
+ périphériques d’entrée manipulés avec les doigts, obtiennent de meilleures
+ performances lors d’une tâche de pointage, que les dispositifs qui nécessitent
+ la mise en action du poignet et/ou du coude et/ou de l’épaule.
 
 >
 >  Ceci doit nous amener à inciter les utilisateurs
@@ -535,8 +537,7 @@ Enfin, d’un point de vue ergonomique, [(Zhai
  nous pouvons considérer comme le geste vers la machine .
 
 
-#### Entrée haptique
- simple
+#### Entrée haptique simple
 
 
 [@baudel1995aspects] parle d’entrée haptique
@@ -582,7 +583,7 @@ Ce type d’interaction est déjà utilisé dans quelques applications. Par
 Dans un éditeur d’objets en deux dimensions, [@kurtenbach1991issues] ont utilisé
  toute une variété de gestes qui simplifiaient la sélection, l’effacement, le
  déplacement ou la duplication d’un objet ou d’un groupe d’objets. La
- figure [2.11](#cap:Les-gestes-pour) présente ces gestes. Par
+ figure \@ref(fig:gestes1) présente ces gestes. Par
  exemple, effacer un objet est réalisé en barrant cet objet (a) ; effacer un
  groupe d’objets consiste en dessinant une zone autour de ces objets puis en
  terminant le tracé à l’intérieur de cette zone (b)  ; le déplacement d’objets
@@ -593,24 +594,23 @@ Dans un éditeur d’objets en deux dimensions, [@kurtenbach1991issues] ont util
 
 
 
-![](img/BarfieldF16.png)
-Figure 2.11 : Les gestes pour
- l’édition graphique. (tiré de [@kurtenbach1991issues])
+![(#fig:gestes1)Les gestes pour l’édition graphique. (tiré de
+ [@kurtenbach1991issues])](img/BarfieldF16.png)
 
 
 
 Pour les artistes, l’entrée gestuelle peut faciliter l’interaction
  créative. [@buxton1995chunking] a montré un
  simple ensemble de gestes pour transcrire la notation musicale. Comme montré
- sur la figure , les formes des notes les plus communes (en haut de la
+ sur la figure \@ref(fig:gestes2), les formes des notes les plus communes (en haut de la
  figure) trouvent un équivalent dans l’ensemble des gestes à réaliser (sous
  chaque note).
 
 
 
-![](img/BarfieldF17.png)
-Figure 2.12 : Les gestes pour transcrire
- la notation musicale (tiré de [@buxton1995chunking])
+![(#fig:gestes2)Les gestes pour transcrire la notation musicale (tiré de
+ [@buxton1995chunking])](img/BarfieldF17.png)
+
 
 
 
@@ -651,9 +651,8 @@ Une dernière classe d’interaction peut venir s’ajouter. Il s’agit des
 
 La télé-robotique est le domaine technologique qui a nécessité la création
  de périphériques à retour de force. Le schéma classique est le couple
- Maître-esclave . Sheridan ([Sheridan,
- 1992](047-bibliographie.html#Sheridan1992)) a défini le système télé-opérateur Maître-esclave comme
- suit :
+ Maître-esclave . Sheridan [@sheridan1992musings] a défini le système
+ télé-opérateur Maître-esclave comme suit :
 
 
 Un télé-opérateur Maître-esclave est constitué de 2
@@ -678,15 +677,14 @@ Le retour haptique (uniquement kinesthésique aux débuts  ; on voit
 Nous pouvons considérer que le premier périphérique à retour de force
  vient du monde de la télé-robotique : en 1952, Groetz et Thompson de l’Argonne
  National Laboratory [@goertz1952fundamentals] créent
- l’Argonne (voir la figure [2.13](#cap:L'argonne)), un système
+ l’Argonne (voir la figure \@ref(fig:argonne)), un système
  de télémanipulation maître-esclave permettant à un humain de diriger un bras
  robotisé dans un milieu hautement dangereux (centrale nucléaire, espace,
  fonds sous-marins).
 
 
 
-![](img/argonne.png)
-Figure 2.13 : L’argonne
+![(#fig:argonne)L’argonne](img/argonne.png)
 
 
 
@@ -698,22 +696,19 @@ Par la suite, d’autres périphériques ont été conçus pour la
  GROPE, visant à atteindre une simulation en temps réel pour la manipulation
  tridimensionnelle de molécules virtuelles, en ayant le retour des forces
  moléculaires. C’est plus de 20 ans plus tard que Brooks et ses collègues ont
- pu atteindre leur but initial (voir figure [4.4](027-l-interaction-non-visuelle.html#cap:dufrene)), grâce à la montée en puissance des
- ordinateurs ([Brooks et al.,
- 1990](047-bibliographie.html#Brooks1990)).
+ pu atteindre leur but initial (voir figure \@ref(fig:MDVI)), grâce à la montée
+ en puissance des ordinateurs [@brooks1990project].
 
 
-
-![](img/molecular.png)
-Figure 2.14 : Molecular Docking Virtual
- Interface ou MDVI (University of North Carolina)
+![(#fig:MDVI)Molecular Docking Virtual Interface ou MDVI (University of North
+ Carolina)](img/molecular.png)
 
 
 
 Enfin, vers la fin des années 70, est apparu le premier prototype de
  périphérique effectuant le retour tactile d’une simulation graphique : le
- Sandpaper system développé au MIT ([Minsky,
- 1995](047-bibliographie.html#Minsky1995)). Il s’agit d’un joystick offrant 2 degrés de liberté et rendant à
+ Sandpaper system développé au MIT [@minsky1995computational]. Il s’agit d’un
+ joystick offrant 2 degrés de liberté et rendant à
  la fois le retour de force et le retour tactile. Ainsi, il était possible de
  faire bouger un curseur au-dessus de divers échantillons de papiers virtuels
  et de sentir leurs textures. Cependant, par rapport aux périphériques de
@@ -788,13 +783,11 @@ Nous pouvons citer le Rutgers Master II qui est basé sur les travaux de
  CyberGrasp commercialisé par la société Immersion . Ces deux dispositifs se distinguent par
  l’emplacement de la structure mécanique. Ainsi, la structure est intérieure à
  la paume de la main pour le Rutgers Master II, ce qui empêche l’utilisateur
- de fermer totalement la main (figure [2.15](#cap:Les-gants-Rutgers)).
+ de fermer totalement la main (figure \@ref(fig:rutgers)).
 
 
 
-![](img/rutgers.png)
-Figure 2.15 : Les gants
- Rutgers Master II et CyberGrasp
+![(#fig:rutgers)Les gants Rutgers Master II et CyberGrasp](img/rutgers.png)
 
 
 
@@ -802,7 +795,7 @@ Figure 2.15 : Les gants
 
 
 Les bras maîtres sont principalement utilisés dans les applications de
- télé-opérations. Sur la figure [2.16](#cap:Le-SARCOS-Dextros)
+ télé-opérations. Sur la figure \@ref(fig:dextros)
  apparaît le Dextrous Arm Master créé par SARCOS, l’une des entreprises
  pionnières dans le domaine. Ces systèmes, placés soit sur une table ou sur le
  sol, sont capables de fournir des forces puissantes à l’utilisateur. Ils sont
@@ -810,9 +803,7 @@ Les bras maîtres sont principalement utilisés dans les applications de
 
 
 
-![](img/dextroslarge.png)
-Figure 2.16 : Le SARCOS
- Dextrous Arm Master
+![(#fig:dextros)Le SARCOS Dextrous Arm Master](img/dextroslarge.png)
 
 
 
@@ -822,25 +813,22 @@ Figure 2.16 : Le SARCOS
 Ce sont des périphériques proposant au minimum trois degrés de liberté en
  entrée (le déplacement du stylet dans l’espace), mais le plus souvent six ; et
  3 degrés de liberté en sortie (c’est à dire sur le retour de force), et
- parfois six. La figure [2.17](#cap:Les-degr=E9s-de) illustre
+ parfois six. La figure \@ref(fig:degres) illustre
  les différentes possibilités en terme de degrés de liberté.
 
 
 
-![](img/DoF.png)
-Figure 2.17 : Les degrés de liberté sur un bras à retour
- de force
+![(#fig:degres)Les degrés de liberté sur un bras à retour de force](img/DoF.png)
 
 
 
 Le périphérique le plus utilisé dans les laboratoires est le PHANTOM
- (figure [2.18](#cap:le-PHANTOM)), créé et commercialisé par
+ (figure \@ref(fig:PHANTOM)), créé et commercialisé par
  Sensable Inc.
 
 
 
-![](img/phantom-omni.png)
-Figure 2.18 : le PHANTOM, dans sa version omni.
+![(#fig:PHANTOM)le PHANTOM, dans sa version omni.](img/phantom-omni.png)
 
 
 
@@ -852,16 +840,16 @@ Son maniement s’effectue grâce un stylet situé à l’extrémité du
 
 
 Nous pouvons citer le Virtuose 3D, le Delta Haptic et le Freedom 6S
- (figure [2.19](#cap:Le-Virtuose-3D,)), également utilisés
- dans les laboratoires.
+ (figures \@ref(fig:virtuose), \@ref(fig:deltahaptique) et
+ \@ref(fig:freedom6s)), également utilisés dans les laboratoires.
 
 
+![(#fig:virtuose)Le Virtuose 3D](img/virtuose.jpg)
 
-![](img/virtuose.jpg)
-![](img/delta_6dof.jpg)
-![](img/freedom6s.png)
-Figure 2.19 : Le Virtuose 3D, le Delta Haptic et le
- Freedom 6S
+![(#fig:deltahaptique)le Delta Haptic](img/delta_6dof.jpg)
+
+![(#fig:freedom6s)le Freedom 6S](img/freedom6s.png)
+
 
 
 
@@ -875,13 +863,12 @@ Précisons que les périphériques de type PHANTOM sont à la 3D ce que la
 
 Les souris à retour de force sont des dispositifs à deux degrés de
  liberté. Nous pouvons citer la Wingman Force Feedback Mouse
- (figure [2.20](#cap:mouse)), conçue par Immersion, et
+ (figure \@ref(fig:wingman)), conçue par Immersion, et
  commercialisée par Logitech.
 
 
 
-![](img/wingFFM.jpg)
-Figure 2.20 : Wingman Force Feedback Mouse
+![(#fig:wingman)Wingman Force Feedback Mouse](img/wingFFM.jpg)
 
 
 
@@ -914,21 +901,16 @@ Les dispositifs tactiles sont bien entendu basés sur [les perceptions
 
 Pour le reste, donc, les dispositifs sont surtout axés sur la
  discrimination tactile. Et la principale approche pour rendre un élément
- tactile est celle visible sur la figure [2.21](#cap:Une-cellule-d'afficheur).
- On peut y voir une cellule
- d’affichage tactile. Cette cellule est composée de petits picots capables de
- monter ou descendre sur leur axe. Il ainsi possible de dessiner des petits
- motifs en relief.
+ tactile est celle visible sur la figure \@ref(fig:afficheur).On peut y voir
+ une cellule d’affichage tactile. Cette cellule est composée de petits picots
+ capables de monter ou descendre sur leur axe. Il ainsi possible de dessiner
+ des petits motifs en relief.
+
+![(#fig:afficheur)Une cellule d’afficheur tactile](img/braille_cell3.jpg)
 
 
 
-![](img/braille_cell3.jpg)
-Figure 2.21 : Une cellule d’afficheur
- tactile
-
-
-
-Les afficheurs brailles (figure [2.22](#cap:Une-plage-braille)) utilisent
+Les afficheurs brailles (figure \@ref(fig:plagebraille)) utilisent
  ces cellules. Comme un caractère
  braille est composé de 8 points (pour le braille informatique), une cellule
  est composée de 8 picots. Il s’agit ensuite d’accoler un certain nombre de
@@ -936,23 +918,17 @@ Les afficheurs brailles (figure [2.22](#cap:Une-plage-braille)) utilisent
  plusieurs caractères brailles, et donc, un mot, une phrase.
 
 
-
-![](img/braille-1.jpg)
-Figure 2.22 : Une plage
- braille
+![(#fig:plagebraille)Une plage braille](img/braille-1.jpg)
 
 
 
-Toujours dans la même approche, les sociétés
-ABTIM ^[http://www.abtim.com] et
-KGS ^[http://www.kgs-america.com/dvs.htm] ont équipé de cellules
-des surfaces plus grande. Il ont ainsi réalisé des systèmes capables de reproduire des dessins en relief (figure [2.23](#cap:l'ADVANCED-DISPLAYS-for)).
+Toujours dans la même approche, les sociétés ABTIM ^[http://www.abtim.com] et
+KGS ^[http://www.kgs-america.com/dvs.htm] ont équipé de cellules des surfaces
+plus grande. Il ont ainsi réalisé des systèmes capables de reproduire des
+dessins en relief (figure \@ref(fig:tactiledisplay)).
 
-
-
-![](img/tactileDisplay.jpg)
-Figure 2.23 : (gauche) : l’ADVANCED DISPLAYS for
- the BLIND de ABTIM  ; (droite) : le DotView de KGS
+![(#fig:tactiledisplay)(gauche) : l’ADVANCED DISPLAYS for the BLIND de ABTIM ;
+ (droite) : le DotView de KGS](img/tactileDisplay.jpg)
 
 
 
@@ -962,13 +938,11 @@ Pour terminer cette partie, nous pouvons évoquer une autre classe de
  la machine). Il s’agit souvent d’adapter une cellule braille sur un
  dispositif de pointage ([Lecolinet et
  Mouret, 2005](047-bibliographie.html#Lecolinet2005)). D’autres exemples sont visibles sur la
- figure [2.24](#cap:Le-couplage-des).
+ figure \@ref(fig:couplage).
 
+![(#fig:couplage)Le couplage des dispositifs de pointage avec le mode
+ tactile](img/sourisTactile.jpg)
 
-
-![](img/sourisTactile.jpg)
-Figure 2.24 : Le couplage des
- dispositifs de pointage avec le mode tactile
 
 
 
@@ -985,19 +959,18 @@ D’un point de vue général, il s’avère que les dispositifs actuels
  obligé d’adopter des stratégies afin d’extraire les propriétés des objets. Et
  ceci est particulièrement notable sur les dispositifs nécessitant la
  manipulation d’un activateur comme le manche du joystick ou le stylet du
- PHANTOM [@jansson1999phantom]. De plus,
- la technologie même est un facteur limitant : [@wall2004investigation] a ainsi montré que les moteurs du
+ PHANTOM [@jansson1999phantom]. De plus, la technologie même est un facteur
+ limitant : [@wall2004investigation] a ainsi montré que les moteurs du
  PHANTOM étaient inadéquats pour générer des textures très fines nécessitant
  des hautes fréquences.
 
 
-En se référant aux [procédures d’exploration haptique](009-l-exploration-haptique-quand-l-action-et-la-perception-se-conjuguent-sur-le-canal-haptique.html#toc11) proposées par
- [@lederman1987haptic], [@wall2004investigation] a dressé le tableau [2.3](#cap:Les-possilibit=E9s-des), qui montre les possibilités et les
+En se référant aux [procédures d’exploration haptique](#conjuguent) proposées
+ par [@lederman1987haptic], [@wall2004investigation] a dressé le
+ tableau [2.3](#cap:Les-possilibites-des), qui montre les possibilités et les
  impossibilités, lorsque l’on manipule un dispositif de pointage. Finalement,
- [@lederman2004haptic] ont
- également montré que la rigidité du stylet limitait également la perception
- (par rapport à un stylet flexible).
-
+ [@lederman2004haptic] ont également montré que la rigidité du stylet limitait
+ également la perception (par rapport à un stylet flexible).
 
 
 |                                 |                                                                 |
@@ -1046,43 +1019,37 @@ Le système haptique humain a un rôle important à jouer dans l’interaction
  homme-machine. **A l’inverse des systèmes visuels et auditifs, le sens
  haptique est capable à la fois de percevoir et d’agir sur l’environnement**
  et est une partie importante de la plupart des activités humaines. La
- figure [2.25](#cap:Interaction-haptique-entre) illustre la
- double boucle d’interaction liée au système haptique : l’homme et la machine
- agissent et perçoivent sur le mode haptique, en même temps. Les schémas de
- fonctionnement pour l’homme et pour la machine sont très similaires : il y a
- dans les deux cas une boucle action-réaction entre le monde extérieur, et le
- système de décision  ; c’est à l’intersection des deux boucles que se situe
- l’interaction.
+ figure \@ref(interactionhaptique) illustre la double boucle d’interaction
+ liée au système haptique : l’homme et la machine agissent et perçoivent sur
+ le mode haptique, en même temps. Les schémas de fonctionnement pour l’homme
+ et pour la machine sont très similaires : il y a dans les deux cas une boucle
+ action-réaction entre le monde extérieur, et le système de décision  ; c’est
+ à l’intersection des deux boucles que se situe l’interaction.
 
-
-
-![](img/retourhaptic.png)
-Figure 2.25 : Interaction haptique entre
- l’homme et la machine (tiré de [@casiez2004contribution])
-
+![(#fig:interactionhaptique)Interaction haptique entre l’homme et la machine
+ (tiré de [@casiez2004contribution])](img/retourhaptic.png)
 
 
 Dans cette partie, nous allons passer en revue quelques applications
  concrètes basées sur le mode haptique. On pourra revenir à
- [cette page](016-les-peripheriques-de-sortie-a-retour-haptique.html#sub:historique) pour un historique
- sur les débuts du retour de force. On rappelle qu’initialement, c’est en
- télé-robotique que les dispositifs à retour de force sont apparus.
+ [cette page](#historique) pour un historique sur les débuts du retour de
+ force. On rappelle qu’initialement, c’est en télé-robotique que les
+ dispositifs à retour de force sont apparus.
 
 
 #### Le retour haptique comme technique d’interaction
 
 
-[@miller1999design] ont
- identifié 4 utilisations possibles du retour haptique :
+[@miller1999design] ont identifié 4 utilisations possibles du retour haptique :
 
 
 1. *Anticipation* (Anticipation): force
  résistante annonçant l’imminence d’un événement.
-1. *Indication* (Suivi) : force donnant
+2. *Indication* (Suivi) : force donnant
  l’indication qu’une action est en cours.
-1. *Follow-through* (Accomplissement): force
+3. *Follow-through* (Accomplissement): force
  donnant l’indication à l’utilisateur qu’un événement s’est produit.
-1. *Guidance* (Guidage): guidage/contrainte du
+4. *Guidance* (Guidage): guidage/contrainte du
  geste de l’utilisateur.
 
 
@@ -1158,6 +1125,7 @@ il s’agit de l’effet le plus classique, mais
  PHANTOM se durcissent afin de limiter les mouvements de l’utilisateur selon
  certaines directions. On aura alors l’illusion de rentrer en contact avec
  un objet physique.
+
 **Le cloisonnement :**
 Il s’agit de définir une zone (souvent
  rectangulaire ou elliptique), qui aura une frontière entièrement
@@ -1205,11 +1173,13 @@ Elle correspond à la première étape d’une
  Master](016-les-peripheriques-de-sortie-a-retour-haptique.html#sub:Les-gants), pour palper un genou virtuel. Depuis, les
  outils ont évolués, et les applications de télé-diagnostic se
  généralisent.
+
 **La télé-chirurgie :**
 La télé-chirurgie est un des grands axes de la
  recherche sur les périphériques haptiques. Le praticien peut ainsi
  intervenir au cours d’une opération alors qu’il ne se trouve pas sur
  place.
+
 **La rééducation :**
 Cette approche de l’utilisation des dispositifs
  à retour de force est très intéressante. En général, les dispositifs de
@@ -1218,6 +1188,8 @@ Cette approche de l’utilisation des dispositifs
  et al., 2000)](047-bibliographie.html#Reinkensmeyer2000) ont par exemple utilisé un joystick à retour de
  force tel qu’on peut en trouver dans le commerce, pour rééduquer l’acuité
  motrice d’un patient ayant subit un accident cérébral.
+
+
 
 #### La modélisation d’objets virtuels
 
@@ -1229,15 +1201,12 @@ sculpteur : l’utilisateur se sert du PHANTOM pour sculpter une pierre
 virtuelle présentée à l’écran, et rendue par un retour de force.
 
 
-De manière similaire, InTouch ([Gregory
- et al., 2000](047-bibliographie.html#Gregory2000)) est un logiciel de modélisation 3D. Il permet
- également le dessin sur un volume (figure [2.26](#cap:Le-logiciel-inTouch)).
+De manière similaire, InTouch [@gregory2000intouch] est un logiciel de
+modélisation 3D. Il permet également le dessin sur un volume
+(figure \@ref(fig:intouch)).
 
+![(#fig:intouch)Le logiciel inTouch](img/systemSetup.jpg)
 
-
-![](img/systemSetup.jpg)
-Figure 2.26 : Le
- logiciel inTouch
 
 
 
@@ -1297,31 +1266,22 @@ technologiques ^[CLARTE : <http://www.clarte.asso.fr/>] a proposé le système 
 
 Le retour de force a souvent été utilisé dans les domaines artistiques.
  Comme dans la partie précédente, cela peut consister en la simulation d’un
- instrument réel, comme pour le projet dAb (figure [2.27](#cap:le-syt=E8me-DAB)) :
- le dispositif utilisé est un PHANTOM, et
- il s’agit d’imiter les sensations que l’on a lors du maniement de
- pinceaux.
+ instrument réel, comme pour le projet dAb (figure \@ref(fig:dab)) :
+ le dispositif utilisé est un PHANTOM, et il s’agit d’imiter les sensations
+ que l’on a lors du maniement de pinceaux.
 
 
 Dans une approche très différente, le projet PHASE (Plate-forme Haptique
- d’Application Sonore pour l’Eveil Musical (figure [2.28](#cap:La-plateforme-PHASE)))
- propose un moyen de création
- complètement nouveau. Le retour haptique est utilisé pour faire sentir les
- éléments d’un monde virtuel que l’on rencontre pendant l’exploration de
- celui-ci.
+ d’Application Sonore pour l’Eveil Musical (figure \@ref(fig:phase))
+ propose un moyen de création complètement nouveau. Le retour haptique est
+ utilisé pour faire sentir les éléments d’un monde virtuel que l’on rencontre
+ pendant l’exploration de celui-ci.
 
 
+![(#fig:dab)Le système dAb
+ [@bill2001interactive]](img/dab_system_scheib_baxter-cropped.jpg)
 
-![](img/dab_system_scheib_baxter-cropped.jpg)
-Figure 2.27 : Le système dAb [@bill2001interactive]
-
-
-
-
-![](img/InstalPhaseCGP.jpg)
-Figure 2.28 : La
- Plate-forme PHASE ([lambert
- et al., 2005](047-bibliographie.html#lambert2005))
+![(#fig:phase)La Plate-forme PHASE [@rodet2005phase]](img/InstalPhaseCGP.jpg)
 
 
 
