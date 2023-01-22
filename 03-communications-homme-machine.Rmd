@@ -288,8 +288,7 @@ Outre le modèle de l’homonculus déterminé expérimentalement, le modèle du
  doigts et de la paume, présente 23 degrés de liberté (sans les poignets).
  Ces degrés ne sont bien sûr pas interdépendants. La main et les doigts sont
  les organes les plus utilisés et vraisemblablement les plus utiles à
- l’interaction.*[...]([Sturman,
- 1992](047-bibliographie.html#Sturman1992))
+ l’interaction.*[...]([Sturman, 1992](047-bibliographie.html#Sturman1992))
 * *la main non dominante, identique à la main
  dominante, mais ayant un contrôle moteur moins précis.*
 * *les lèvres et langue, les muscles faciaux
