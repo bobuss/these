@@ -3,7 +3,7 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">Bertrand Tornil. Thèse de doctorat</a></li>
+        <li><a href="https://www.tornil.me/">tornil.me</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     download: [ ["These Bertrand Tornil.pdf", "pdf"], ["_main.epub", "epub"] ]
