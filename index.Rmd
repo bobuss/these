@@ -92,7 +92,7 @@ Thèse soutenue le 8 décembre 2006, devant le jury composé de :
   author={Tornil, Bertrand},
   year={2006},
   month = {décembre},
-  url = {https://www.tornil.me/these/},
+  url = {https://www.tornil.net/these/},
   type = {Thèse de doctorat},
   school={Toulouse 3}
   address = {Toulouse, France},
